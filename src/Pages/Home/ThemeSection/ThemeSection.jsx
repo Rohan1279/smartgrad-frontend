@@ -6,7 +6,7 @@ import Network from "../../../assets/ThemeImages/theme-network.svg";
 const ThemeSection = () => {
   return (
     <section className=" bg-[#F9F9F9]">
-      <div className="relative max-w-7xl mx-auto  flex justify-between py-28">
+      <div className="relative max-w-7xl mx-auto  flex justify-between py-20">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
           With <span className="text-[#00D4D6]">SmartGrad</span>, You Can
         </p>

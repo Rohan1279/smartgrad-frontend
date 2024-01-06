@@ -164,6 +164,18 @@ const University = () => {
             <CarouselNext className="" />
           </Carousel>
         </div>
+        <div className="mt-10">
+          <p>
+            All these universities above currently have Bachelors, Masters and
+            Phd programs, offer online and on-site degrees, both. SmartGrad
+            makes sure that all the applicants and interested individuals get
+            enough exposure to the universities. Applying has never been this
+            easy. Hassles of filling up forms, running after embassies, visa and
+            tickets etc. a never ending list of formalities and procedures. All
+            of these, SmartGrad handles with ease and such expertise that you
+            got no worries.
+          </p>
+        </div>
       </div>
     </section>
   );

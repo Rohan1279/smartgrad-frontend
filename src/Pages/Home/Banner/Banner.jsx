@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <header className=" ">
       <div className="max-w-7xl mx-auto h-[80vh] flex justify-between items-center ">
-        <section className="text-3xl text-[#595959] leading-normal">
+        <section className="text-3xl text-[#595959]  leading-normal">
           <div>
             <span className="block">Explore</span>{" "}
             <span className="text-[#00D4D6]">All The Possibilities</span> That
