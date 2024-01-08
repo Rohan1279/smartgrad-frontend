@@ -1,3 +1,4 @@
+import About from "./About/About";
 import Advance from "./Advance/Advance";
 import Banner from "./Banner/Banner";
 import Careers from "./Careers/Careers";
@@ -18,6 +19,7 @@ const Home = () => {
       <UniqueSection />
       <Advance />
       <Courses />
+      <About />
     </>
   );
 };
