@@ -12,7 +12,7 @@ import student2 from "../../../assets/Students/student 2.png";
 import student3 from "../../../assets/Students/student 3.png";
 const Testimonials = () => {
   return (
-    <section className=" text-[#595959] pt-36 pb-56 bg-[#F9F9F9] relative">
+    <section className=" text-[#595959] pt-36 pb-64 bg-[#F9F9F9] relative">
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-7">
@@ -33,40 +33,40 @@ const Testimonials = () => {
 
         <div className="flex justify-evenly">
           <div className="bg-[#595959] text-white rounded-md mx-5  px-10 py-8 text-center">
-            <p className="relative">
+            <p className="relative text-sm  ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
               impedit nobis veritatis hic quos tenetur?
               <div className="bg-transparent text-[#595959] absolute -bottom-40 w-full mr-auto ">
                 <img src={student1} alt="" className="w-24 mx-auto" />
-                <span>Richie Moor</span>
+                <p className="mt-2">Richie Moor</p>
                 <p className="text-lg font-bold">MIT University</p>
               </div>
             </p>
           </div>
-          <div className="bg-[#00D4D6] text-white rounded-md mx-5  px-10 py-8 text-center">
-            <p className="relative">
+          <div className="bg-[#00D4D6] text-white rounded-md mx-5  px-10 py-8 text-center ">
+            <p className="relative text-sm  ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
               impedit nobis veritatis hic quos tenetur?
               <div className="bg-transparent text-[#595959] absolute -bottom-40 w-full mr-auto ">
                 <img src={student2} alt="" className="w-24 mx-auto" />
-                <span>Richie Moor</span>
+                <p className="mt-2">Richie Moor</p>
                 <p className="text-lg font-bold">MIT University</p>
               </div>
             </p>
           </div>
           <div className="bg-[#595959] text-white rounded-md mx-5  px-10 py-8 text-center">
-            <p className="relative">
+            <p className="relative text-sm  ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
               impedit nobis veritatis hic quos tenetur?
               <div className="bg-transparent text-[#595959] absolute -bottom-40 w-full mr-auto ">
                 <img src={student3} alt="" className="w-24 mx-auto" />
-                <span>Richie Moor</span>
+                <p className="mt-2">Richie Moor</p>
                 <p className="text-lg font-bold">MIT University</p>
               </div>
             </p>

@@ -1,5 +1,6 @@
 import Banner from "./Banner/Banner";
 import Careers from "./Careers/Careers";
+import Courses from "./Courses/Courses";
 import Testimonials from "./Testimonials/Testimonials";
 import ThemeSection from "./ThemeSection/ThemeSection";
 import UniqueSection from "./UniqueSection/UniqueSection";
@@ -14,6 +15,7 @@ const Home = () => {
       <Testimonials />
       <Careers />
       <UniqueSection />
+      <Courses />
     </>
   );
 };
