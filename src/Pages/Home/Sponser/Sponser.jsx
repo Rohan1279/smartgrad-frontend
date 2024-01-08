@@ -7,13 +7,13 @@ import sponser5 from "../../../assets/Sponsers/sponser 5.png";
 
 const Sponser = () => {
   return (
-    <section className="text-[#595959] py-10">
+    <section className="text-[#595959] py-24 bg-[#F5F5F5] mb-20">
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
             <img src={supporter} alt="supporter-icon" className="w-10 h-10" />
             <div>
-              <h2 className="text-2xl font-bold">Our Supporters</h2>
+              <h2 className="text-3xl font-bold">Our Supporters</h2>
               <p className="text-base">
                 Look for the jobs that suit you and start applying now
               </p>
@@ -32,7 +32,7 @@ const Sponser = () => {
                 <div className="border-r border-[#595959] px-5">
                   <img src={sponser3} alt="" className="" />
                 </div>
-                <div className="border-r border-[#595959] px-5">
+                <div className=" px-5">
                   <img src={sponser5} alt="" className="" />
                 </div>
               </div>

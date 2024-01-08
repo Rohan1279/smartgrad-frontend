@@ -9,7 +9,7 @@ const About = () => {
         </div>
         <div className="flex justify-between mt-28 space-x-24">
           <div>
-            <h3 className="text-3xl font-bold">Mission</h3>
+            <h3 className="text-3xl font-bold mb-3">Mission</h3>
             <p className="">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestiae illum eos reiciendis dicta! Nostrum, consectetur
@@ -20,7 +20,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-3xl font-bold">Vision</h3>
+            <h3 className="text-3xl font-bold mb-3">Vision</h3>
             <p className="">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestiae illum eos reiciendis dicta! Nostrum, consectetur
