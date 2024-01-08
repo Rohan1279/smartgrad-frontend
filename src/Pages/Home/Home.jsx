@@ -3,6 +3,7 @@ import Advance from "./Advance/Advance";
 import Banner from "./Banner/Banner";
 import Careers from "./Careers/Careers";
 import Courses from "./Courses/Courses";
+import Team from "./Team/Team";
 import Testimonials from "./Testimonials/Testimonials";
 import ThemeSection from "./ThemeSection/ThemeSection";
 import UniqueSection from "./UniqueSection/UniqueSection";
@@ -20,6 +21,7 @@ const Home = () => {
       <Advance />
       <Courses />
       <About />
+      <Team />
     </>
   );
 };
