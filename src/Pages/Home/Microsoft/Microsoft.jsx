@@ -1,7 +1,7 @@
 import microsoft from "../../../assets/microsoft.png";
 const Microsoft = () => {
   return (
-    <section className=" text-[#595959] pt-36 pb-64  relative">
+    <section className=" text-[#595959] relative mb-[100px]">
       <div className="max-w-7xl mx-auto grid grid-cols-2 space-x-20">
         <div className="">
           <img src={microsoft} alt="convocation-cap" className="w-[450px]" />

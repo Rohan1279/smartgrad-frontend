@@ -5,7 +5,7 @@ import advance from "../../../assets/advance.png";
 
 const Advance = () => {
   return (
-    <section className=" text-[#595959] my-36">
+    <section className=" text-[#595959] mb-[100px]">
       <div className="max-w-7xl mx-auto ">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
@@ -15,7 +15,7 @@ const Advance = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 justify-center items-center ">
           <div>
             <p className="pr-24">
               IELTS Academic: Purpose: Primarily for individuals seeking
@@ -34,17 +34,17 @@ const Advance = () => {
             <img
               src={student6}
               alt=""
-              className="w-5/12 absolute -translate-x-32 -translate-y-20 z-30 hover:scale-105  transition-transform"
+              className="w-5/12 absolute -translate-x-[120px] -translate-y-[50px] z-30 hover:scale-105  transition-transform"
             />
             <img
               src={student5}
               alt=""
-              className="w-5/12 absolute -translate-x-18 -translate-y-10 z-20 hover:z-30 hover:scale-105 transition-transform"
+              className="w-5/12 mx-auto  z-20 hover:z-30 hover:scale-105 transition-transform"
             />
             <img
               src={student6}
               alt=""
-              className="w-5/12 absolute translate-x-32  z-10 hover:z-30 hover:scale-105  transition-transform"
+              className="w-5/12  absolute translate-x-[120px] translate-y-[50px] z-10 hover:z-30 hover:scale-105  transition-transform"
             />
           </div>
         </div>

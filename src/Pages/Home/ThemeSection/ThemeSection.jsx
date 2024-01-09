@@ -7,8 +7,8 @@ import background from "../../../assets/background-shapes.png";
 
 const ThemeSection = () => {
   return (
-    <section className=" bg-[#F9F9F9] text-[#595959] ">
-      <div className="relative max-w-7xl mx-auto  flex justify-between py-20">
+    <section className=" bg-[#F9F9F9] text-[#595959] mb-[100px]">
+      <div className="relative max-w-7xl mx-auto  flex justify-between pt-[158px] pb-[118px]">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
           With <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">U CAN</span>

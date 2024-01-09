@@ -21,7 +21,7 @@ import {
 
 const University = () => {
   return (
-    <section className=" text-[#595959] my-24">
+    <section className=" text-[#595959] mb-[100px]">
       <div className="max-w-7xl mx-auto ">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">

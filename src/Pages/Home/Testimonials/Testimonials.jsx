@@ -12,7 +12,7 @@ import student2 from "../../../assets/Students/student 2.png";
 import student3 from "../../../assets/Students/student 3.png";
 const Testimonials = () => {
   return (
-    <section className=" text-[#595959] pt-36 pb-64 bg-[#F9F9F9] relative">
+    <section className=" text-[#595959] pt-[86px] pb-64 bg-[#F9F9F9] relative mb-[100px]">
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-7">
@@ -72,7 +72,7 @@ const Testimonials = () => {
             </p>
           </div>
         </div>
-        <div className="text-right absolute bottom-8 translate-x-full">
+        <div className="text-right absolute bottom-14 translate-x-full">
           <p>
             <span className="font-bold"> 478+</span> Individuals have shown
             interest and also applied to the universities via{" "}

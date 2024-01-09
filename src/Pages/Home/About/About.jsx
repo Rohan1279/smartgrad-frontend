@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <section className="text-[#595959] py-10">
+    <section className="text-[#595959] py-10 mb-[100px] ">
       <div className="max-w-7xl mx-auto relative">
         <div className="grid grid-cols-3 items-center w-full  text-center justify-between">
           <hr className="border border-t-black  w-full"></hr>
           <h2 className="text-4xl font-bold text-center">About Us</h2>
           <hr className="border border-t-black w-full"></hr>
         </div>
-        <div className="flex justify-between mt-28 space-x-24">
+        <div className="flex justify-between mt-[100px] space-x-24">
           <div>
             <h3 className="text-3xl font-bold mb-3">Mission</h3>
             <p className="">

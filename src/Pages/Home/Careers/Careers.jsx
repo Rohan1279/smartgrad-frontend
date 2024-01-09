@@ -8,7 +8,7 @@ import company3 from "../../../assets/CompanyLogos/company 3.png";
 import company4 from "../../../assets/CompanyLogos/company 4.png";
 const Careers = () => {
   return (
-    <section className="text-[#595959] py-10">
+    <section className="text-[#595959] mb-[100px]">
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">

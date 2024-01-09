@@ -7,7 +7,7 @@ import sponser5 from "../../../assets/Sponsers/sponser 5.png";
 
 const Sponser = () => {
   return (
-    <section className="text-[#595959] py-24 bg-[#F5F5F5] mb-20">
+    <section className="text-[#595959] py-[70px] bg-[#F5F5F5] mb-[100px]">
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">

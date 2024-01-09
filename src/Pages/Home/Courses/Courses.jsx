@@ -13,7 +13,7 @@ import course4 from "../../../assets/Courses/course 4.png";
 import course5 from "../../../assets/Courses/course 5.png";
 const Courses = () => {
   return (
-    <section className=" text-[#595959] my-24">
+    <section className=" text-[#595959] mb-[100px] mt-[150px]">
       <div className="max-w-7xl mx-auto ">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">

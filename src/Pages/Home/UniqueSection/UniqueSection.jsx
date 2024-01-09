@@ -11,12 +11,14 @@ const UniqueSection = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="text-white py-24 bg-black opacity-80"
+      className="text-white py-24 bg-black opacity-80 mb-[100px]"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-2">
         <div className="col-span-1">
-          <h2 className="font-bold text-3xl">What Makes Us Unique</h2>
-          <p className="text-sm  mb-7">
+          <h2 className="font-bold text-[40px]">
+            What Makes smart<span className="text-[#09D5D7]">grad</span> Unique
+          </h2>
+          <p className="text-base  mb-7">
             SmartGrad stands out by offering access to global universities,
             direct organizational connections, skill development led by Oxford
             alumni, and comprehensive career guidance.
