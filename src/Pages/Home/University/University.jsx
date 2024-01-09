@@ -10,6 +10,7 @@ import UniversityLogo3 from "../../../assets/UniversityLogos/university 3.png";
 import UniversityLogo4 from "../../../assets/UniversityLogos/university 4.png";
 import UniversityLogo5 from "../../../assets/UniversityLogos/university 5.png";
 import UniversityLogo6 from "../../../assets/UniversityLogos/university 6.png";
+import background from "../../../assets/background-shapes.png";
 
 import {
   Carousel,
@@ -21,7 +22,15 @@ import {
 
 const University = () => {
   return (
-    <section className=" text-[#595959] mb-[100px]">
+    <section
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+      className=" text-[#595959] mb-[100px]"
+    >
       <div className="max-w-7xl mx-auto ">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">

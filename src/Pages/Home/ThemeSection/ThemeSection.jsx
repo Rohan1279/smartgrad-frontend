@@ -3,12 +3,20 @@ import University from "../../../assets/ThemeImages/theme-university.svg";
 import Career from "../../../assets/ThemeImages/theme-career.svg";
 import Accelerate from "../../../assets/ThemeImages/theme-accelerate.svg";
 import Network from "../../../assets/ThemeImages/theme-network.svg";
-import background from "../../../assets/background-shapes.png";
+import background from "../../../assets/Doodle.png";
 
 const ThemeSection = () => {
   return (
-    <section className=" bg-[#F9F9F9] text-[#595959] mb-[100px]">
-      <div className="relative max-w-7xl mx-auto  flex justify-between pt-[158px] pb-[118px]">
+    <section
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   backgroundSize: "cover",
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundPosition: "center",
+      // }}
+      className=" bg-[#F9F9F9] text-[#595959] mb-[100px]"
+    >
+      <div className="relative max-w-7xl mx-auto  flex justify-between py-[100px]">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
           With <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">U CAN</span>

@@ -1,7 +1,17 @@
 import teamMember1 from "../../../assets/TeamImages/team-member-1.png";
+import background from "../../../assets/background-shapes.png";
+
 const Team = () => {
   return (
-    <section className="text-[#595959] mb-[100px]">
+    <section
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+      className="text-[#595959] mb-[100px]"
+    >
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
           <div className="grid grid-cols-2 space-x-10 ">

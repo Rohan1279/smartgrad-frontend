@@ -6,10 +6,20 @@ import time from "../../../assets/JobIcons/time.png";
 import company1 from "../../../assets/CompanyLogos/company 1.png";
 import company3 from "../../../assets/CompanyLogos/company 3.png";
 import company4 from "../../../assets/CompanyLogos/company 4.png";
+import background from "../../../assets/background-shapes.png";
+
 const Careers = () => {
   return (
-    <section className="text-[#595959] mb-[100px]">
-      <div className="max-w-7xl mx-auto relative">
+    <section
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "",
+      }}
+      className="text-[#595959] mb-[100px]"
+    >
+      <div className="max-w-7xl mx-auto relative ">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
             <img src={bag} alt="convocation-cap" className="w-10 h-10" />

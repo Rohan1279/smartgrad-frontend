@@ -16,7 +16,7 @@ const Banner = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}
-        className="max-w-7xl mx-auto h-[90vh] grid grid-cols-2  items- text-[#595959]"
+        className="max-w-7xl mx-auto h-[80vh] grid grid-cols-2  items- text-[#595959]"
       >
         <div className="  col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
           <hr className="border border-t-black  w-full"></hr>

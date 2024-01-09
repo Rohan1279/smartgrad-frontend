@@ -1,7 +1,17 @@
 import microsoft from "../../../assets/microsoft.png";
+import background from "../../../assets/background-shapes.png";
+
 const Microsoft = () => {
   return (
-    <section className=" text-[#595959] relative mb-[100px]">
+    <section
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+      className=" text-[#595959] relative mb-[100px]"
+    >
       <div className="max-w-7xl mx-auto grid grid-cols-2 space-x-20">
         <div className="">
           <img src={microsoft} alt="convocation-cap" className="w-[450px]" />
