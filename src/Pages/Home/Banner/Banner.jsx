@@ -4,27 +4,57 @@ import UniversityIcon from "../../../assets/university-icon.svg";
 import NetworkIcon from "../../../assets/network-icon.svg";
 import CoursesIcon from "../../../assets/courses-icon.svg";
 import CareerIcon from "../../../assets/career-icon.svg";
+import background from "../../../assets/background-shapes.png";
+import bannerCover from "../../../assets/banner-cover.png";
 
 const Banner = () => {
   return (
-    <header className=" ">
-      <div className="max-w-7xl mx-auto h-[80vh] flex justify-between items-center ">
-        <section className="text-3xl text-[#595959]  leading-normal">
+    <header className="mb-2">
+      <div
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+        className="max-w-7xl mx-auto h-[90vh] grid grid-cols-2 justify-between items-center text-[#595959]"
+      >
+        <div className="col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
+          <hr className="border border-t-black  w-full"></hr>
           <div>
-            <span className="block">Explore</span>{" "}
-            <span className="text-[#00D4D6]">All The Possibilities</span> That
-            The
-            <span className="block">Technology Has To Offer.</span> It’s{" "}
-            <span className="text-[#00D4D6]">Never Too Late To Start.</span>
+            <h1 className="text-3xl">Welcome To</h1>
+            <p className="text-4xl font-bold">
+              Smart<span className="text-[#00D4D6]">Grad</span>{" "}
+            </p>
           </div>
-          <div className="flex space-x-6 mt-3">
-            <BannerButton icon={UniversityIcon} text={"University"} />
-            <BannerButton icon={NetworkIcon} text={"Networking"} />
-            <BannerButton icon={CoursesIcon} text={"Courses"} />
-            <BannerButton icon={CareerIcon} text={"Career"} />
-          </div>
-        </section>
-        <img src={BannerImg} alt="smartgrad icon" className="" />
+          <hr className="border border-t-black w-full"></hr>
+        </div>
+        <div className="col-span-full grid grid-cols-2 relative">
+          <section className="text-4xl text-[#595959]  leading-tight ">
+            <div>
+              <span className="block">Explore</span>{" "}
+              <span className="text-[#FFC24D] text-[40px] font-bold">
+                All The Possibilities
+              </span>{" "}
+              That The
+              <span className="block">Technology Has To Offer.</span> It’s{" "}
+              <span className="text-[#00D4D6]  text-[40px] font-bold">
+                Never Too Late To Start.
+              </span>
+            </div>
+            <div className="flex space-x-6 mt-3">
+              <BannerButton icon={UniversityIcon} text={"University"} />
+              <BannerButton icon={NetworkIcon} text={"Networking"} />
+              <BannerButton icon={CoursesIcon} text={"Courses"} />
+              <BannerButton icon={CareerIcon} text={"Career"} />
+            </div>
+          </section>
+          <img
+            src={bannerCover}
+            alt="smartgrad icon"
+            className="absolute w-1/2 right-0 -bottom-32"
+          />
+        </div>
       </div>
     </header>
   );
