@@ -1,8 +1,7 @@
 import BannerButton from "../../../components/BannerButton/BannerButton";
-import BannerImg from "../../../assets/banner-img.svg";
 import UniversityIcon from "../../../assets/university-icon.svg";
 import NetworkIcon from "../../../assets/network-icon.svg";
-import CoursesIcon from "../../../assets/courses-icon.svg";
+import Accelerate from "../../../assets/bookmark1x.png";
 import CareerIcon from "../../../assets/career-icon.svg";
 import background from "../../../assets/background-shapes.png";
 import bannerCover from "../../../assets/banner-cover.png";
@@ -17,9 +16,9 @@ const Banner = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}
-        className="max-w-7xl mx-auto h-[90vh] grid grid-cols-2 justify-between items-center text-[#595959]"
+        className="max-w-7xl mx-auto h-[90vh] grid grid-cols-2  items- text-[#595959]"
       >
-        <div className="col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
+        <div className="  col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
           <hr className="border border-t-black  w-full"></hr>
           <div>
             <h1 className="text-3xl">Welcome To</h1>
@@ -29,7 +28,7 @@ const Banner = () => {
           </div>
           <hr className="border border-t-black w-full"></hr>
         </div>
-        <div className="col-span-full grid grid-cols-2 relative">
+        <div className=" col-span-full grid grid-cols-2 relative">
           <section className="text-4xl text-[#595959]  leading-tight ">
             <div>
               <span className="block">Explore</span>{" "}
@@ -44,15 +43,15 @@ const Banner = () => {
             </div>
             <div className="flex space-x-6 mt-3">
               <BannerButton icon={UniversityIcon} text={"University"} />
-              <BannerButton icon={NetworkIcon} text={"Networking"} />
-              <BannerButton icon={CoursesIcon} text={"Courses"} />
               <BannerButton icon={CareerIcon} text={"Career"} />
+              <BannerButton icon={Accelerate} text={"Accelerate"} />
+              <BannerButton icon={NetworkIcon} text={"Networking"} />
             </div>
           </section>
           <img
             src={bannerCover}
             alt="smartgrad icon"
-            className="absolute w-1/2 right-0 -bottom-32"
+            className="absolute w-1/2 right-0 -bottom-2"
           />
         </div>
       </div>

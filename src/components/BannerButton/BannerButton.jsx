@@ -4,7 +4,7 @@ const BannerButton = ({ icon, text }) => {
   return (
     <div>
       <Button
-        className="w-16 h-16 rounded-xl bg-[#00D4D6] hover:bg-[#595959] px-9 "
+        className="w-16 h-16 rounded-xl bg-[#D9D9D9] hover:bg-[#00D4D6] px-9 text-[#595959] transition-all"
         // onClick={() => console.log("")}
       >
         <div className=" flex-col ">
