@@ -31,9 +31,9 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex justify-evenly">
-          <div className="bg-[#595959] text-white rounded-md mx-5  px-10 py-8 text-center">
-            <p className="relative text-sm  ">
+        <div className="flex justify-between items-center">
+          <div className="bg-[#595959] text-white rounded-xl   px-10 py-8 text-center  w-[400px] h-[185px] ">
+            <p className="relative text-xs  ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
@@ -45,21 +45,21 @@ const Testimonials = () => {
               </div>
             </p>
           </div>
-          <div className="bg-[#00D4D6] text-white rounded-md mx-5  px-10 py-8 text-center ">
-            <p className="relative text-sm  ">
+          <div className="bg-[#00D4D6] text-white rounded-xl   px-10 pt-[40px] text-center w-[450px] h-[210px]">
+            <p className="relative text-[12px]  ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
               impedit nobis veritatis hic quos tenetur?
-              <div className="bg-transparent text-[#595959] absolute -bottom-40 w-full mr-auto ">
-                <img src={student2} alt="" className="w-24 mx-auto" />
+              <div className="bg-transparent text-[#595959] absolute -bottom-52 w-full mr-auto ">
+                <img src={student2} alt="" className="w-28 mx-auto" />
                 <p className="mt-2">Richie Moor</p>
                 <p className="text-lg font-bold">MIT University</p>
               </div>
             </p>
           </div>
-          <div className="bg-[#595959] text-white rounded-md mx-5  px-10 py-8 text-center">
-            <p className="relative text-sm  ">
+          <div className="bg-[#595959] text-white rounded-xl   px-10 py-8 text-center  w-[400px] h-[185px]">
+            <p className="relative text-xs  ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
