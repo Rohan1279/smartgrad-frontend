@@ -25,19 +25,19 @@ export default function Navbar() {
                   href="/university"
                   className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  University
+                  Universities
                 </a>
                 <a
                   href="/career"
                   className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Career
+                  Careers
                 </a>
                 <a
                   href="/skill"
                   className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  A Skill
+                  Accelerate
                 </a>
                 <a
                   href="/network"

@@ -20,26 +20,22 @@ const Banner = () => {
       >
         <div className="  col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
           <hr className="border border-t-black  w-full"></hr>
-          <div>
-            <h1 className="text-3xl">Welcome To</h1>
-            <p className="text-4xl font-bold">
-              Smart<span className="text-[#00D4D6]">Grad</span>{" "}
+          <div className="lowercase leading-8">
+            <p className="text-3xl">Welcome To</p>
+            <p className="text-[40px] font-bold ">
+              <span className="text-[#00D4D6]">Smart</span>Grad
             </p>
           </div>
           <hr className="border border-t-black w-full"></hr>
         </div>
         <div className=" col-span-full grid grid-cols-2 relative">
           <section className="text-4xl text-[#595959]  leading-tight ">
-            <div>
-              <span className="block">Explore</span>{" "}
-              <span className="text-[#FFC24D] text-[40px] font-bold">
-                All The Possibilities
-              </span>{" "}
-              That The
-              <span className="block">Technology Has To Offer.</span> It’s{" "}
-              <span className="text-[#00D4D6]  text-[40px] font-bold">
-                Never Too Late To Start.
-              </span>
+            <div className="text-[40px]">
+              <p>Your Education & Career</p>
+              <p>
+                Advisor,{" "}
+                <span className="font-bold text-[#FFC24D]">For Life</span>
+              </p>
             </div>
             <div className="flex space-x-6 mt-3">
               <BannerButton icon={UniversityIcon} text={"University"} />

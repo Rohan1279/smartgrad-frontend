@@ -6,10 +6,9 @@ const Team = () => {
         <div className="flex justify-between mb-7">
           <div className="grid grid-cols-2 space-x-10 ">
             <div>
-              <h2 className="text-4xl font-bold text-[#00D4D6]">
-                SmartGrad Team
-              </h2>
-              <p className="font-bold text-3xl mt-3">Meet Our Founder, Sakib</p>
+              <h3 className="font-bold text-3xl my-4">
+                Meet Our <span className="text-[#09D5D7]">Founder</span>, Sakib
+              </h3>
               <p>
                 Loves teaching so much that he has been doing it for 20+ years,
                 in addition to his corporate and startup career. Sakib is an

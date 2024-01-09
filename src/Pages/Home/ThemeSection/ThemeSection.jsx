@@ -10,7 +10,8 @@ const ThemeSection = () => {
     <section className=" bg-[#F9F9F9] text-[#595959] ">
       <div className="relative max-w-7xl mx-auto  flex justify-between py-20">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
-          With <span className="text-[#00D4D6]">SmartGrad</span>, You Can
+          With <span className="text-[#00D4D6]">smart</span>grad,{" "}
+          <span className="font-bold">U CAN</span>
         </p>
         <div className="w-64 flex-col space-y-4 text-[#595959]">
           <h3 className="text-center text-xl">

@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto relative">
         <div className="grid grid-cols-6 ">
           <div className="col-span-2 pr-16">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-4xl font-bold lowercase">
               SMART<span className="text-[#00D4D6] ">GRAD</span>
             </h2>
             <p className="mt-5 uppercase">
@@ -27,17 +27,20 @@ export default function Footer() {
           <div className="col-span-1 pr-10 ">
             <h3 className="text-xl font-bold">London</h3>
             <p>hello@smartgrad.org</p>
-            <p>+44 7555 491662</p>
-            <p>515, Coventry Road, Birmingham, B10 0UN</p>
-            <h3 className="text-xl font-bold underline uppercase underline-offset-2 mt-7">
+            <p>0790 324 0546</p>
+            <p>514, Coventry Road,</p>
+            <p>Birmingham, B10 0UN</p>
+            <h3 className="text-xl font-bold underline uppercase underline-offset-2 mt-12">
               See on Map
             </h3>
           </div>
-          <div className="col-span-1 pr-10">
+          <div className="col-span-1 ">
             <h3 className="text-xl font-bold">BANGLADESH</h3>
             <p>hello@smartgrad.org</p>
             <p>+880 1400-442120</p>
-            <p>515, Coventry Road, Birmingham, B10 0UN</p>
+            <p className="uppercase">Floor 10, Alauddin Tower,</p>
+            <p className="uppercase">Plot 17, Road 113/A,</p>
+            <p className="uppercase">Gulshan-2, Dhaka 1212</p>
             <h3 className="text-xl font-bold underline uppercase underline-offset-2 mt-7">
               See on Map
             </h3>
