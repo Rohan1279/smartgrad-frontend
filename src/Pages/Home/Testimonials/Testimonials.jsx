@@ -76,7 +76,10 @@ const Testimonials = () => {
           <p>
             <span className="font-bold"> 478+</span> Individuals have shown
             interest and also applied to the universities via{" "}
-            <span className="font-bold">SmartGrad</span>.
+            <span className="font-bold lowercase">
+              smart<span className="text-[#09D5D7]">grad</span>
+            </span>
+            .
           </p>
           <p>
             <span className="font-bold"> 100+</span> Applications were
