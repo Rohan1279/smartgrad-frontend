@@ -1,4 +1,5 @@
 import NavIcon from "../../assets/smart-grad.svg";
+import search from "../../assets/search.png";
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-md ">
@@ -20,7 +21,7 @@ export default function Navbar() {
             </div>
             {/* Navigation Links */}
             <div className="hidden sm:block sm:ml-6">
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 text-[#595959]">
                 <a
                   href="/university"
                   className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
@@ -49,16 +50,15 @@ export default function Navbar() {
             </div>
           </div>
           {/* Profile and Settings */}
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            {/* Search icon and other action items */}
-            <button className="bg-gray-100 p-2 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-              <span className="sr-only">Search</span>
-              {/* Insert search icon here */}
+          <div className="absolute inset-y-0 right-0 flex space-x-7 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <img
+              src={search}
+              alt="search-icon"
+              className="w-5 cursor-pointer"
+            />
+            <button className="bg-[#09D5D7] hover:shadow-md transition-all text-white text-[12px] rounded-xl px-3 py-2">
+              login/register
             </button>
-            {/* Profile dropdown */}
-            <div className="ml-3 relative">
-              {/* Insert profile icon here */}
-            </div>
           </div>
         </div>
       </div>

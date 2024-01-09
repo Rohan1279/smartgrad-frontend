@@ -41,7 +41,7 @@ const Banner = () => {
               <BannerButton icon={UniversityIcon} text={"University"} />
               <BannerButton icon={CareerIcon} text={"Career"} />
               <BannerButton icon={Accelerate} text={"Accelerate"} />
-              <BannerButton icon={NetworkIcon} text={"Networking"} />
+              <BannerButton icon={NetworkIcon} text={"Network"} />
             </div>
           </section>
           <img
