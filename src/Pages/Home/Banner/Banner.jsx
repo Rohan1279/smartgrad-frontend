@@ -34,7 +34,7 @@ const Banner = () => {
               <p>Your Education & Career</p>
               <p>
                 Advisor,{" "}
-                <span className="font-bold text-[#FFC24D]">For Life</span>
+                <span className="font-bold text-[#FFC24D]">For Life.</span>
               </p>
             </div>
             <div className="flex space-x-6 mt-3">

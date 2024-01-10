@@ -1,7 +1,7 @@
 import ThemeCard from "../../../components/ThemeCard/ThemeCard";
 import University from "../../../assets/ThemeImages/theme-university.svg";
 import Career from "../../../assets/ThemeImages/theme-career.svg";
-import Accelerate from "../../../assets/ThemeImages/theme-accelerate.svg";
+import Aptitudes from "../../../assets/ThemeImages/theme-accelerate.svg";
 import Network from "../../../assets/ThemeImages/theme-network.svg";
 import background from "../../../assets/Doodle.png";
 
@@ -18,61 +18,62 @@ const ThemeSection = () => {
     >
       <div className="relative max-w-7xl mx-auto  flex justify-between py-[100px]">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
-          With <span className="text-[#00D4D6]">smart</span>grad,{" "}
+          with <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">U CAN</span>
         </p>
-        <div className="w-64 flex-col space-y-4 text-[#595959]">
+        <div className="w-52 flex-col space-y-4 text-[#595959]">
           <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"University"?.slice(0, 1)}</span>
-            <span>{"University"?.slice(1)}</span>
+            <span className="font-extrabold">
+              {"Universities"?.slice(0, 1)}
+            </span>
+            <span>{"Universities"?.slice(1)}</span>
           </h3>
           <div className="h-36 w-36 mx-auto border border-[#FFC24D] rounded-2xl shadow-lg ">
             <img
               src={University}
-              alt={"University"}
+              alt={"Universities"}
               className="mx-auto my-auto h-full w-1/2"
             />
           </div>
           <p className="text-center">
-            Getting a degree it’s not that hard anymore. Through us break the
-            barrier and live up to your dreams
+            Find the right institutions, get the right advice, manage all
+            applications in one place
           </p>
         </div>
-        <div className="w-64 flex-col space-y-4 text-[#595959]">
+        <div className="w-52 flex-col space-y-4 text-[#595959]">
           <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"Career"?.slice(0, 1)}</span>
-            <span>{"Career"?.slice(1)}</span>
+            <span className="font-extrabold">{"Careers"?.slice(0, 1)}</span>
+            <span>{"Careers"?.slice(1)}</span>
           </h3>
           <div className="h-36 w-36 mx-auto border border-[#F1662A] rounded-2xl shadow-lg ">
             <img
               src={Career}
-              alt={"Career"}
+              alt={"Careers"}
               className="mx-auto my-auto h-full w-1/2"
             />
           </div>
           <p className="text-center">
-            Look for the best career that suits you and level up your expertise.
-            It’s now or never.
+            Find the right jobs, manage all applications in one place and never
           </p>
         </div>
-        <div className="w-64 flex-col space-y-4 text-[#595959]">
+        <div className="w-52 flex-col space-y-4 text-[#595959]">
           <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"Accelerate"?.slice(0, 1)}</span>
-            <span>{"Accelerate"?.slice(1)}</span>
+            <span className="font-extrabold">{"Aptitudes"?.slice(0, 1)}</span>
+            <span>{"Aptitudes"?.slice(1)}</span>
           </h3>
           <div className="h-36 w-36 mx-auto border border-[#00D4D6] rounded-2xl shadow-lg ">
             <img
-              src={Accelerate}
-              alt={"Accelerate"}
+              src={Aptitudes}
+              alt={"Aptitudes"}
               className="mx-auto my-auto h-full w-1/2"
             />
           </div>
           <p className="text-center">
-            Skills are not reserved for anyone particularly. Get set and keep on
-            learning. You could be the next big face.
+            Acquire the right skills, make yourself more eligible, gain
+            visibility
           </p>
         </div>
-        <div className="w-64 flex-col space-y-4 text-[#595959]">
+        <div className="w-52 flex-col space-y-4 text-[#595959]">
           <h3 className="text-center text-xl">
             <span className="font-extrabold">{"Network"?.slice(0, 1)}</span>
             <span>{"Network"?.slice(1)}</span>
@@ -85,8 +86,7 @@ const ThemeSection = () => {
             />
           </div>
           <p className="text-center">
-            Networking is important to adapt to the modern era. Why not get into
-            the community and let people sense your presence.
+            Find the right expert or mentor, grow your network
           </p>
         </div>
         {/* <ThemeCard
