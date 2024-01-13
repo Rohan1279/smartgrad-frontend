@@ -1,7 +1,7 @@
 import ThemeCard from "../../../components/ThemeCard/ThemeCard";
 import University from "../../../assets/ThemeImages/theme-university.svg";
 import Career from "../../../assets/ThemeImages/theme-career.svg";
-import Aptitudes from "../../../assets/ThemeImages/theme-accelerate.svg";
+import Aptitude from "../../../assets/ThemeImages/theme-accelerate.svg";
 import Network from "../../../assets/ThemeImages/theme-network.svg";
 import background from "../../../assets/Doodle.png";
 
@@ -58,13 +58,13 @@ const ThemeSection = () => {
         </div>
         <div className="w-52 flex-col space-y-4 text-[#595959]">
           <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"Aptitudes"?.slice(0, 1)}</span>
-            <span>{"Aptitudes"?.slice(1)}</span>
+            <span className="font-extrabold">{"Aptitude"?.slice(0, 1)}</span>
+            <span>{"Aptitude"?.slice(1)}</span>
           </h3>
           <div className="h-36 w-36 mx-auto border border-[#00D4D6] rounded-2xl shadow-lg ">
             <img
-              src={Aptitudes}
-              alt={"Aptitudes"}
+              src={Aptitude}
+              alt={"Aptitude"}
               className="mx-auto my-auto h-full w-1/2"
             />
           </div>

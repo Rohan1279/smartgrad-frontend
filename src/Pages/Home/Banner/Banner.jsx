@@ -1,7 +1,7 @@
 import BannerButton from "../../../components/BannerButton/BannerButton";
 import UniversityIcon from "../../../assets/university-icon.svg";
 import NetworkIcon from "../../../assets/network-icon.svg";
-import Aptitudes from "../../../assets/bookmark1x.png";
+import Aptitude from "../../../assets/bookmark1x.png";
 import CareerIcon from "../../../assets/career-icon.svg";
 import background from "../../../assets/background-shapes.png";
 import bannerCover from "../../../assets/banner-cover.png";
@@ -40,7 +40,7 @@ const Banner = () => {
             <div className="flex space-x-6 mt-3">
               <BannerButton icon={UniversityIcon} text={"University"} />
               <BannerButton icon={CareerIcon} text={"Career"} />
-              <BannerButton icon={Aptitudes} text={"Aptitudes"} />
+              <BannerButton icon={Aptitude} text={"Aptitude"} />
               <BannerButton icon={NetworkIcon} text={"Network"} />
             </div>
           </section>

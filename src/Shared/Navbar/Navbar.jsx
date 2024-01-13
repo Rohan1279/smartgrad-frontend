@@ -1,5 +1,16 @@
 import NavIcon from "../../assets/smart-grad.svg";
 import search from "../../assets/search.png";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "../../components/ui/navigation-menu";
+
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-md ">
@@ -21,7 +32,7 @@ export default function Navbar() {
             </div>
             {/* Navigation Links */}
             <div className="hidden sm:block sm:ml-6">
-              <div className="flex space-x-4 text-[#595959]">
+              {/* <div className="flex space-x-4 text-[#595959]">
                 <a
                   href="/university"
                   className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
@@ -38,7 +49,7 @@ export default function Navbar() {
                   href="/skill"
                   className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Aptitudes
+                  Aptitude
                 </a>
                 <a
                   href="/network"
@@ -46,7 +57,66 @@ export default function Navbar() {
                 >
                   Network
                 </a>
-              </div>
+              </div> */}
+              <NavigationMenu>
+                <NavigationMenuList>
+                  <NavigationMenuItem className="relative">
+                    <NavigationMenuTrigger className="">
+                      Universities
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent className="absolute top-0">
+                      <NavigationMenuLink>
+                        {" "}
+                        University Admission
+                      </NavigationMenuLink>
+                      <NavigationMenuLink>Essay Writing</NavigationMenuLink>
+                      <NavigationMenuLink>Scholarships</NavigationMenuLink>
+                      <NavigationMenuLink>
+                        Visa processing & travel
+                      </NavigationMenuLink>
+                      <NavigationMenuLink>
+                        Extracurricular activities & soft skills
+                      </NavigationMenuLink>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger>Careers</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <NavigationMenuLink>CV Review</NavigationMenuLink>
+                      <NavigationMenuLink>Mock interview</NavigationMenuLink>
+                      <NavigationMenuLink>
+                        Soft skill development
+                      </NavigationMenuLink>
+                      <NavigationMenuLink>Networking</NavigationMenuLink>
+                      <NavigationMenuLink>Job app support</NavigationMenuLink>
+                      <NavigationMenuLink>Counselling</NavigationMenuLink>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger>Aptitudes</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <NavigationMenuLink>Soft Skills</NavigationMenuLink>
+                      <NavigationMenuLink>
+                        Standardized Test Prep
+                      </NavigationMenuLink>
+                      <NavigationMenuLink>Technical Skills</NavigationMenuLink>
+                      <NavigationMenuLink>Business Skills</NavigationMenuLink>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger>Networks</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <NavigationMenuLink>
+                        Sector Consultants
+                      </NavigationMenuLink>
+
+                      <NavigationMenuLink>Mentors</NavigationMenuLink>
+                      <NavigationMenuLink>Friends</NavigationMenuLink>
+                      <NavigationMenuLink>Community</NavigationMenuLink>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
             </div>
           </div>
           {/* Profile and Settings */}
