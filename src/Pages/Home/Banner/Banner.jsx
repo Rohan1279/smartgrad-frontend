@@ -5,7 +5,16 @@ import Aptitude from "../../../assets/bookmark1x.png";
 import CareerIcon from "../../../assets/career-icon.svg";
 import background from "../../../assets/background-shapes.png";
 import bannerCover from "../../../assets/banner-cover.png";
-
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "../../../components/ui/navigation-menu";
 const Banner = () => {
   return (
     <header className="mb-2">
@@ -37,12 +46,58 @@ const Banner = () => {
                 <span className="font-bold text-[#FFC24D]">For Life.</span>
               </p>
             </div>
-            <div className="flex space-x-6 mt-3">
-              <BannerButton icon={UniversityIcon} text={"University"} />
-              <BannerButton icon={CareerIcon} text={"Career"} />
-              <BannerButton icon={Aptitude} text={"Aptitude"} />
-              <BannerButton icon={NetworkIcon} text={"Network"} />
-            </div>
+            <NavigationMenu className="flex mt-3">
+              <NavigationMenuList className="">
+                <NavigationMenuItem className="">
+                  <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-6">
+                    <BannerButton icon={UniversityIcon} text={"University"} />
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
+                      Find the right institutions, get the right advice, manage
+                      all applications in one place.
+                    </NavigationMenuLink>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem className="">
+                  <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-6">
+                    <BannerButton icon={CareerIcon} text={"Career"} />
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
+                      Find the right jobs, manage all applications in one place
+                      and never
+                    </NavigationMenuLink>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem className="mr-6">
+                  <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-6">
+                    <BannerButton icon={Aptitude} text={"Aptitude"} />
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
+                      Acquire the right skills, make yourself more eligible,
+                      gain visibility.
+                    </NavigationMenuLink>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem className="">
+                  <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all">
+                    <BannerButton icon={NetworkIcon} text={"Network"} />
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
+                      Find the right expert or mentor , grow your network.
+                    </NavigationMenuLink>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+
+              {/* <BannerButton icon={UniversityIcon} text={"University"} /> */}
+              {/* <BannerButton icon={CareerIcon} text={"Career"} /> */}
+              {/* <BannerButton icon={Aptitude} text={"Aptitude"} /> */}
+              {/* <BannerButton icon={NetworkIcon} text={"Network"} /> */}
+            </NavigationMenu>
           </section>
           <img
             src={bannerCover}

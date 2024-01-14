@@ -1,27 +1,16 @@
 import NavIcon from "../../assets/smart-grad.svg";
 import search from "../../assets/search.png";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "../../components/ui/navigation-menu";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "../../components/ui/dropdown-menu";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md ">
+    <nav className="bg-white shadow-md text-[#595959]">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
@@ -128,7 +117,9 @@ export default function Navbar() {
                 </NavigationMenuList>
               </NavigationMenu> */}
               <DropdownMenu>
-                <DropdownMenuTrigger>Universities</DropdownMenuTrigger>
+                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                  Universities
+                </DropdownMenuTrigger>
                 <DropdownMenuContent>
                   <DropdownMenuItem>University Admission</DropdownMenuItem>
                   <DropdownMenuItem>Essay Writing</DropdownMenuItem>
@@ -140,7 +131,9 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger>Careers</DropdownMenuTrigger>
+                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                  Careers
+                </DropdownMenuTrigger>
                 <DropdownMenuContent>
                   <DropdownMenuItem>CV Review</DropdownMenuItem>
                   <DropdownMenuItem>Mock Interview</DropdownMenuItem>
@@ -151,7 +144,9 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger>Aptitudes</DropdownMenuTrigger>
+                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                  Aptitudes
+                </DropdownMenuTrigger>
                 <DropdownMenuContent>
                   <DropdownMenuItem>Soft Skills</DropdownMenuItem>
                   <DropdownMenuItem>Standardized Test Prep</DropdownMenuItem>
@@ -161,7 +156,9 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger>Networks</DropdownMenuTrigger>
+                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                  Networks
+                </DropdownMenuTrigger>
                 <DropdownMenuContent>
                   <DropdownMenuItem>Sector Consultants</DropdownMenuItem>
                   <DropdownMenuItem>Mentors</DropdownMenuItem>
