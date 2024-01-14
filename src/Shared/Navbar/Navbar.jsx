@@ -117,7 +117,7 @@ export default function Navbar() {
                 </NavigationMenuList>
               </NavigationMenu> */}
               <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] lg:mr-11 lg:ml-8">
                   Universities
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -131,7 +131,7 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] lg:mr-11">
                   Careers
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -144,7 +144,7 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] lg:mr-11">
                   Aptitudes
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -156,7 +156,7 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] ">
                   Networks
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>

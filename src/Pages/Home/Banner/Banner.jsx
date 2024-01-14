@@ -66,7 +66,7 @@ const Banner = () => {
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
                       Find the right jobs, manage all applications in one place
-                      and never
+                      and never...
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
