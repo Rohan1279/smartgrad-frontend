@@ -10,6 +10,14 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "../../components/ui/navigation-menu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "../../components/ui/dropdown-menu";
 
 export default function Navbar() {
   return (
@@ -31,92 +39,137 @@ export default function Navbar() {
               />
             </div>
             {/* Navigation Links */}
-            <div className="hidden sm:block sm:ml-6">
-              {/* <div className="flex space-x-4 text-[#595959]">
-                <a
-                  href="/university"
-                  className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Universities
-                </a>
-                <a
-                  href="/career"
-                  className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Careers
-                </a>
-                <a
-                  href="/skill"
-                  className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Aptitude
-                </a>
-                <a
-                  href="/network"
-                  className="text-gray-700 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Network
-                </a>
-              </div> */}
-              <NavigationMenu>
+            <div className="hidden sm:flex justify-center items-center space-x-3 sm:ml-6 ">
+              {/* <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem className="relative">
                     <NavigationMenuTrigger className="">
                       Universities
                     </NavigationMenuTrigger>
-                    <NavigationMenuContent className="absolute top-0">
-                      <NavigationMenuLink>
+                    <NavigationMenuContent className="absolute flex flex-col  space-y-3">
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
                         {" "}
                         University Admission
                       </NavigationMenuLink>
-                      <NavigationMenuLink>Essay Writing</NavigationMenuLink>
-                      <NavigationMenuLink>Scholarships</NavigationMenuLink>
-                      <NavigationMenuLink>
-                        Visa processing & travel
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Essay Writing
                       </NavigationMenuLink>
-                      <NavigationMenuLink>
-                        Extracurricular activities & soft skills
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Scholarships
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Visa Processing & Travel
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Extracurricular Activities & Soft Skills
                       </NavigationMenuLink>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
-                  <NavigationMenuItem>
-                    <NavigationMenuTrigger>Careers</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                      <NavigationMenuLink>CV Review</NavigationMenuLink>
-                      <NavigationMenuLink>Mock interview</NavigationMenuLink>
-                      <NavigationMenuLink>
-                        Soft skill development
+                  <NavigationMenuItem className="">
+                    <NavigationMenuTrigger className="relative">
+                      Careers
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent className="absolute  flex flex-col  space-y-3 bg-blue-500">
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        CV Review
                       </NavigationMenuLink>
-                      <NavigationMenuLink>Networking</NavigationMenuLink>
-                      <NavigationMenuLink>Job app support</NavigationMenuLink>
-                      <NavigationMenuLink>Counselling</NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Mock Interview
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Soft Skill Development
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Networking
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Job App Support
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Counselling
+                      </NavigationMenuLink>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
                     <NavigationMenuTrigger>Aptitudes</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                      <NavigationMenuLink>Soft Skills</NavigationMenuLink>
-                      <NavigationMenuLink>
+                    <NavigationMenuContent className="flex flex-col  space-y-3">
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Soft Skills
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
                         Standardized Test Prep
                       </NavigationMenuLink>
-                      <NavigationMenuLink>Technical Skills</NavigationMenuLink>
-                      <NavigationMenuLink>Business Skills</NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Technical Skills
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Business Skills
+                      </NavigationMenuLink>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
                     <NavigationMenuTrigger>Networks</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                      <NavigationMenuLink>
+                    <NavigationMenuContent className="flex flex-col  space-y-3">
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
                         Sector Consultants
                       </NavigationMenuLink>
 
-                      <NavigationMenuLink>Mentors</NavigationMenuLink>
-                      <NavigationMenuLink>Friends</NavigationMenuLink>
-                      <NavigationMenuLink>Community</NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Mentors
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Friends
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="py-2 bg-red-400  w-96">
+                        Community
+                      </NavigationMenuLink>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
                 </NavigationMenuList>
-              </NavigationMenu>
+              </NavigationMenu> */}
+              <DropdownMenu>
+                <DropdownMenuTrigger>Universities</DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem>University Admission</DropdownMenuItem>
+                  <DropdownMenuItem>Essay Writing</DropdownMenuItem>
+                  <DropdownMenuItem>Visa Processing & Travel</DropdownMenuItem>
+                  <DropdownMenuItem>
+                    {" "}
+                    Extracurricular Activities & Soft Skills
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+              <DropdownMenu>
+                <DropdownMenuTrigger>Careers</DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem>CV Review</DropdownMenuItem>
+                  <DropdownMenuItem>Mock Interview</DropdownMenuItem>
+                  <DropdownMenuItem>Soft Skill Development</DropdownMenuItem>
+                  <DropdownMenuItem>Networking</DropdownMenuItem>
+                  <DropdownMenuItem>Job App Support</DropdownMenuItem>
+                  <DropdownMenuItem>Counselling</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+              <DropdownMenu>
+                <DropdownMenuTrigger>Aptitudes</DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem>Soft Skills</DropdownMenuItem>
+                  <DropdownMenuItem>Standardized Test Prep</DropdownMenuItem>
+                  <DropdownMenuItem>Technical Skills</DropdownMenuItem>
+                  <DropdownMenuItem>Networking</DropdownMenuItem>
+                  <DropdownMenuItem>Business Skills</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+              <DropdownMenu>
+                <DropdownMenuTrigger>Networks</DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem>Sector Consultants</DropdownMenuItem>
+                  <DropdownMenuItem>Mentors</DropdownMenuItem>
+                  <DropdownMenuItem>Friends</DropdownMenuItem>
+                  <DropdownMenuItem>Networking</DropdownMenuItem>
+                  <DropdownMenuItem>Community</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
             </div>
           </div>
           {/* Profile and Settings */}
