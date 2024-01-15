@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../../../components/ui/carousel";
+} from "../../../components/ui/carousel-aptitude";
 import TestomonialCard from "./TestomonialCard";
 import student1 from "../../../assets/Students/student 1.png";
 import student2 from "../../../assets/Students/student 2.png";

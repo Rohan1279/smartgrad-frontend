@@ -2,7 +2,16 @@ import student4 from "../../../assets/Students/student 4.png";
 import student5 from "../../../assets/Students/student 5.png";
 import student6 from "../../../assets/Students/student 6.png";
 import advance from "../../../assets/advance.png";
+import image1 from "../../../assets/AptitudesImages/study-abroad.png";
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../../../components/ui/carousel-aptitude";
+import { Card, CardContent } from "../../../components/ui/card";
 const Advance = () => {
   return (
     <section className=" text-[#595959] mb-[100px]">
@@ -11,43 +20,78 @@ const Advance = () => {
           <div className="flex space-x-2">
             <img src={advance} alt="advance-icon" className="w-8 h-8 mr-2" />
             <div>
-              <h2 className="text-2xl font-bold">Accelerate</h2>
+              <h2 className="text-2xl font-bold">Aptitude</h2>
+              <p>
+                Welcome to our multifaceted service platform designed to cater
+                to various aspects of your personal and professional development
+              </p>
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 justify-center items-center ">
-          <div>
-            <p className="pr-24">
-              IELTS Academic: Purpose: Primarily for individuals seeking
-              admission to higher education institutions. Focus: Assesses a
-              candidate's ability to undertake academic tasks, including complex
-              texts and formal writing. IELTS General Training: Purpose:
-              Designed for work, immigration, or secondary education purposes.
-              Focus: Evaluates practical, everyday English language skills used
-              in work and social environments.
-            </p>
-            <button className="bg-[#00D4D6] w-fit h-10 px-4 rounded-xl text-white mt-8">
-              Explore
-            </button>
+        <Carousel>
+          <div className="grid grid-cols-3 justify-center items-center  px-20">
+            <div className="bg-[#F5F5F5] col-span-2 px-14 pt-11 rounded-xl z-40">
+              <p className="pr-24 font-bold">Well-Being Counseling</p>
+              <p>
+                Prioritize your mental health with our well-being counseling
+                services.Qualified counselors provide support and guidance to
+                help you navigate life's challenges and enhance your overall
+                emotional wellness.
+              </p>
+              <div className="flex justify-between items-center">
+                <button className="bg-[#595959] w-fit h-10 px-4 rounded-xl text-white mt-[30px] mb-6">
+                  Explore
+                </button>
+                <div className=" ">
+                  <CarouselPrevious className="mr-[18px]" />
+                  <CarouselNext className="" />
+                </div>
+              </div>
+            </div>
+
+            <CarouselContent className="py-5 z-50 ">
+              <CarouselItem>
+                <div className="">
+                  <Card>
+                    <CardContent className="flex items-center justify-center">
+                      <img
+                        src={image1}
+                        alt=""
+                        className=" hover:scale-105 transition-all"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex items-center justify-center">
+                      <img
+                        src={image1}
+                        alt=""
+                        className=" hover:scale-105 transition-all"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex items-center justify-center">
+                      <img
+                        src={image1}
+                        alt=""
+                        className=" hover:scale-105 transition-all"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            </CarouselContent>
           </div>
-          <div className=" flex relative justify-center">
-            <img
-              src={student6}
-              alt=""
-              className="w-5/12 absolute -translate-x-[120px] -translate-y-[50px] z-30 hover:scale-105  transition-transform"
-            />
-            <img
-              src={student5}
-              alt=""
-              className="w-5/12 mx-auto  z-20 hover:z-30 hover:scale-105 transition-transform"
-            />
-            <img
-              src={student6}
-              alt=""
-              className="w-5/12  absolute translate-x-[120px] translate-y-[50px] z-10 hover:z-30 hover:scale-105  transition-transform"
-            />
-          </div>
-        </div>
+        </Carousel>
       </div>
     </section>
   );
