@@ -16,10 +16,10 @@ const Home = () => {
     <>
       <Banner />
       <ThemeSection />
+      <UniqueSection />
       <University />
       <Testimonials />
       <Careers />
-      <UniqueSection />
       <Microsoft />
       <Advance />
       <Courses />

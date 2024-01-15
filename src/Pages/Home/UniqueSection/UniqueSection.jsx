@@ -1,4 +1,4 @@
-import background from "../../../assets/Doodle.png";
+import background from "../../../assets/unique-section.png";
 import connection from "../../../assets/UniqueSectionIcons/connection.png";
 import empower from "../../../assets/UniqueSectionIcons/empower.png";
 import solution from "../../../assets/UniqueSectionIcons/solution.png";
@@ -11,13 +11,11 @@ const UniqueSection = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="text-white py-24 bg-black opacity-80 mb-[100px]"
+      className="text-white py-24 mb-[100px]"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-2">
         <div className="col-span-1">
-          <h2 className="font-bold text-[40px]">
-            What Makes smart<span className="text-[#09D5D7]">grad</span> Unique
-          </h2>
+          <h2 className="font-bold text-[40px]">why is smartgrad for you</h2>
           <p className="text-base  mb-7">
             SmartGrad stands out by offering access to global universities,
             direct organizational connections, skill development led by Oxford
