@@ -28,7 +28,7 @@ export default function Navbar() {
               />
             </div>
             {/* Navigation Links */}
-            <div className="hidden sm:flex justify-center items-center space-x-3 sm:ml-6 ">
+            <div className="hidden sm:flex justify-center items-center space-x-11 sm:ml-8 ">
               {/* <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem className="relative">
@@ -117,7 +117,7 @@ export default function Navbar() {
                 </NavigationMenuList>
               </NavigationMenu> */}
               <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] lg:mr-11 lg:ml-8">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] ">
                   Universities
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -130,8 +130,8 @@ export default function Navbar() {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
-              <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] lg:mr-11">
+              <DropdownMenu className="">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] ">
                   Careers
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -144,7 +144,7 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu>
-                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px] lg:mr-11">
+                <DropdownMenuTrigger className="font-normal focus:outline-none text-[15px]">
                   Aptitudes
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
