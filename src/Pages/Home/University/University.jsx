@@ -36,7 +36,7 @@ const University = () => {
           <div className="flex space-x-2">
             <img src={Cap} alt="convocation-cap" className="w-10 h-10" />
             <div>
-              <h2 className="text-2xl font-bold">Featured Universities</h2>
+              <h2 className="text-2xl font-bold">Universities</h2>
               <p className="text-base">
                 Get along with the very best of the universities around the
                 globe
@@ -87,7 +87,8 @@ const University = () => {
           </div>
         </div>
         {/* CAROUSAL */}
-        <div className="px-40 mt-14">
+        <h2 className="text-2xl font-bold mt-11">Our Successful Enrollments</h2>
+        <div className="px-40 mt-11">
           <Carousel>
             <CarouselContent className="py-5">
               <CarouselItem>
