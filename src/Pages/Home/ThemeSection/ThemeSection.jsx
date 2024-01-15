@@ -14,7 +14,7 @@ const ThemeSection = () => {
       //   backgroundRepeat: "no-repeat",
       //   backgroundPosition: "center",
       // }}
-      className=" bg-[#F9F9F9] text-[#595959] mb-[100px]"
+      className=" bg-[#F9F9F9] text-[#595959] "
     >
       <div className="relative max-w-7xl mx-auto  flex justify-between py-[100px]">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">

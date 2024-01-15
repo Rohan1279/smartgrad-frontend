@@ -87,7 +87,7 @@ const Banner = () => {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
-                      Find the right expert or mentor , grow your network.
+                      Find the right expert or mentor, grow your network.
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
