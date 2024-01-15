@@ -13,6 +13,7 @@ import student3 from "../../../assets/Students/student 3.png";
 import icon1 from "../../../assets/TestimonialIcons/Career.png";
 import icon2 from "../../../assets/TestimonialIcons/fa-solid_user-graduate.png";
 import icon3 from "../../../assets/TestimonialIcons/Group 33.png";
+import AnimatedNumber from "../../../components/AnimatedNumber";
 
 const Testimonials = () => {
   return (
@@ -82,39 +83,47 @@ const Testimonials = () => {
           </h2>
           <p className="text-center text-[20px]">More Than</p>
           <div className="grid grid-cols-4 mt-[60px]">
-            <div>
+            <div className="flex flex-col justify-center items-center ">
               <div className="w-20 h-20 mx-auto">
                 <img src={icon1} alt="" className=" " />
               </div>
               <div className=" my-2">
-                <h3 className="text-center text-3xl font-bold">33+</h3>
+                <h3 className="text-center text-3xl font-bold">
+                  <AnimatedNumber targetNumber={33} />+
+                </h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
-            <div>
-              <div className="w-20 h-20 mx-auto">
+            <div className="flex flex-col justify-center items-center ">
+              <div className="w-20 h-20 mx-auto ">
                 <img src={icon2} alt="" className=" " />
               </div>
               <div className="my-2">
-                <h3 className="text-center text-3xl font-bold">33+</h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <h3 className="text-center text-3xl font-bold">
+                  <AnimatedNumber targetNumber={78} />+
+                </h3>
+                <p>Individuals were Offered</p>
               </div>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center ">
               <div className="w-20 h-20 mx-auto">
                 <img src={icon3} alt="" className=" " />
               </div>
               <div className=" my-2">
-                <h3 className="text-center text-3xl font-bold">33+</h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <h3 className="text-center text-3xl font-bold">
+                  <AnimatedNumber targetNumber={42} />+
+                </h3>
+                <p>Got Employed</p>
               </div>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center ">
               <div className="w-20 h-20 mx-auto">
                 <img src={icon1} alt="" className=" " />
               </div>
               <div className=" my-2">
-                <h3 className="text-center text-3xl font-bold">33+</h3>
+                <h3 className="text-center text-3xl font-bold">
+                  <AnimatedNumber targetNumber={33} />+
+                </h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
