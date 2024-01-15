@@ -30,9 +30,6 @@ export default function Footer() {
             <p>0790 324 0546</p>
             <p>514, Coventry Road,</p>
             <p>Birmingham, B10 0UN</p>
-            <h3 className="text-xl font-bold underline uppercase underline-offset-2 mt-12">
-              See on Map
-            </h3>
           </div>
           <div className="col-span-1 ">
             <h3 className="text-xl font-bold">BANGLADESH</h3>
@@ -41,9 +38,6 @@ export default function Footer() {
             <p className="uppercase">Floor 10, Alauddin Tower,</p>
             <p className="uppercase">Plot 17, Road 113/A,</p>
             <p className="uppercase">Gulshan-2, Dhaka 1212</p>
-            <h3 className="text-xl font-bold underline uppercase underline-offset-2 mt-7">
-              See on Map
-            </h3>
           </div>
 
           <div className="col-span-2 pl-10 text-right">

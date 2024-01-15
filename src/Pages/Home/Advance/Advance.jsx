@@ -30,7 +30,7 @@ const Advance = () => {
         </div>
         <Carousel>
           <div className="grid grid-cols-3 justify-center items-center  px-20">
-            <div className="bg-[#F5F5F5] col-span-2 px-14 pt-11 rounded-xl z-40">
+            <div className="bg-[#F5F5F5] col-span-2 px-14 pt-11 rounded-xl z-40 relative">
               <p className="pr-24 font-bold">Well-Being Counseling</p>
               <p>
                 Prioritize your mental health with our well-being counseling
@@ -48,48 +48,49 @@ const Advance = () => {
                 </div>
               </div>
             </div>
-
-            <CarouselContent className="py-5 z-50 ">
-              <CarouselItem>
-                <div className="">
-                  <Card>
-                    <CardContent className="flex items-center justify-center">
-                      <img
-                        src={image1}
-                        alt=""
-                        className=" hover:scale-105 transition-all"
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem>
-                <div className="p-1">
-                  <Card>
-                    <CardContent className="flex items-center justify-center">
-                      <img
-                        src={image1}
-                        alt=""
-                        className=" hover:scale-105 transition-all"
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem>
-                <div className="p-1">
-                  <Card>
-                    <CardContent className="flex items-center justify-center">
-                      <img
-                        src={image1}
-                        alt=""
-                        className=" hover:scale-105 transition-all"
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            </CarouselContent>
+            <div className="">
+              <CarouselContent className="py-5 z-50 ">
+                <CarouselItem>
+                  <div className="">
+                    <Card>
+                      <CardContent className="flex items-center justify-center">
+                        <img
+                          src={image1}
+                          alt=""
+                          className=" hover:scale-105 transition-all"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex items-center justify-center">
+                        <img
+                          src={image1}
+                          alt=""
+                          className=" hover:scale-105 transition-all"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex items-center justify-center">
+                        <img
+                          src={image1}
+                          alt=""
+                          className=" hover:scale-105 transition-all"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+            </div>
           </div>
         </Carousel>
       </div>
