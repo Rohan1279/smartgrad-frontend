@@ -9,9 +9,8 @@ export default function Footer() {
               SMART<span className="text-[#00D4D6] ">GRAD</span>
             </h2>
             <p className="mt-5 uppercase">
-              unlock your potential,navigating education and career success with
-              expert guidance Smartgrad is a brand owned by Yugen Group
-              Limited,registered in UK.
+              your virtual education and career advisor for life Smartgrad is a
+              brand owned by Yugen Group Limited,registered in UK.
             </p>
             <div className="relative">
               <input

@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className="grid grid-cols-3 space-x-11 mt-20">
           <div className="bg-[#F5F5F5F0]  py-12 rounded-xl">
-            <img src={member1} alt="" className="w-1/3 mx-auto" />
+            <img src={member1} alt="" className="w-36  mx-auto" />
             <h3 className="text-[27px] font-bold text-center mt-[25px]">
               Raihan Alauddin
             </h3>
@@ -28,7 +28,7 @@ const About = () => {
             </p>
           </div>
           <div className="bg-[#F5F5F5F0]  py-12 rounded-xl">
-            <img src={member2} alt="" className="w-1/3 mx-auto" />
+            <img src={member2} alt="" className="w-36  mx-auto" />
             <h3 className="text-[27px] font-bold text-center mt-[25px]">
               Raihan Alauddin
             </h3>
@@ -43,7 +43,7 @@ const About = () => {
             </p>
           </div>
           <div className="bg-[#F5F5F5F0]  py-12 rounded-xl">
-            <img src={member3} alt="" className="w-1/3 mx-auto" />
+            <img src={member3} alt="" className="w-36  mx-auto" />
             <h3 className="text-[27px] font-bold text-center mt-[25px]">
               Raihan Alauddin
             </h3>
