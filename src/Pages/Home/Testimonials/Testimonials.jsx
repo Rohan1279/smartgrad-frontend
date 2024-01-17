@@ -37,7 +37,7 @@ const Testimonials = () => {
         </div>
 
         <div className="flex justify-between items-center mb-36">
-          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3">
+          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3 shadow-md">
             <p className="text-left mt-8 text-[33px] h-1">“</p>
             <p className="text-xs text-right">
               Coming just out of college I was not sure of what I wanted to
@@ -76,7 +76,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3">
+          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3 shadow-md">
             <p className="text-left mt-8 text-[33px] h-1 ">“</p>
             <p className="text-xs text-right">
               The service felt sincere and personal, we connected virtually and

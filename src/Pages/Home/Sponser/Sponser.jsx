@@ -18,7 +18,7 @@ const Sponser = () => {
                 Look for the jobs that suit you and start applying now
               </p>
               <div className="grid grid-cols-5 justify-between mt-16">
-                <div className=" border-r border-[#595959] px-5">
+                <div className=" border-r border-[#595959] px-5 ">
                   {" "}
                   <img
                     src={sponser1}
@@ -26,7 +26,7 @@ const Sponser = () => {
                     className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300  "
                   />
                 </div>
-                <div className=" border-r border-[#595959] px-5">
+                <div className=" border-r border-[#595959] px-5 ">
                   {" "}
                   <img
                     src={sponser2}
@@ -34,14 +34,14 @@ const Sponser = () => {
                     className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
                   />
                 </div>
-                <div className=" border-r border-[#595959] px-5">
+                <div className=" border-r border-[#595959] px-5 ">
                   <img
                     src={sponser4}
                     alt=""
                     className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
                   />
                 </div>
-                <div className="border-r border-[#595959] px-5">
+                <div className="border-r border-[#595959] px-5 ">
                   <img
                     src={sponser3}
                     alt=""
