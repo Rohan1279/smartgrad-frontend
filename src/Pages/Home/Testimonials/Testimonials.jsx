@@ -37,50 +37,63 @@ const Testimonials = () => {
         </div>
 
         <div className="flex justify-between items-center mb-36">
-          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative">
-            <p className="text-xs mt-10">
-              <span className="text-lg">      </span>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit ipsum possimus tempore voluptatum provident illo
-              cumque nam dolorem, facere fugiat labore autem deserunt accusamus
-              impedit nobis veritatis hic quos tenetur? </p>
-              <div className="bg-transparent text-white absolute -top-6 left-6  flex items-end text-left space-x-[14px] ">
-                <div className="w-[74px] h-[74px] rounded-lg overflow-hidden">
-
+          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3">
+            <p className="text-left mt-8 text-[33px] h-1">“</p>
+            <p className="text-xs text-right">
+              Coming just out of college I was not sure of what I wanted to
+              concentrate my studies on. Having consulted Smartgrad, I
+              immediately started feeling confident and slowly gained clarity as
+              to what I should do to achieve my career goals in the future
+            </p>
+            <p className="text-[33px] text-right mt-3">”</p>
+            <div className="bg-transparent text-white absolute -top-6 left-6  flex items-end text-left space-x-[14px] ">
+              <div className="w-[74px] h-[74px] rounded-lg overflow-hidden">
                 <img src={student2} alt="" className=" object-fill mx-auto" />
-                </div>
-                <div className="leading-3 mb-2 ">
+              </div>
+              <div className="leading-3 mb-2 ">
                 <p className="text-sm">Nash</p>
                 <p className="text-md font-bold">Student</p>
-                </div>
               </div>
-           
+            </div>
           </div>
-          <div className="bg-[#00D4D6] text-white rounded-xl   px-10 pt-[40px] text-center w-[450px] h-[210px]">
-            <p className="relative text-[12px]  ">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit ipsum possimus tempore voluptatum provident illo
-              cumque nam dolorem, facere fugiat labore autem deserunt accusamus
-              impedit nobis veritatis hic quos tenetur?
-              <div className="bg-transparent text-[#595959] absolute -bottom-52 w-full mr-auto ">
-                <img src={student2} alt="" className="w-28 mx-auto" />
-                <p className="mt-2">Richie Moor</p>
-                <p className="text-lg font-bold">MIT University</p>
-              </div>
+          <div className="bg-[#D9D9D9] text-[#595959] rounded-xl px-10 pt-[40px] text-center w-[450px] h-[214px] relative">
+            <p className="text-left mt-11 text-5xl h-4">“</p>
+            <p className="text-xs  text-right">
+              Worked with Smartgrad ahead of my MBA applications and loved their
+              service. Consultations were always professional and constructive
+              and being able to speak to alumni from universities I was
+              interested in made the application process seem more personal and
+              familiar!
             </p>
+            <p className="text-5xl text-right ">”</p>
+            <div className="bg-transparent absolute -top-14 left-6  flex items-end text-left space-x-[14px] ">
+              <div className="w-[130px] h-[130px] rounded-lg overflow-hidden">
+                <img src={student3} alt="" className=" object-fill mx-auto" />
+              </div>
+              <div className="leading-3 mb-5 ">
+                <p className="text-sm">Subhi</p>
+                <p className="text-md font-bold">Student</p>
+              </div>
+            </div>
           </div>
-          <div className="bg-[#595959] text-white rounded-xl   px-10 py-8 text-center  w-[400px] h-[185px]">
-            <p className="relative text-xs  ">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit ipsum possimus tempore voluptatum provident illo
-              cumque nam dolorem, facere fugiat labore autem deserunt accusamus
-              impedit nobis veritatis hic quos tenetur?
-              <div className="bg-transparent text-[#595959] absolute -bottom-40 w-full mr-auto ">
-                <img src={student3} alt="" className="w-24 mx-auto" />
-                <p className="mt-2">Richie Moor</p>
-                <p className="text-lg font-bold">MIT University</p>
-              </div>
+          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3">
+            <p className="text-left mt-8 text-[33px] h-1 ">“</p>
+            <p className="text-xs text-right">
+              The service felt sincere and personal, we connected virtually and
+              over the course of 4 weeks and multiple revisions, my application
+              to INSEAD got accepted! Very happy with the help I was provided,
+              highly recommend it :)
             </p>
+            <p className="text-[33px] text-right mt-3">”</p>
+            <div className="bg-transparent text-white absolute -top-6 left-6  flex items-end text-left space-x-[14px] ">
+              <div className="w-[74px] h-[74px] rounded-lg overflow-hidden">
+                <img src={student1} alt="" className=" object-fill mx-auto" />
+              </div>
+              <div className="leading-3 mb-2 ">
+                <p className="text-sm">Liudmilla</p>
+                <p className="text-md font-bold">Student</p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="text-right mt-20">
