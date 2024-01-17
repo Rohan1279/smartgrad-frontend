@@ -20,20 +20,40 @@ const Sponser = () => {
               <div className="grid grid-cols-5 justify-between mt-16">
                 <div className=" border-r border-[#595959] px-5">
                   {" "}
-                  <img src={sponser1} alt="" className=" " />
+                  <img
+                    src={sponser1}
+                    alt=""
+                    className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300  "
+                  />
                 </div>
                 <div className=" border-r border-[#595959] px-5">
                   {" "}
-                  <img src={sponser2} alt="" className="" />
+                  <img
+                    src={sponser2}
+                    alt=""
+                    className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  />
                 </div>
                 <div className=" border-r border-[#595959] px-5">
-                  <img src={sponser4} alt="" className="" />
+                  <img
+                    src={sponser4}
+                    alt=""
+                    className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  />
                 </div>
                 <div className="border-r border-[#595959] px-5">
-                  <img src={sponser3} alt="" className="" />
+                  <img
+                    src={sponser3}
+                    alt=""
+                    className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  />
                 </div>
                 <div className=" px-5">
-                  <img src={sponser5} alt="" className="" />
+                  <img
+                    src={sponser5}
+                    alt=""
+                    className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  />
                 </div>
               </div>
             </div>
