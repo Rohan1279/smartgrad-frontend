@@ -1,6 +1,6 @@
 import NavIcon from "../../assets/smart-grad.svg";
 import search from "../../assets/search.png";
-
+import globeIcon from "../../assets/globe.svg";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -172,12 +172,17 @@ export default function Navbar() {
           {/* Profile and Settings */}
           <div className="absolute inset-y-0 right-0 flex space-x-7 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <img
+              src={globeIcon}
+              alt="search-icon"
+              className="w-5 cursor-pointer"
+            />
+            <img
               src={search}
               alt="search-icon"
               className="w-5 cursor-pointer"
             />
             <button className="bg-[#09D5D7] hover:shadow-md transition-all text-white text-[12px] rounded-xl px-3 py-2">
-              login/register
+              Log In
             </button>
           </div>
         </div>
