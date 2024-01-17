@@ -7,9 +7,9 @@ import {
   CarouselPrevious,
 } from "../../../components/ui/carousel-aptitude";
 import TestomonialCard from "./TestomonialCard";
-import student1 from "../../../assets/Students/student 1.png";
-import student2 from "../../../assets/Students/student 2.png";
-import student3 from "../../../assets/Students/student 3.png";
+import student1 from "../../../assets/Students/student 4.png";
+import student2 from "../../../assets/Students/student 5.png";
+import student3 from "../../../assets/Students/student 6.png";
 import icon1 from "../../../assets/TestimonialIcons/Career.png";
 import icon2 from "../../../assets/TestimonialIcons/fa-solid_user-graduate.png";
 import icon3 from "../../../assets/TestimonialIcons/Group 33.png";
@@ -22,11 +22,11 @@ const Testimonials = () => {
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
-            <img
+            {/* <img
               src={testimonial}
               alt="convocation-cap"
               className="w-10 h-10"
-            />
+            /> */}
             <div>
               <h2 className="text-2xl font-bold">Testimonials</h2>
               <p className="text-base">
@@ -37,18 +37,24 @@ const Testimonials = () => {
         </div>
 
         <div className="flex justify-between items-center mb-36">
-          <div className="bg-[#595959] text-white rounded-xl   px-10 py-8 text-center  w-[400px] h-[185px] ">
-            <p className="relative text-xs  ">
+          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative">
+            <p className="text-xs mt-10">
+              <span className="text-lg">      </span>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reprehenderit ipsum possimus tempore voluptatum provident illo
               cumque nam dolorem, facere fugiat labore autem deserunt accusamus
-              impedit nobis veritatis hic quos tenetur?
-              <div className="bg-transparent text-[#595959] absolute -bottom-40 w-full mr-auto ">
-                <img src={student1} alt="" className="w-24 mx-auto" />
-                <p className="mt-2">Richie Moor</p>
-                <p className="text-lg font-bold">MIT University</p>
+              impedit nobis veritatis hic quos tenetur? </p>
+              <div className="bg-transparent text-white absolute -top-6 left-6  flex items-end text-left space-x-[14px] ">
+                <div className="w-[74px] h-[74px] rounded-lg overflow-hidden">
+
+                <img src={student2} alt="" className=" object-fill mx-auto" />
+                </div>
+                <div className="leading-3 mb-2 ">
+                <p className="text-sm">Nash</p>
+                <p className="text-md font-bold">Student</p>
+                </div>
               </div>
-            </p>
+           
           </div>
           <div className="bg-[#00D4D6] text-white rounded-xl   px-10 pt-[40px] text-center w-[450px] h-[210px]">
             <p className="relative text-[12px]  ">
