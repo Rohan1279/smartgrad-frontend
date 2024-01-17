@@ -56,7 +56,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#D9D9D9] text-[#595959] rounded-xl px-10 pt-[40px] text-center w-[450px] h-[214px] relative">
+          <div className="bg-[#D9D9D9] text-[#595959] rounded-xl px-10 pt-[40px] text-center w-[450px] h-[214px] relative shadow-lg">
             <p className="text-left mt-11 text-5xl h-4">“</p>
             <p className="text-xs  text-right">
               Worked with Smartgrad ahead of my MBA applications and loved their
