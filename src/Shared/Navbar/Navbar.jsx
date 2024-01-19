@@ -59,7 +59,7 @@ export default function Navbar() {
                 className="flex items-center space-x-1"
               >
                 <span>Universities</span>
-                <BsCaretDownFill className=" text-xs text-[#595959]" />
+                <BsCaretDownFill className="text-xs text-[#595959]" />
               </a>
               <a
                 onMouseEnter={(e) => {
@@ -149,7 +149,7 @@ export default function Navbar() {
               alt="search-icon"
               className="w-5 cursor-pointer"
             />
-            <button className="bg-[#09D5D7] hover:shadow-md transition-all text-white text-[12px] rounded-xl px-3 py-2">
+            <button className="bg-[#09D5D7] hover:shadow-md transition-all text-white text-[12px] rounded-xl px-4 py-2">
               Log In
             </button>
           </div>
