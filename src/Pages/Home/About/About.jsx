@@ -26,6 +26,8 @@ const About = () => {
               alumnus and holds a 1st Class Economics & Finance bachelors degree
               from Brunel.
             </p>
+            {/* USE THIS TOOLTIP */}
+            {/* https://uiverse.io/PriyanshuGupta28/dry-mole-12 */}
           </div>
           <div className="bg-[#F5F5F5F0]  py-12 rounded-xl">
             <img src={member2} alt="" className="w-36  mx-auto" />
