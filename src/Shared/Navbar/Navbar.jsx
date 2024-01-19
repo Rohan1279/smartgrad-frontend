@@ -10,6 +10,7 @@ import AptitudesMenu from "./Menus/AptitudesMenu";
 import NetworksMenu from "./Menus/NetworksMenu";
 import clsx from "clsx";
 import SlideWrapper from "./SlideWrapper";
+import { Button } from "../../components/ui/button";
 export default function Navbar() {
   const [hovering, sethovering] = useState(null);
   console.log(hovering);
@@ -59,7 +60,7 @@ export default function Navbar() {
                 className="flex items-center space-x-1"
               >
                 <span>Universities</span>
-                <BsCaretDownFill className="text-xs text-[#595959]" />
+                {/* <BsCaretDownFill className="text-xs text-[#595959]" /> */}
               </a>
               <a
                 onMouseEnter={(e) => {
@@ -69,7 +70,7 @@ export default function Navbar() {
                 className="flex items-center space-x-1 "
               >
                 <span>Careers</span>
-                <BsCaretDownFill className=" text-xs text-[#595959]" />
+                {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
               </a>
               <a
                 onMouseEnter={(e) => {
@@ -79,7 +80,7 @@ export default function Navbar() {
                 className="flex items-center space-x-1"
               >
                 <span>Aptitudes</span>
-                <BsCaretDownFill className=" text-xs text-[#595959]" />
+                {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
               </a>
               <a
                 onMouseEnter={(e) => {
@@ -89,7 +90,7 @@ export default function Navbar() {
                 className="flex items-center space-x-1"
               >
                 <span>Networks</span>
-                <BsCaretDownFill className=" text-xs text-[#595959]" />
+                {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
               </a>
             </div>
           </div>
