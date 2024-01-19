@@ -1,7 +1,7 @@
-import TeamCard from "./TeamCard";
 import member1 from "../../../assets/TeamImages/member1.png";
 import member2 from "../../../assets/TeamImages/member2.png";
 import member3 from "../../../assets/TeamImages/member3.png";
+import LinkedInIcon from "../../../assets/linkedIn.svg";
 const About = () => {
   return (
     <section className="text-[#595959] py-10 mb-[100px] ">
@@ -26,16 +26,19 @@ const About = () => {
               alumnus and holds a 1st Class Economics & Finance bachelors degree
               from Brunel.
             </p>
+            <a href="">
+              <img src={LinkedInIcon} alt="" className="mx-auto mt-14 w-10" />
+            </a>
             {/* USE THIS TOOLTIP */}
             {/* https://uiverse.io/PriyanshuGupta28/dry-mole-12 */}
           </div>
           <div className="bg-[#F5F5F5F0]  py-12 rounded-xl">
             <img src={member2} alt="" className="w-36  mx-auto" />
             <h3 className="text-[27px] font-bold text-center mt-[25px]">
-              Raihan Alauddin
+              Sakib Ahmed
             </h3>
             <p className="text-center font-bold text-[17px] mb-2">
-              Co-Founder & Director
+              Founder & CEO
             </p>
             <p className="mx-16 text-center">
               Loves teaching so much that he has been doing it for 20+ years, in
@@ -43,11 +46,14 @@ const About = () => {
               alumnus and holds a 1st Class Economics & Finance bachelors degree
               from Brunel.
             </p>
+            <a href="">
+              <img src={LinkedInIcon} alt="" className="mx-auto mt-14 w-10" />
+            </a>
           </div>
           <div className="bg-[#F5F5F5F0]  py-12 rounded-xl">
             <img src={member3} alt="" className="w-36  mx-auto" />
             <h3 className="text-[27px] font-bold text-center mt-[25px]">
-              Raihan Alauddin
+              Mansur Abbasi
             </h3>
             <p className="text-center font-bold text-[17px] mb-2">
               Co-Founder & Director
@@ -58,6 +64,9 @@ const About = () => {
               alumnus and holds a 1st Class Economics & Finance bachelors degree
               from Brunel.
             </p>
+            <a href="">
+              <img src={LinkedInIcon} alt="" className="mx-auto mt-14 w-10" />
+            </a>
           </div>
         </div>
       </div>
