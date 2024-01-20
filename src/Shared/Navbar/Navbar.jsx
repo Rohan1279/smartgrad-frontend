@@ -11,7 +11,10 @@ import clsx from "clsx";
 import SlideWrapper from "./SlideWrapper";
 import { Button } from "../../components/ui/button";
 import { useTranslation } from "react-i18next";
-
+import UniversitiesIcon from "../../assets/convocation-cap.png";
+import CareerIcon from "../../assets/JobIcons/bag.png";
+import AptitudeIcon from "../../assets/advance.png";
+import NetworkIcon from "../../assets/network-icon.svg";
 export default function Navbar() {
   const { t } = useTranslation();
   const [hovering, sethovering] = useState(null);
@@ -59,40 +62,40 @@ export default function Navbar() {
                   onMouseEnter(1, e.currentTarget);
                 }}
                 href=""
-                className="flex items-center space-x-1"
+                className="flex items-center justify-center space-x-2"
               >
-                <span>{t("universities")}</span>
-                {/* <BsCaretDownFill className="text-xs text-[#595959]" /> */}
+                <img src={UniversitiesIcon} alt="" className="w-4" />
+                <span className="">{t("navbar.universities")}</span>
               </a>
               <a
                 onMouseEnter={(e) => {
                   onMouseEnter(2, e.currentTarget);
                 }}
                 href=""
-                className="flex items-center space-x-1 "
+                className="flex items-center justify-center space-x-2 "
               >
-                <span>{t("careers")}</span>
-                {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
+                <img src={CareerIcon} alt="" className="w-4" />
+                <span className="">{t("navbar.careers")}</span>
               </a>
               <a
                 onMouseEnter={(e) => {
                   onMouseEnter(3, e.currentTarget);
                 }}
                 href=""
-                className="flex items-center space-x-1"
+                className="flex items-center justify-center space-x-2 "
               >
-                <span>{t("aptitudes")}</span>
-                {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
+                <img src={AptitudeIcon} alt="" className="w-4" />
+                <span className="">{t("navbar.aptitudes")}</span>
               </a>
               <a
                 onMouseEnter={(e) => {
                   onMouseEnter(4, e.currentTarget);
                 }}
                 href=""
-                className="flex items-center space-x-1"
+                className="flex items-center justify-center space-x-2 "
               >
-                <span>{t("networks")}</span>
-                {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
+                <img src={NetworkIcon} alt="" className="w-4" />
+                <span className="">{t("navbar.networks")}</span>
               </a>
             </div>
           </div>
