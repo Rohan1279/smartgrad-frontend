@@ -5,6 +5,7 @@ import Aptitude from "../../../assets/bookmark1x.png";
 import CareerIcon from "../../../assets/career-icon.svg";
 import background from "../../../assets/background-shapes.png";
 import bannerCover from "../../../assets/banner-cover.png";
+import { useTranslation } from "react-i18next";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -16,6 +17,7 @@ import {
   NavigationMenuViewport,
 } from "../../../components/ui/navigation-menu";
 const Banner = () => {
+  const { t } = useTranslation();
   return (
     <header className="mb-2">
       <div
@@ -40,10 +42,12 @@ const Banner = () => {
         <div className=" col-span-full grid grid-cols-2 relative">
           <section className="text-4xl text-[#595959]  leading-tight ">
             <div className="text-[40px]">
-              <p>Your Education & Career</p>
+              <p>{t("banner.your_education_&_career")}</p>
               <p>
-                Advisor,{" "}
-                <span className="font-bold text-[#FFC24D]">For Life.</span>
+                {t("banner.advisor")},{" "}
+                <span className="font-bold text-[#FFC24D]">
+                  {t("banner.for_life")}
+                </span>
               </p>
             </div>
             <NavigationMenu className="flex mt-3">

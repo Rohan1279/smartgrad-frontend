@@ -5,5 +5,9 @@
     "aptitudes": "Aptitudes",
     "networks": "Networks"
   },
-  "banner_text": "Your Education & Career Advisor, For Life."
+  "banner": {
+    "your_education_&_career": "Your Education & Career",
+    "advisor": "Advisor",
+    "for_life": "For Life."
+  }
 }
