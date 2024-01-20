@@ -15,6 +15,8 @@ import UniversitiesIcon from "../../assets/convocation-cap.png";
 import CareerIcon from "../../assets/JobIcons/bag.png";
 import AptitudeIcon from "../../assets/advance.png";
 import NetworkIcon from "../../assets/network-icon.svg";
+import i18next from "i18next";
+
 export default function Navbar() {
   const { t } = useTranslation();
   const [hovering, sethovering] = useState(null);
@@ -146,6 +148,9 @@ export default function Navbar() {
           {/* Profile and Settings */}
           <div className="absolute inset-y-0 right-0 flex space-x-7 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <img
+              onClick={() => {
+                i18next.changeLanguage("bn");
+              }}
               src={globeIcon}
               alt="search-icon"
               className="w-5 cursor-pointer"
