@@ -2,7 +2,6 @@ import NavIcon from "../../assets/smart-grad.svg";
 import search from "../../assets/search.png";
 import globeIcon from "../../assets/globe.svg";
 import { BsCaretDownFill } from "react-icons/bs";
-
 import { useRef, useState } from "react";
 import UniversitiesMenu from "./Menus/UniversitiesMenu";
 import CareersMenu from "./Menus/CareersMenu";
@@ -11,7 +10,10 @@ import NetworksMenu from "./Menus/NetworksMenu";
 import clsx from "clsx";
 import SlideWrapper from "./SlideWrapper";
 import { Button } from "../../components/ui/button";
+import { useTranslation } from "react-i18next";
+
 export default function Navbar() {
+  const { t } = useTranslation();
   const [hovering, sethovering] = useState(null);
   console.log(hovering);
   const [popOverLeft, setPopOverLeft] = useState(0);
@@ -59,7 +61,7 @@ export default function Navbar() {
                 href=""
                 className="flex items-center space-x-1"
               >
-                <span>Universities</span>
+                <span>{t("universities")}</span>
                 {/* <BsCaretDownFill className="text-xs text-[#595959]" /> */}
               </a>
               <a
@@ -69,7 +71,7 @@ export default function Navbar() {
                 href=""
                 className="flex items-center space-x-1 "
               >
-                <span>Careers</span>
+                <span>{t("careers")}</span>
                 {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
               </a>
               <a
@@ -79,7 +81,7 @@ export default function Navbar() {
                 href=""
                 className="flex items-center space-x-1"
               >
-                <span>Aptitudes</span>
+                <span>{t("aptitudes")}</span>
                 {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
               </a>
               <a
@@ -89,7 +91,7 @@ export default function Navbar() {
                 href=""
                 className="flex items-center space-x-1"
               >
-                <span>Networks</span>
+                <span>{t("networks")}</span>
                 {/* <BsCaretDownFill className=" text-xs text-[#595959]" /> */}
               </a>
             </div>
