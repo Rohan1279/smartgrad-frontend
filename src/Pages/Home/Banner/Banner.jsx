@@ -54,7 +54,10 @@ const Banner = () => {
               <NavigationMenuList className="">
                 <NavigationMenuItem className="">
                   <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-6">
-                    <BannerButton icon={UniversityIcon} text={"University"} />
+                    <BannerButton
+                      icon={UniversityIcon}
+                      text={t("navbar.universities")}
+                    />
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
@@ -65,7 +68,10 @@ const Banner = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem className="">
                   <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-6">
-                    <BannerButton icon={CareerIcon} text={"Career"} />
+                    <BannerButton
+                      icon={CareerIcon}
+                      text={t("navbar.careers")}
+                    />
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
@@ -76,7 +82,10 @@ const Banner = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem className="mr-6">
                   <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-6">
-                    <BannerButton icon={Aptitude} text={"Aptitude"} />
+                    <BannerButton
+                      icon={Aptitude}
+                      text={t("navbar.aptitudes")}
+                    />
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
@@ -87,7 +96,10 @@ const Banner = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem className="">
                   <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all">
-                    <BannerButton icon={NetworkIcon} text={"Network"} />
+                    <BannerButton
+                      icon={NetworkIcon}
+                      text={t("navbar.networks")}
+                    />
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
