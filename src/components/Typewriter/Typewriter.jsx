@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
-
+import "./Typewriter.css";
 const Typewriter = ({ children }) => {
   return (
-    <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-inherit text-black font-bold">
-      {children}
-    </h1>
+    <div className="typewriter">
+      <h1>{children}</h1>
+    </div>
   );
 };
 
