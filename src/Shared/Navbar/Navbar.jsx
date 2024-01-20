@@ -1,6 +1,7 @@
 import NavIcon from "../../assets/smart-grad.svg";
 import search from "../../assets/search.png";
-import globeIcon from "../../assets/globe.svg";
+import GlobeEnIcon from "../../assets/globe-en.png";
+import GlobeBnIcon from "../../assets/globe-bn.png";
 import { BsCaretDownFill } from "react-icons/bs";
 import { useRef, useState } from "react";
 import UniversitiesMenu from "./Menus/UniversitiesMenu";
@@ -147,14 +148,26 @@ export default function Navbar() {
 
           {/* Profile and Settings */}
           <div className="absolute inset-y-0 right-0 flex space-x-7 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <img
-              onClick={() => {
-                i18next.changeLanguage("bn");
-              }}
-              src={globeIcon}
-              alt="search-icon"
-              className="w-5 cursor-pointer"
-            />
+            {i18next.language === "en" ? (
+              <img
+                onClick={() => {
+                  i18next.changeLanguage("bn");
+                }}
+                src={GlobeBnIcon}
+                alt="search-icon"
+                className="w-7 cursor-pointer"
+              />
+            ) : (
+              <img
+                onClick={() => {
+                  i18next.changeLanguage("en");
+                }}
+                src={GlobeEnIcon}
+                alt="search-icon"
+                className="w-7 cursor-pointer"
+              />
+            )}
+
             <img
               src={search}
               alt="search-icon"
