@@ -6,8 +6,17 @@
     "networks": "Networks"
   },
   "banner": {
-    "your_education_&_career": "Your Education & Career",
-    "advisor": "Advisor",
-    "for_life": "For Life."
+    "heading_primary": {},
+    "heading_secondary": {
+      "your_education_&_career": "Your Education & Career",
+      "advisor": "Advisor",
+      "for_life": "For Life."
+    },
+    "banner_buttons": {
+      "universities": "Find the right institutions, get the right advice, manage all applications in one place.",
+      "careers": "Find the right jobs, manage all applications in one place and never...",
+      "aptitudes": "Acquire the right skills, make yourself more eligible, gain visibility.",
+      "networks": "Find the right expert or mentor, grow your network."
+    }
   }
 }

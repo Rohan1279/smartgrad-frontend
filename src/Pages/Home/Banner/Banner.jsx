@@ -42,11 +42,11 @@ const Banner = () => {
         <div className=" col-span-full grid grid-cols-2 relative">
           <section className="text-4xl text-[#595959]  leading-tight ">
             <div className="text-[40px]">
-              <p>{t("banner.your_education_&_career")}</p>
+              <p>{t("banner.heading_secondary.your_education_&_career")}</p>
               <p>
-                {t("banner.advisor")},{" "}
+                {t("banner.heading_secondary.advisor")},{" "}
                 <span className="font-bold text-[#FFC24D]">
-                  {t("banner.for_life")}
+                  {t("banner.heading_secondary.for_life")}
                 </span>
               </p>
             </div>
@@ -61,8 +61,7 @@ const Banner = () => {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
-                      Find the right institutions, get the right advice, manage
-                      all applications in one place.
+                      {t("banner.banner_buttons.universities")}
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -75,8 +74,7 @@ const Banner = () => {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
-                      Find the right jobs, manage all applications in one place
-                      and never...
+                      {t("banner.banner_buttons.careers")}
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -89,8 +87,7 @@ const Banner = () => {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
-                      Acquire the right skills, make yourself more eligible,
-                      gain visibility.
+                      {t("banner.banner_buttons.aptitudes")}
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -103,7 +100,7 @@ const Banner = () => {
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
-                      Find the right expert or mentor, grow your network.
+                      {t("banner.banner_buttons.networks")}
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
