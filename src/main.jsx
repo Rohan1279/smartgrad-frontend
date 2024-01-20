@@ -14,7 +14,7 @@ i18next
     supportedLngs: ["en", "bn"],
     fallbackLng: "en",
     detection: {
-      order: ["cookie", "htmlTag", "localStorage", "path", "subdomain"],
+      order: ["path", "cookie", "htmlTag", "localStorage", "subdomain"],
       caches: ["cookie"],
     },
     interpolation: {

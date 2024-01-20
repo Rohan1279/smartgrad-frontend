@@ -25,7 +25,7 @@ const Home = () => {
       <Advance />
       <Courses />
       <About />
-      <Map />
+      {/* <Map /> */}
     </>
   );
 };
