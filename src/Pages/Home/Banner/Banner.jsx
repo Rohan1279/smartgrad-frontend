@@ -60,7 +60,7 @@ const Banner = () => {
                     />
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
-                    <NavigationMenuLink className=" lg:text-[16px] text-[#595959]">
+                    <NavigationMenuLink className="lg:text-[16px] text-[#595959]">
                       {t("banner.banner_buttons.universities")}
                     </NavigationMenuLink>
                   </NavigationMenuContent>

@@ -2,4 +2,5 @@
   scale: 0.9;
   opacity: 0.5;
   @apply saturate-50;
+  @apply blur-[2px];
 }
