@@ -12,10 +12,26 @@
         "extracurricular_activities_&_soft_skills": "Extracurricular Activities & Soft Skills"
       },
       "careers_menu": {
-        "career_advice": "Career Advice",
-        "job_search": "Job Search",
-        "resume_writing": "Resume Writing",
-        "interview_preparation": "Interview Preparation"
+        "cv_review": "CV Review",
+        "mock_interview": "Mock Interview",
+        "soft_skill_development": "Soft Skill Development",
+        "networking": "Networking",
+        "job_app_support": "Job App Support",
+        "counselling": "Counselling"
+      },
+      "aptitudes_menu": {
+        "soft_skills": "Soft Skills",
+        "standardized_test_prep": "Standardized Test Prep",
+        "technical_skills": "Technical Skills",
+        "networking": "Networking",
+        "business_skills": "Business Skills"
+      },
+      "networks_menu": {
+        "sector_consultants": "Sector Consultants",
+        "mentors": "Mentors",
+        "friends": "Friends",
+        "networking": "Networking",
+        "community": "Community"
       }
     }
   },
