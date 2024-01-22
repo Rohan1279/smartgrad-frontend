@@ -1,4 +1,5 @@
 .theme-gallery:has(div:hover) > div:not(:hover) {
   scale: 0.9;
   opacity: 0.5;
+  @apply saturate-50;
 }
