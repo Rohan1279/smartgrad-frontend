@@ -3,7 +3,21 @@
     "universities": "Universities",
     "careers": "Careers",
     "aptitudes": "Aptitudes",
-    "networks": "Networks"
+    "networks": "Networks",
+    "navbar_submenus": {
+      "universities_menu": {
+        "university_admission": "University Admission",
+        "essay_writing": "Essay Writing",
+        "visa_processing_&_travel": "Visa Processing & Travel",
+        "extracurricular_activities_&_soft_skills": "Extracurricular Activities & Soft Skills"
+      },
+      "careers_menu": {
+        "career_advice": "Career Advice",
+        "job_search": "Job Search",
+        "resume_writing": "Resume Writing",
+        "interview_preparation": "Interview Preparation"
+      }
+    }
   },
   "banner": {
     "heading_primary": {},
@@ -17,6 +31,10 @@
       "careers": "Find the right jobs, manage all applications in one place and never...",
       "aptitudes": "Acquire the right skills, make yourself more eligible, gain visibility.",
       "networks": "Find the right expert or mentor, grow your network."
+    },
+    "uniqueSection": {
+      "heading_primary": "why is smartgrad for you",
+      "heading_secondary": "SmartGrad stands out by offering access to global universities, direct organizational connections, skill development led by Oxford alumni, and comprehensive career guidance."
     }
   }
 }

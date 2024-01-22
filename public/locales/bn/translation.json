@@ -3,7 +3,15 @@
     "universities": "বিশ্ববিদ্যালয়",
     "careers": "কর্মজীবন",
     "aptitudes": "যোগ্যতা",
-    "networks": "নেটওয়ার্ক"
+    "networks": "নেটওয়ার্ক",
+    "navbar_submenus": {
+      "universities_menu": {
+        "university_admission": "বিশ্ববিদ্যালয় ভর্তি",
+        "essay_writing": "প্রবন্ধ লেখা",
+        "visa_processing_&_travel": "ভিসা প্রসেসিং এবং ভ্রমণ",
+        "extracurricular_activities_&_soft_skills": "পাঠক্রম বহির্ভূত কার্যক্রম এবং আন্তঃব্যক্তিক দক্ষতা"
+      }
+    }
   },
   "banner": {
     "heading_primary": {},

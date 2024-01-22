@@ -155,7 +155,7 @@ export default function Navbar() {
                 }}
                 src={GlobeBnIcon}
                 alt="search-icon"
-                className="w-7 cursor-pointer"
+                className="w-7 cursor-pointer hover:scale-110 transition-all active:scale-100"
               />
             ) : (
               <img
@@ -164,7 +164,7 @@ export default function Navbar() {
                 }}
                 src={GlobeEnIcon}
                 alt="search-icon"
-                className="w-7 cursor-pointer"
+                className="w-7 cursor-pointer hover:scale-110 transition-all active:scale-100"
               />
             )}
 
