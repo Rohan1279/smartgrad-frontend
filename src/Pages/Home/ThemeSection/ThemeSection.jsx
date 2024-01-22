@@ -4,7 +4,7 @@ import Career from "../../../assets/ThemeImages/theme-career.svg";
 import Aptitude from "../../../assets/ThemeImages/theme-accelerate.svg";
 import Network from "../../../assets/ThemeImages/theme-network.svg";
 import background from "../../../assets/Doodle.png";
-
+import "./ThemeSection.css";
 const ThemeSection = () => {
   return (
     <section
@@ -14,79 +14,73 @@ const ThemeSection = () => {
       //   backgroundRepeat: "no-repeat",
       //   backgroundPosition: "center",
       // }}
-      className=" bg-[#F9F9F9] text-[#595959] "
+      className=" bg-[#F9F9F9] text-[#595959] group"
     >
-      <div className="relative max-w-7xl mx-auto  flex justify-between py-[100px]">
+      <div className="relative max-w-7xl mx-auto  flex justify-between py-[100px] theme-gallery ">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
           with <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">
             U<span className="ml-1">CAN</span>
           </span>
         </p>
-        <div className="w-52 flex-col space-y-4 text-[#595959]">
-          <h3 className="text-center text-xl">
-            <span className="font-extrabold">
-              {"Universities"?.slice(0, 1)}
-            </span>
-            <span>{"Universities"?.slice(1)}</span>
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-110">
+          <h3 className="text-center text-xl first-letter:font-extrabold">
+            Universities
           </h3>
-          <div className="h-36 w-36 mx-auto border border-[#FFC24D] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all">
-            <img
-              src={University}
-              alt={"Universities"}
-              className="mx-auto my-auto h-full w-1/2"
-            />
-          </div>
+
+          <img
+            src={University}
+            alt={"Universities"}
+            className="mx-auto my-auto h-36 w-36 p-7 border border-[#FFC24D] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+          />
+
           <p className="text-center">
             Find the right institutions, get the right advice, manage all
             applications in one place
           </p>
         </div>
-        <div className="w-52 flex-col space-y-4 text-[#595959]">
-          <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"Careers"?.slice(0, 1)}</span>
-            <span>{"Careers"?.slice(1)}</span>
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-110">
+          <h3 className="text-center text-xl first-letter:font-extrabold">
+            Careers
           </h3>
-          <div className="h-36 w-36 mx-auto border border-[#F1662A] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all">
-            <img
-              src={Career}
-              alt={"Careers"}
-              className="mx-auto my-auto h-full w-1/2"
-            />
-          </div>
+
+          <img
+            src={Career}
+            alt={"Careers"}
+            className="mx-auto my-auto h-36 w-36 p-7 border border-[#F1662A] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+          />
+
           <p className="text-center">
             Find the right jobs, manage all applications in one place and never
           </p>
         </div>
-        <div className="w-52 flex-col space-y-4 text-[#595959]">
-          <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"Aptitude"?.slice(0, 1)}</span>
-            <span>{"Aptitude"?.slice(1)}</span>
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-110">
+          <h3 className="text-center text-xl first-letter:font-extrabold">
+            Aptitude
           </h3>
-          <div className="h-36 w-36 mx-auto border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all">
-            <img
-              src={Aptitude}
-              alt={"Aptitude"}
-              className="mx-auto my-auto h-full w-1/2"
-            />
-          </div>
+
+          <img
+            src={Aptitude}
+            alt={"Aptitude"}
+            className="mx-auto my-auto h-36 w-36 p-7 border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+          />
+
           <p className="text-center">
             Acquire the right skills, make yourself more eligible, gain
             visibility
           </p>
         </div>
-        <div className="w-52 flex-col space-y-4 text-[#595959]">
-          <h3 className="text-center text-xl">
-            <span className="font-extrabold">{"Network"?.slice(0, 1)}</span>
-            <span>{"Network"?.slice(1)}</span>
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-110">
+          <h3 className="text-center text-xl first-letter:font-extrabold">
+            Network
           </h3>
-          <div className="h-36 w-36 mx-auto border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all">
-            <img
-              src={Network}
-              alt={"Network"}
-              className="mx-auto my-auto h-full w-1/2"
-            />
-          </div>
+
+          <img
+            src={Network}
+            alt={"Network"}
+            className="mx-auto my-auto h-36 w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+          />
+
           <p className="text-center">
             Find the right expert or mentor, grow your network
           </p>
