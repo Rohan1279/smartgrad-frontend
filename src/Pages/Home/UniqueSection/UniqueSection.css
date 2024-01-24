@@ -1,4 +1,4 @@
 .features-column:has(div:hover) > div:not(:hover) {
   scale: 0.97;
-  @apply blur-[1px];
+  /* @apply blur-[1px]; */
 }

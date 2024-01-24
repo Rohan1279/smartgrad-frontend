@@ -23,7 +23,7 @@ const ThemeSection = () => {
             U<span className="ml-1">CAN</span>
           </span>
         </p>
-        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105">
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Universities
           </h3>
@@ -39,7 +39,7 @@ const ThemeSection = () => {
             applications in one place
           </p>
         </div>
-        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105">
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Careers
           </h3>
@@ -54,7 +54,7 @@ const ThemeSection = () => {
             Find the right jobs, manage all applications in one place and never
           </p>
         </div>
-        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105">
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Aptitude
           </h3>
@@ -70,7 +70,7 @@ const ThemeSection = () => {
             visibility
           </p>
         </div>
-        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105">
+        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Network
           </h3>
