@@ -34,13 +34,7 @@ const Map = () => {
         ></iframe>
       )}
       {isBD && (
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.808376403905!2d90.41743817589791!3d23.789837087260185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a3037c0001%3A0x7c25393715022337!2sHSPP%20Joblink!5e0!3m2!1sen!2sbd!4v1705326466812!5m2!1sen!2sbd"
-          className="w-full h-full rounded-xl  outline-none"
-          allowfullscreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.8086569436227!2d90.4199783!3d23.7898271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7416041fa7d%3A0xa21ddec8a3def4ac!2sBeximco%20Communication!5e0!3m2!1sen!2sbd!4v1706189331825!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       )}
     </div>
   );
