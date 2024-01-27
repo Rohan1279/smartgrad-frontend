@@ -1,11 +1,5 @@
 import testimonial from "../../../assets/testimonial.png";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "../../../components/ui/carousel-aptitude";
+
 import TestomonialCard from "./TestomonialCard";
 import student1 from "../../../assets/Students/student 4.png";
 import student2 from "../../../assets/Students/student 5.png";
@@ -17,7 +11,7 @@ import AnimatedNumber from "../../../components/AnimatedNumber";
 
 const Testimonials = () => {
   return (
-    <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative mb-[100px]">
+    <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative mb-[100px] px-4 ">
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-7">
@@ -36,8 +30,8 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center mb-36">
-          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3 shadow-md">
+        <div className="grid grid-cols-1 mmd:grid-cols-2 gap-y-12 mmd:gap-y-auto xl:flex justify-between items-center mb-36">
+          <div className="bg-[#595959] m-auto text-white rounded-xl  px-10 py-8 text-center w-full sm:w-[400px] h-[185px] relative leading-3 shadow-md">
             <p className="text-left mt-8 text-[33px] h-1">“</p>
             <p className="text-xs text-right">
               Coming just out of college I was not sure of what I wanted to
@@ -56,8 +50,10 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#D9D9D9] text-[#595959] rounded-xl px-10 pt-[40px] text-center w-[450px] h-[214px] relative shadow-lg">
-            <p className="text-left mt-11 text-5xl h-4">“</p>
+          <div className="bg-[#D9D9D9] m-auto text-[#595959] rounded-xl px-10 py-8 xl:py-auto xl:pt-[40px] text-center w-full sm:w-[400px] h-[185px] xl:w-[450px] xl:h-[250px] relative shadow-lg">
+            <p className="text-left mt-6 mb-4 text-[33px] h-1 xl:mt-11 xl:text-5xl xl:h-4">
+              “
+            </p>
             <p className="text-xs  text-right">
               Worked with Smartgrad ahead of my MBA applications and loved their
               service. Consultations were always professional and constructive
@@ -65,18 +61,18 @@ const Testimonials = () => {
               interested in made the application process seem more personal and
               familiar!
             </p>
-            <p className="text-5xl text-right ">”</p>
-            <div className="bg-transparent absolute -top-14 left-6  flex items-end text-left space-x-[14px] ">
-              <div className="w-[130px] h-[130px] rounded-lg overflow-hidden">
+            <p className="text-[33px] xl:text-5xl text-right ">”</p>
+            <div className="bg-transparent absolute -top-4 xl:-top-14 left-6  flex items-end text-left space-x-[14px] ">
+              <div className="w-[74px] h-[74px] xl:w-[130px] xl:h-[130px] rounded-lg overflow-hidden">
                 <img src={student3} alt="" className=" object-fill mx-auto" />
               </div>
-              <div className="leading-3 mb-5 ">
+              <div className="leading-3 mb-2 mmd:mb-5 ">
                 <p className="text-sm">Subhi</p>
                 <p className="text-md font-bold">Student</p>
               </div>
             </div>
           </div>
-          <div className="bg-[#595959] text-white rounded-xl  px-10 py-8 text-center  w-[400px] h-[185px] relative leading-3 shadow-md">
+          <div className="bg-[#595959] m-auto text-white rounded-xl  px-10 py-8 text-center w-full sm:w-[400px] h-[185px] relative leading-3 shadow-md">
             <p className="text-left mt-8 text-[33px] h-1 ">“</p>
             <p className="text-xs text-right">
               The service felt sincere and personal, we connected virtually and
@@ -101,7 +97,7 @@ const Testimonials = () => {
             Helping Small Business to Grow and Expand
           </h2>
           <p className="text-center text-[20px]">More Than</p>
-          <div className="grid grid-cols-4 mt-[60px]">
+          <div className="grid grid-cols-2 md:grid-cols-4 mt-[60px]">
             <div className="flex flex-col justify-center items-center ">
               <div className="w-20 h-20 mx-auto">
                 <img src={icon1} alt="" className=" " />
@@ -110,7 +106,9 @@ const Testimonials = () => {
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={33} />+
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="text-center">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center ">
@@ -121,7 +119,7 @@ const Testimonials = () => {
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={78} />+
                 </h3>
-                <p>Individuals were Offered</p>
+                <p className="text-center">Individuals were Offered</p>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center ">
@@ -132,7 +130,7 @@ const Testimonials = () => {
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={42} />+
                 </h3>
-                <p>Got Employed</p>
+                <p className="text-center">Got Employed</p>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center ">
@@ -143,7 +141,9 @@ const Testimonials = () => {
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={33} />+
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="text-center">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
               </div>
             </div>
           </div>

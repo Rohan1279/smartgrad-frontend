@@ -17,7 +17,7 @@ const Careers = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "",
       }}
-      className="text-[#595959] mb-[100px]"
+      className="text-[#595959] mb-[100px] px-4"
     >
       <div className="max-w-7xl mx-auto relative ">
         <div className="flex justify-between mb-7">
@@ -31,7 +31,7 @@ const Careers = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-5 ">
+        <div className="grid grid-cols-5">
           {/* COMPANY LIST */}
           <div className="col-span-2 flex flex-col space-y-3">
             <CareerCard

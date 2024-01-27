@@ -51,15 +51,15 @@ const Banner = () => {
               </p>
             </div>
             <NavigationMenu className="flex md:mt-3">
-              <NavigationMenuList className="">
-                <NavigationMenuItem className="">
+              <NavigationMenuList className="ss">
+                <NavigationMenuItem className=" ">
                   <NavigationMenuTrigger className="relative w-16 h-16 rounded-xl  hover:bg-[#00D4D6] hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white px-11 py-10 text-[#595959] transition-all mr-2 lg:mr-6">
                     <BannerButton
                       icon={UniversityIcon}
                       text={t("navbar.universities")}
                     />
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                  <NavigationMenuContent className="lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className="text-[16px] text-[#595959]">
                       {t("banner.banner_buttons.universities")}
                     </NavigationMenuLink>

@@ -29,10 +29,10 @@ const University = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className=" text-[#595959] mb-[100px]"
+      className=" text-[#595959] mb-[100px] px-4"
     >
       <div className="max-w-7xl mx-auto ">
-        <div className="flex justify-between mb-7">
+        <div className="flex flex-col mmd:flex-row justify-between mb-7">
           <div className="flex space-x-2">
             <img src={Cap} alt="convocation-cap" className="w-10 h-10" />
             <div>
@@ -43,7 +43,9 @@ const University = () => {
               </p>
             </div>
           </div>
-          <span className="underline text-base font-bold">See More</span>
+          <span className="underline text-base font-bold ml-auto mmd:ml-0">
+            See More
+          </span>
         </div>
 
         <div className="grid grid-cols-5 grid-rows-5 gap-4">
@@ -51,15 +53,15 @@ const University = () => {
             <img
               src={university1}
               alt=""
-              className="object-cover h-full w-full "
+              className="object-cover h-full w-full"
             />
-            <span className="absolute bottom-10 left-10 z-30 text-white text-2xl font-bold">
+            <span className="absolute bottom-0 mmd:bottom-10 left-2 mmd:left-10 z-30 text-white text-sm mmd:text-2xl font-bold">
               20% Scholarship on <p>Masters of Science in Data Science</p>
             </span>
             <img
               src={UniversityGridLogo}
               alt=""
-              className="absolute top-8 left-10 w-16"
+              className="absolute top-2 mmd:top-8 left-2 mmd:left-10 w-10 mmd:w-16"
             />
           </div>
           <div className="col-span-2 row-span-3  rounded-xl overflow-hidden">
@@ -88,7 +90,7 @@ const University = () => {
         </div>
         {/* CAROUSAL */}
         <h2 className="text-2xl font-bold mt-11">Our Successful Enrollments</h2>
-        <div className="px-40 mt-11">
+        <div className="px-10 lsm:px-40 mt-11">
           <Carousel>
             <CarouselContent className="py-5">
               <CarouselItem>
