@@ -15,44 +15,51 @@ const UniqueSection = () => {
       }}
       className="text-white py-24 mb-[100px] px-4"
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lsm:grid-cols-2">
-        <div className="col-span-1">
-          <h2 className="font-bold text-[40px]">why is smartgrad for you</h2>
-          <p className="text-base  mb-7">
-            SmartGrad stands out by offering access to global universities,
-            direct organizational connections, skill development led by Oxford
-            alumni, and comprehensive career guidance.
-          </p>
-
-          <div className="flex flex-col items-start features-column">
-            <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20 w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-              <img src={connection} alt="" />
-              <p>AI feed about edu and career tailored to your needs</p>
-            </div>
-            <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-              <img src={solution} alt="" />
-              <p>Direct links to leading organizations</p>
-            </div>
-            <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-              <img src={empower} alt="" />
-              <p>Never manually update your cv again</p>
-            </div>
-            <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-              <img src={tech} alt="" />
-              <p>
-                Get sector expert advice from global industry professionals and
-                consultants
+      <div className="max-w-7xl mx-auto relative">
+        <div className="flex justify-between mb-7">
+          <div className="flex space-x-2">
+            <div>
+              <h2 className="text-3xl font-bold">Why is smartgrad for you</h2>
+              <p className="text-base max-w-xl mt-4">
+                SmartGrad stands out by offering access to global universities,
+                direct organizational connections, skill development led by
+                Oxford alumni, and comprehensive career guidance.
               </p>
-            </div>
-            <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-              <img src={tech} alt="" />
-              <p>Manage all applications in one place</p>
             </div>
           </div>
         </div>
-        <div className="flex items-end justify-center lsm:justify-end pt-8 md:pt-auto">
-          <div>
-            <img src={placeholder} alt="" className="w-[408px] h-[408px]" />
+        <div className="grid grid-cols-1 lsm:grid-cols-2 gap-x-8">
+          <div className="order-2 mmd:order-1 col-span-1">
+            <div className="flex flex-col items-start features-column">
+              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20 w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+                <img src={connection} alt="" />
+                <p>AI feed about edu and career tailored to your needs</p>
+              </div>
+              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+                <img src={solution} alt="" />
+                <p>Direct links to leading organizations</p>
+              </div>
+              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+                <img src={empower} alt="" />
+                <p>Never manually update your cv again</p>
+              </div>
+              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+                <img src={tech} alt="" />
+                <p>
+                  Get sector expert advice from global industry professionals
+                  and consultants
+                </p>
+              </div>
+              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+                <img src={tech} alt="" />
+                <p>Manage all applications in one place</p>
+              </div>
+            </div>
+          </div>
+          <div className="order-1 mmd:order-2 flex items-center justify-center lsm:justify-end pt-0 mmd:pt-8 pb-8 mmd:pb-0">
+            <div>
+              <img src={placeholder} alt="" className="w-[408px] h-[408px]" />
+            </div>
           </div>
         </div>
       </div>

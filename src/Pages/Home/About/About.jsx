@@ -14,7 +14,7 @@ const About = () => {
           <hr className="border border-t-black w-full"></hr>
         </div>
         <div className="grid grid-cols-1 mmd:grid-cols-3 gap-4 mt-20 justify-items-center">
-          <div className="bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
+          <div className="order-2 mmd:order-1 bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
             <div className="w-36 mx-auto mt-[51px]">
               <img src={member1} alt="" className="  mx-auto" />
             </div>
@@ -39,7 +39,7 @@ const About = () => {
               className="mx-auto mt-5 w-10 cursor-pointer"
             />
           </div>
-          <div className="bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
+          <div className="order-1 mmd:order-2 bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
             <div className="w-36 mx-auto mt-[51px]">
               <img src={member2} alt="" className="  mx-auto" />
             </div>
@@ -64,7 +64,7 @@ const About = () => {
               className="mx-auto mt-5 w-10 cursor-pointer"
             />
           </div>
-          <div className="bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
+          <div className="order-3 bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
             <div className="w-36 mx-auto mt-[51px]">
               <img src={member3} alt="" className="  mx-auto" />
             </div>

@@ -122,7 +122,7 @@ const Careers = () => {
           </div>
         </div>
         <div className="absolute w-full bottom-0 h-28 flex justify-center mt-2 bg-gradient-to-b from-transparent to-white">
-          <button className="bg-[#595959]  mt-auto w-fit h-11 px-8 rounded-xl text-white">
+          <button className="bg-[#595959] mt-28 mmd:mt-auto w-fit h-11 px-8 rounded-xl text-white">
             View All
           </button>
         </div>

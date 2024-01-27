@@ -49,7 +49,7 @@ const University = () => {
         </div>
 
         <div className="grid grid-cols-5 grid-rows-5 gap-4">
-          <div className="col-span-3 row-span-full rounded-xl overflow-hidden relative">
+          <div className="col-span-5 sm:col-span-3 row-span-full rounded-xl overflow-hidden relative">
             <img
               src={university1}
               alt=""
@@ -64,14 +64,14 @@ const University = () => {
               className="absolute top-2 mmd:top-8 left-2 mmd:left-10 w-10 mmd:w-16"
             />
           </div>
-          <div className="col-span-2 row-span-3  rounded-xl overflow-hidden">
+          <div className="hidden sm:flex col-span-2 row-span-3  rounded-xl overflow-hidden">
             <img
               src={university2}
               alt=""
               className="object-cover h-full w-full"
             />
           </div>
-          <div className="col-span-2 row-span-2  grid grid-cols-2 gap-x-4">
+          <div className="hidden sm:flex col-span-2 row-span-2  grid grid-cols-2 gap-x-4">
             <div className="col-span-1 rounded-xl overflow-hidden">
               <img
                 src={university3}
@@ -93,7 +93,7 @@ const University = () => {
         <div className="px-10 lsm:px-40 mt-11">
           <Carousel>
             <CarouselContent className="py-5">
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo1}
@@ -102,7 +102,7 @@ const University = () => {
                   />
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo2}
@@ -111,7 +111,7 @@ const University = () => {
                   />
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo3}
@@ -120,7 +120,7 @@ const University = () => {
                   />
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo5}
@@ -129,7 +129,7 @@ const University = () => {
                   />
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo4}
@@ -138,7 +138,7 @@ const University = () => {
                   />
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo6}

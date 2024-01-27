@@ -16,14 +16,14 @@ const ThemeSection = () => {
       // }}
       className=" bg-[#F9F9F9] text-[#595959] group "
     >
-      <div className="relative max-w-7xl mx-auto grid grid-cols-2 md:flex justify-between py-[100px] px-4 md:px-auto theme-gallery ">
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 justify-between py-[100px] px-4 md:px-auto theme-gallery ">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
           with <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">
             U<span className="ml-1">CAN</span>
           </span>
         </p>
-        <div className="w-full md:w-52 flex flex-col space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Universities
           </h3>
@@ -31,7 +31,7 @@ const ThemeSection = () => {
           <img
             src={University}
             alt={"Universities"}
-            className="mx-auto my-auto h-36 w-36 p-7 border border-[#FFC24D] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto h-40 w-40 sm:h-36 sm:w-36 p-7 border border-[#FFC24D] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">
@@ -39,7 +39,7 @@ const ThemeSection = () => {
             applications in one place
           </p>
         </div>
-        <div className="w-full md:w-52 flex flex-col space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Careers
           </h3>
@@ -47,14 +47,14 @@ const ThemeSection = () => {
           <img
             src={Career}
             alt={"Careers"}
-            className="mx-auto my-auto h-36 w-36 p-7 border border-[#F1662A] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto h-40 w-40 sm:h-36 sm:w-36 p-7 border border-[#F1662A] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">
             Find the right jobs, manage all applications in one place and never
           </p>
         </div>
-        <div className="w-full md:w-52 flex flex-col space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Aptitude
           </h3>
@@ -62,7 +62,7 @@ const ThemeSection = () => {
           <img
             src={Aptitude}
             alt={"Aptitude"}
-            className="mx-auto my-auto h-36 w-36 p-7 border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto h-40 w-40 sm:h-36 sm:w-36 p-7 border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">
@@ -70,7 +70,7 @@ const ThemeSection = () => {
             visibility
           </p>
         </div>
-        <div className="w-full md:w-52 flex flex-col  space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto  space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Network
           </h3>
@@ -78,7 +78,7 @@ const ThemeSection = () => {
           <img
             src={Network}
             alt={"Network"}
-            className="mx-auto my-auto h-36 w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto h-40 w-40 sm:h-36 sm:w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">
