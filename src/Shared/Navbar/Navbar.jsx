@@ -3,7 +3,7 @@ import search from "../../assets/search.png";
 import GlobeEnIcon from "../../assets/globe-en.png";
 import GlobeBnIcon from "../../assets/globe-bn.png";
 import { BsCaretDownFill } from "react-icons/bs";
-import { Fragment, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import UniversitiesMenu from "./Menus/UniversitiesMenu";
 import CareersMenu from "./Menus/CareersMenu";
 import AptitudesMenu from "./Menus/AptitudesMenu";
@@ -17,6 +17,8 @@ import CareerIcon from "../../assets/JobIcons/bag.png";
 import AptitudeIcon from "../../assets/advance.png";
 import NetworkIcon from "../../assets/network-icon.svg";
 import i18next from "i18next";
+import useWindowDimensions from "../../../src/components/core/windowsDimention";
+import SideBar from "./sideBar";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -26,6 +28,16 @@ export default function Navbar() {
   const [popOverHeight, setPopOverHeight] = useState(0);
   const [popOverWidth, setPopOverWidth] = useState(0);
   const refs = useRef([]);
+  const { width } = useWindowDimensions();
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  useEffect(() => {
+    if (width > 992) {
+      setShowMobileMenu(false);
+    }
+    return () => {};
+  }, [width]);
+
   const onMouseEnter = (index, element) => {
     sethovering(index);
     setPopOverLeft(element.offsetLeft);
@@ -51,6 +63,9 @@ export default function Navbar() {
                 class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
+                onClick={() => {
+                  setShowMobileMenu(!showMobileMenu);
+                }}
               >
                 <span class="absolute -inset-0.5"></span>
                 <span class="sr-only">Open main menu</span>
@@ -224,6 +239,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        {showMobileMenu && <SideBar />}
       </nav>
     </Fragment>
   );

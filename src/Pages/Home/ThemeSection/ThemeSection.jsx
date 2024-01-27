@@ -16,14 +16,14 @@ const ThemeSection = () => {
       // }}
       className=" bg-[#F9F9F9] text-[#595959] group "
     >
-      <div className="relative max-w-7xl mx-auto  flex justify-between py-[100px] theme-gallery ">
+      <div className="relative max-w-7xl mx-auto grid grid-cols-2 lg:flex justify-between py-[100px] theme-gallery ">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
           with <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">
             U<span className="ml-1">CAN</span>
           </span>
         </p>
-        <div className="w-52 flex-col space-y-4 text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-52 flex-col space-y-4 space-x-8 text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Universities
           </h3>
