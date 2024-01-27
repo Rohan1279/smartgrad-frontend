@@ -93,38 +93,35 @@ const University = () => {
         <div className="px-10 lsm:px-40 mt-11">
           <Carousel>
             <CarouselContent className="py-5">
-              <CarouselItem>
-                <div className="flex justify-evenly">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo1}
                     alt=""
                     className="w-20 h-20 hover:scale-105 transition-all"
                   />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo2}
                     alt=""
                     className="w-20 h-20 hover:scale-105 transition-all"
                   />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo3}
                     alt=""
                     className="w-20 h-20 hover:scale-105 transition-all"
                   />
-                  <img
-                    src={UniversityLogo5}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
-                  <img
-                    src={UniversityLogo4}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
-                  <img
-                    src={UniversityLogo6}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo5}
                     alt=""
@@ -132,38 +129,17 @@ const University = () => {
                   />
                 </div>
               </CarouselItem>
-              <CarouselItem>
-                <div className="flex justify-evenly">
-                  <img
-                    src={UniversityLogo5}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
-                  <img
-                    src={UniversityLogo2}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
-                  <img
-                    src={UniversityLogo1}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
-                  <img
-                    src={UniversityLogo5}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo4}
                     alt=""
                     className="w-20 h-20 hover:scale-105 transition-all"
                   />
-                  <img
-                    src={UniversityLogo3}
-                    alt=""
-                    className="w-20 h-20 hover:scale-105 transition-all"
-                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
                   <img
                     src={UniversityLogo6}
                     alt=""

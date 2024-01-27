@@ -31,9 +31,9 @@ const Careers = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-1 mmd:grid-cols-5 gap-y-8">
           {/* COMPANY LIST */}
-          <div className="col-span-2 flex flex-col space-y-3">
+          <div className="mmd:col-span-2 flex flex-col space-y-3">
             <CareerCard
               logo={company1}
               role={"Software Engineer"}
@@ -69,8 +69,8 @@ const Careers = () => {
           </div>
 
           {/* JOB DETAILS */}
-          <div className="col-span-3 flex">
-            <div className="border border-[#595959] h-full mr-10"></div>
+          <div className="mmd:col-span-3 flex">
+            <div className="hidden mmd:block border border-[#595959] h-full mr-10"></div>
             <div>
               <div className="flex justify-between items-start">
                 <h2 className="text-3xl">
@@ -80,8 +80,8 @@ const Careers = () => {
                 <span className="">⭐⭐⭐⭐⭐</span>
               </div>
 
-              <div className="flex  justify-between mt-4">
-                <div className="flex justify-start items-start space-x-4 ">
+              <div className="flex flex-col sm:flex-row space-y-8 items-center sm:items-start justify-center sm:justify-between mt-4">
+                <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-auto justify-start items-center sm:items-start space-x-4 ">
                   <img src={company2} alt="" className="w-32" />
                   <div className="flex flex-col bg-red h-full">
                     <div className="tex">

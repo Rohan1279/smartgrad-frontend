@@ -2,9 +2,9 @@ import Map from "../../Pages/Home/Map/Map";
 import socialIcons from "../../assets/Follow icons.png";
 export default function Footer() {
   return (
-    <footer className="text-[#595959]  bg-[#F5F5F5] text-sm py-28">
+    <footer className="text-[#595959]  bg-[#F5F5F5] text-sm py-28 px-4">
       <div className="max-w-7xl mx-auto relative">
-        <div className="grid grid-cols-6 ">
+        <div className="grid grid-col-2 mmd:grid-cols-6 gap-y-12">
           <div className="col-span-2 pr-16">
             <h2 className="text-4xl font-bold lowercase">
               SMART<span className="text-[#00D4D6] ">GRAD</span>
@@ -15,14 +15,14 @@ export default function Footer() {
             </p>
             <div className="mt-5">
               <h3 className="uppercase text-xl font-bold ">Follow Us</h3>
-              <img src={socialIcons} alt="" className="w-1/2" />
+              <img src={socialIcons} alt="" className="w-28 mmd:w-1/2" />
             </div>
           </div>
-          <div className="col-span-2 pl-10 text-right">
+          <div className="col-span-2 mmd:pl-10 text-left mmd:text-right">
             <h3 className="uppercase text-xl font-bold ">
               join our Newsletter{" "}
             </h3>
-            <p className="pl-28 uppercase text-sm">
+            <p className="mmd:pl-28 uppercase text-sm">
               Stay updated with our exclusive newsletter, delivering insightful
               educational content, latest industry trends, and exciting
               opportunities right to your inbox.

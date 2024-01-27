@@ -4,14 +4,16 @@ import member3 from "../../../assets/TeamImages/member3.png";
 import LinkedInIcon from "../../../assets/linkedIn.svg";
 const About = () => {
   return (
-    <section className="text-[#595959] py-10 mb-[100px] ">
+    <section className="text-[#595959] py-10 mb-[100px] px-4">
       <div className="max-w-7xl mx-auto relative">
         <div className="grid grid-cols-3 items-center w-full  text-center justify-between">
           <hr className="border border-t-black  w-full"></hr>
-          <h2 className="text-4xl font-bold text-center">About Us</h2>
+          <h2 className="text-2xl mmd:text-4xl font-bold text-center">
+            About Us
+          </h2>
           <hr className="border border-t-black w-full"></hr>
         </div>
-        <div className="grid grid-cols-3 mt-20 justify-items-center">
+        <div className="grid grid-cols-1 mmd:grid-cols-3 gap-4 mt-20 justify-items-center">
           <div className="bg-[#F5F5F5F0] rounded-xl w-96 h-[550px]">
             <div className="w-36 mx-auto mt-[51px]">
               <img src={member1} alt="" className="  mx-auto" />
