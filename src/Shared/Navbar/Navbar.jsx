@@ -19,6 +19,7 @@ import NetworkIcon from "../../assets/network-icon.svg";
 import i18next from "i18next";
 import useWindowDimensions from "../../../src/components/core/windowsDimention";
 import SideBar from "./sideBar";
+import { IoMdClose } from "react-icons/io";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -70,20 +71,24 @@ export default function Navbar() {
                 <span class="absolute -inset-0.5"></span>
                 <span class="sr-only">Open main menu</span>
 
-                <svg
-                  class="block h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
+                {!showMobileMenu ? (
+                  <svg
+                    class="block h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                    />
+                  </svg>
+                ) : (
+                  <IoMdClose size={24} />
+                )}
 
                 <svg
                   class="hidden h-6 w-6"

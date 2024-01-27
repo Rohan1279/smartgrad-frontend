@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
+import { Fragment } from "react";
 
 const Main = () => {
   return (
-    <div className="">
+    <Fragment>
       <Navbar />
       <Outlet />
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 
