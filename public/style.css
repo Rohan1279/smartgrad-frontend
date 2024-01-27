@@ -1,12 +1,13 @@
 .testimonialSwiper {
   padding-bottom: 3.5rem !important;
   width: calc(100vw - 50px);
-  height: 380px;
+  height: 450px;
 }
 .testimonialSwiper .item {
-  height: 350px;
+  height: 380px;
   width: auto !important;
   display: flex !important;
+  padding-top: 30px !important;
   align-items: center !important;
   justify-content: center !important;
 }

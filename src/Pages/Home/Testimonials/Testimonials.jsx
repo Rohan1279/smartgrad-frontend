@@ -75,14 +75,14 @@ const Testimonials = () => {
               <div className="item" key={index}>
                 <div
                   className={`${
-                    index === activeInx
+                    index !== -1
                       ? "bg-[#D9D9D9] text-[#595959] pt-[40px] w-[450px] h-[214px] shadow-lg"
                       : "bg-[#595959] text-white py-8 w-[400px] h-[185px] shadow-md leading-3"
                   } rounded-xl px-10 text-center relative testimonial-card`}
                 >
                   <p
                     className={`${
-                      index === activeInx
+                      index !== -1
                         ? "text-left mt-11 text-5xl h-4"
                         : "text-left mt-8 text-[33px] h-1"
                     }`}
@@ -92,7 +92,7 @@ const Testimonials = () => {
                   <p className="text-xs text-right">{item?.content}</p>
                   <p
                     className={`${
-                      index === activeInx
+                      index !== -1
                         ? "text-5xl text-right "
                         : "text-[33px] text-right mt-3"
                     }`}
@@ -101,12 +101,12 @@ const Testimonials = () => {
                   </p>
                   <div
                     className={`bg-transparent left-6 flex absolute ${
-                      index === activeInx ? "-top-14" : "text-white -top-8"
+                      index !== -1 ? "-top-14" : "text-white -top-8"
                     } items-end text-left space-x-[14px]`}
                   >
                     <div
                       className={`${
-                        index === activeInx
+                        index !== -1
                           ? "w-[130px] h-[130px]"
                           : "w-[74px] h-[74px]"
                       } rounded-lg overflow-hidden`}
@@ -118,9 +118,7 @@ const Testimonials = () => {
                       />
                     </div>
                     <div
-                      className={`leading-3 ${
-                        index === activeInx ? "mb-5" : "mb-2 "
-                      }`}
+                      className={`leading-3 ${index !== -1 ? "mb-5" : "mb-2 "}`}
                     >
                       <p className="text-sm">{item?.name}</p>
                       <p className="text-md font-bold">{item?.role}</p>
@@ -140,14 +138,14 @@ const Testimonials = () => {
                 >
                   <div
                     className={`${
-                      index === activeInx
+                      index !== -1
                         ? "bg-[#D9D9D9] text-[#595959] pt-[40px] w-[450px] h-[214px] shadow-lg"
                         : "bg-[#595959] text-white py-8 w-[400px] h-[185px] shadow-md leading-3"
                     } rounded-xl px-10 text-center relative`}
                   >
                     <p
                       className={`${
-                        index === activeInx
+                        index !== -1
                           ? "text-left mt-11 text-5xl h-4"
                           : "text-left mt-8 text-[33px] h-1"
                       }`}
@@ -157,7 +155,7 @@ const Testimonials = () => {
                     <p className="text-xs text-right">{item?.content}</p>
                     <p
                       className={`${
-                        index === activeInx
+                        index !== -1
                           ? "text-5xl text-right "
                           : "text-[33px] text-right mt-3"
                       }`}
@@ -166,12 +164,12 @@ const Testimonials = () => {
                     </p>
                     <div
                       className={`bg-transparent left-6 flex absolute ${
-                        index === activeInx ? "-top-14" : "text-white -top-8"
+                        index !== -1 ? "-top-14" : "text-white -top-8"
                       } items-end text-left space-x-[14px]`}
                     >
                       <div
                         className={`${
-                          index === activeInx
+                          index !== -1
                             ? "w-[130px] h-[130px]"
                             : "w-[74px] h-[74px]"
                         } rounded-lg overflow-hidden`}
@@ -184,7 +182,7 @@ const Testimonials = () => {
                       </div>
                       <div
                         className={`leading-3 ${
-                          index === activeInx ? "mb-5" : "mb-2 "
+                          index !== -1 ? "mb-5" : "mb-2 "
                         }`}
                       >
                         <p className="text-sm">{item?.name}</p>
