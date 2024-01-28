@@ -1,34 +1,21 @@
-.testimonialSwiper {
-  padding-bottom: 3.5rem !important;
-  width: calc(100vw - 50px);
-  height: 450px;
+.custom-carousel-container {
+  width: 100%;
+  height: 420px;
 }
-.testimonialSwiper .item {
+.custom-carousel-container .custom-carousel-item {
   height: 380px;
-  width: auto !important;
+  align-items: center;
+  justify-content: center;
   display: flex !important;
-  padding-top: 30px !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-.testimonialSwiper .item .testimonial-card {
-  height: auto !important;
-  min-height: 250px;
-}
-.testimonialSwiper .sliderGroup {
-  width: auto !important;
-  display: flex !important;
-  align-items: center !important;
 }
 
-/* .testimonialSwiper .swiper-pagination-horizontal > .swiper-pagination-bullet {
-  position: relative !important;
-  top: 0.5rem !important;
-} */
-.testimonialSwiper .swiper-button-prev {
-  position: relative;
-  left: -0.5rem !important;
-}
-.testimonialSwiper .swiper-button-next {
-  right: -0.5rem !important;
+.slick-prev-btn,
+.slick-next-btn {
+  font-size: 1rem;
+  color: #fff; /* Change this to your desired button color */
+  background-color: #333; /* Change this to your desired button background color */
+  border: none;
+  border-radius: 50%; /* Make the button rounded */
+  padding: 5px 12px;
+  cursor: pointer;
 }
