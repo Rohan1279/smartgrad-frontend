@@ -77,20 +77,13 @@ const Testimonials = () => {
   useEffect(() => {
     const handleResize = () => {
       const newWindowWidth = window.innerWidth;
-
-      // Compare current and previous window width
-      if (newWindowWidth > currentWidth) {
-        // console.log("Window is increasing in size (from small to large).");
-        if (width > 1215) {
-          setActiveInx(currentInx + 1);
-        } else if (width < 1215) {
-          setActiveInx(currentInx);
-        }
-      } else if (newWindowWidth < currentWidth) {
-        // console.log("Window is decreasing in size (from large to small).");
-        if (width < 1215) {
-          setActiveInx(prevInx);
-        }
+      console.log(activeInx);
+      if (currentWidth >= 1215 && newWindowWidth < 1215) {
+        // Window is decreasing in size, switch to left card
+        setActiveInx((prev) => prev - 1);
+      } else if (currentWidth < 1215 && newWindowWidth >= 1215) {
+        // Window is increasing in size, switch to center card
+        setActiveInx((prev) => prev + 1);
       }
 
       // Update the state with the new window width
@@ -105,6 +98,11 @@ const Testimonials = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [currentWidth]);
+  useEffect(() => {
+    console.log(activeInx);
+
+    return () => {};
+  }, [activeInx]);
 
   return (
     <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative mb-[100px] px-4">
