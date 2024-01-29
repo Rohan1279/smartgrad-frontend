@@ -2,14 +2,14 @@ import member1 from "../../../assets/TeamImages/member1.png";
 import member2 from "../../../assets/TeamImages/member2.png";
 import member3 from "../../../assets/TeamImages/member3.png";
 import LinkedInIcon from "../../../assets/linkedIn.svg";
-const About = () => {
+const About = ({ title }) => {
   return (
     <section className="text-[#595959] py-10 mb-[100px] px-4">
       <div className="max-w-7xl mx-auto relative">
         <div className="grid grid-cols-3 items-center w-full  text-center justify-between">
           <hr className="border border-t-black  w-full"></hr>
           <h2 className="text-2xl mmd:text-4xl font-bold text-center">
-            About Us
+            {title ? title : "About Us"}
           </h2>
           <hr className="border border-t-black w-full"></hr>
         </div>
