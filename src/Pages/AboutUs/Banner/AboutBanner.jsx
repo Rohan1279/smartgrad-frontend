@@ -10,10 +10,10 @@ const AboutBanner = () => {
           Welcome To <span className="text-[#E88E4B] ">SmartGrad</span>
         </p>
         <p className="text-3xl sm:text-4xl mmd:text-6xl font-bold ">
-          Unlocking Futures,
+          Unlocking <span className="text-[#E88E4B] ">Futures</span>,
         </p>
         <p className="text-3xl sm:text-4xl mmd:text-6xl font-bold mt-2">
-          <span className="text-[#E88E4B] ">Navigating Success</span>
+          Navigating <span className="text-[#E88E4B] ">Success</span>
         </p>
         {/* <p className="text-3xl sm:text-4xl mmd:text-6xl font-bold mt-2">
           into reality!

@@ -26,6 +26,7 @@ const AboutUs = () => {
         "SmartGrad is your gateway to a fulfilling career. With our extensive network of industry professionals and advanced AI technology, we're here to guide you towards the job that aligns perfectly with your goals and qualifications. Whether you're just starting out or looking to make a change, our platform is your ultimate resource for finding the ideal career opportunities. Join us now, and let's embark on this exciting journey together. Your success is our top priority.",
       imageClass: "order-1 mmd:order-1",
       divClass: "order-2",
+      image: "/images/aboutcareer.png",
     },
     {
       title: "Unlock Your Potential with Aptitude",
