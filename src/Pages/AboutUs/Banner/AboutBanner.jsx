@@ -1,13 +1,18 @@
 import React, { Fragment } from "react";
 import { Button } from "../../../components/ui/button";
 import { FaPhone } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const AboutBanner = () => {
   return (
     <Fragment>
       <div className="flex flex-col w-full h-[80vh] bg-[#DDE9FF] items-center justify-center">
-        <p className="text-xs mmd:text-sm uppercase tracking-[5px] my-4">
-          Welcome To <span className="text-[#E88E4B] ">SmartGrad</span>
+        <p className="text-md mmd:text-2xl my-4 ">
+          Welcome To{" "}
+          <span className="">
+            <span className="font-bold">smart</span>
+            <span className="font-bold text-[#00D4D6]">grad</span>
+          </span>
         </p>
         <p className="text-3xl sm:text-4xl mmd:text-6xl font-bold ">
           Unlocking Futures,
@@ -20,7 +25,13 @@ const AboutBanner = () => {
         </p> */}
         <p className="text-sm mmd:text-base mt-8 text-center px-4">
           Explore Higher Education, Achieve Success, Hone Skills, and Build
-          Connections: Your Journey with UCAN Begins Here. Join Us Today!
+          Connections.
+        </p>
+        <p>
+          Your Journey with UCAN Begins Here.
+          <Link to="/login" className="underline underline-offset-2 ml-1">
+            Join Us Today!
+          </Link>
         </p>
         {/* <p className="text-sm mmd:text-base text-center px-4">
           UCAN, So You Can! Unlock University Opportunities, Cultivate Career
