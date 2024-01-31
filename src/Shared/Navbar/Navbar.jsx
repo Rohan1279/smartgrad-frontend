@@ -129,7 +129,9 @@ export default function Navbar() {
                     className="flex items-center justify-center space-x-2 px-3 py-2 text-sm font-medium"
                   >
                     <img src={UniversitiesIcon} alt="" className="w-4" />
-                    <span className="">{t("navbar.universities")}</span>
+                    <span className="text-base">
+                      {t("navbar.universities")}
+                    </span>
                   </a>
                   <a
                     onMouseEnter={(e) => {
@@ -139,7 +141,7 @@ export default function Navbar() {
                     className="flex items-center justify-center space-x-2 "
                   >
                     <img src={CareerIcon} alt="" className="w-4" />
-                    <span className="">{t("navbar.careers")}</span>
+                    <span className="text-base">{t("navbar.careers")}</span>
                   </a>
                   <a
                     onMouseEnter={(e) => {
@@ -149,7 +151,7 @@ export default function Navbar() {
                     className="flex items-center justify-center space-x-2 "
                   >
                     <img src={AptitudeIcon} alt="" className="w-4" />
-                    <span className="">{t("navbar.aptitudes")}</span>
+                    <span className="text-base">{t("navbar.aptitudes")}</span>
                   </a>
                   <a
                     onMouseEnter={(e) => {
@@ -159,7 +161,7 @@ export default function Navbar() {
                     className="flex items-center justify-center space-x-2 "
                   >
                     <img src={NetworkIcon} alt="" className="w-4" />
-                    <span className="">{t("navbar.networks")}</span>
+                    <span className="text-base">{t("navbar.networks")}</span>
                   </a>
                 </div>
               </div>
@@ -228,11 +230,11 @@ export default function Navbar() {
                   className="w-7 cursor-pointer hover:scale-110 transition-all active:scale-100"
                 />
               )}
-              <img
+              {/* <img
                 src={search}
                 alt="search-icon"
                 className="w-5 ml-3 cursor-pointer"
-              />
+              /> */}
 
               <div class="relative ml-3">
                 <div>
