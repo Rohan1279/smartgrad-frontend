@@ -1,8 +1,8 @@
 import ThemeCard from "../../../components/ThemeCard/ThemeCard";
-import University from "../../../assets/ThemeImages/theme-university.svg";
-import Career from "../../../assets/ThemeImages/theme-career.svg";
-import Aptitude from "../../../assets/ThemeImages/theme-accelerate.svg";
-import Network from "../../../assets/ThemeImages/theme-network.svg";
+import University from "../../../assets/ThemeImages/university-icon-fill.png";
+import Career from "../../../assets/ThemeImages/job-icon-fill.png";
+import Aptitude from "../../../assets/ThemeImages/aptitude-icon-fill.png";
+import Network from "../../../assets/ThemeImages/network-icon-fill.png";
 import background from "../../../assets/Doodle.png";
 import "./ThemeSection.css";
 const ThemeSection = () => {
@@ -62,7 +62,7 @@ const ThemeSection = () => {
           <img
             src={Aptitude}
             alt={"Aptitude"}
-            className="mx-auto my-auto h-40 w-40 sm:h-36 sm:w-36 p-7 border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto  w-40 sm:h-36 sm:w-36 p-7 border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">
@@ -78,7 +78,7 @@ const ThemeSection = () => {
           <img
             src={Network}
             alt={"Network"}
-            className="mx-auto my-auto h-40 w-40 sm:h-36 sm:w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto  h-20 w-20 sm:h-36 sm:w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">

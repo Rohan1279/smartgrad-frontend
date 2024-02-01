@@ -8,7 +8,7 @@ const BannerButton = ({ icon, text }) => {
         // onClick={() => console.log("")}
       >
         <div className=" flex-col ">
-          <img src={icon} alt="" className="mb-1 mx-auto" />
+          <img src={icon} alt="" className="mb-1 mx-auto w-[24px]" />
           <h2 className="text-sm transition-all">{text}</h2>
         </div>
       </Button>

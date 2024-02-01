@@ -11,7 +11,6 @@ const Sponser = () => {
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
-            <img src={supporter} alt="supporter-icon" className="w-10 h-10" />
             <div>
               <h2 className="text-3xl font-bold">Our Supporters</h2>
               <p className="text-base">

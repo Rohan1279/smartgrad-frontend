@@ -211,7 +211,8 @@ const Testimonials = () => {
         </div>
         <div className="text-right mt-20">
           <h2 className="text-2xl font-bold text-center">
-            Helping Small Business to Grow and Expand
+            Empowering Your Educational and Professional Journey, From
+            Application to Career Advancement
           </h2>
           <p className="text-center text-[20px]">More Than</p>
           <div className="grid grid-cols-2 md:grid-cols-4 mt-[60px]">
@@ -223,9 +224,7 @@ const Testimonials = () => {
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={33} />+
                 </h3>
-                <p className="text-center">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p className="text-center">Acquired Aptitudes</p>
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
@@ -258,16 +257,15 @@ const Testimonials = () => {
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={33} />+
                 </h3>
-                <p className="text-center">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p className="text-center">Connected through smartgrad</p>
               </div>
             </div>
           </div>
 
           <p className="text-[20px] text-center mt-[60px]">
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum
+            Streamlining Your Pathway to Success: Expert Assistance in
+            University Admissions, Strategic Job Placements, Aptitude
+            Enhancement, and Building Valuable Professional and Alumni Networks.
           </p>
         </div>
       </div>

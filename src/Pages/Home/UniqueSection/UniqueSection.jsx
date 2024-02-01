@@ -4,6 +4,19 @@ import connection from "../../../assets/UniqueSectionIcons/connection.png";
 import empower from "../../../assets/UniqueSectionIcons/empower.png";
 import solution from "../../../assets/UniqueSectionIcons/solution.png";
 import tech from "../../../assets/UniqueSectionIcons/tech.png";
+
+// import UniversitiesIcon from "../../../assets/convocation-cap.png";
+// import CareerIcon from "../../../assets/JobIcons/bag.png";
+// import AptitudeIcon from "../../../assets/aptitude-icon.png";
+// import Aptitude from "../../../assets/ThemeImages/aptitude-icon-fill.png";
+
+import University from "../../../assets/ThemeImages/university-icon-fill.png";
+import Career from "../../../assets/ThemeImages/job-icon-fill.png";
+import Aptitude from "../../../assets/ThemeImages/aptitude-icon-fill.png";
+import Network from "../../../assets/ThemeImages/network-icon-fill.png";
+
+import NetworkIcon from "../../../assets/network-icon.svg";
+
 import "./UniqueSection.css";
 const UniqueSection = () => {
   return (
@@ -32,27 +45,23 @@ const UniqueSection = () => {
           <div className="order-2 mmd:order-1 col-span-1">
             <div className="flex flex-col items-start features-column">
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20 w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-                <img src={connection} alt="" />
+                <img src={University} alt="" className="w-[25px]" />
                 <p>AI feed about edu and career tailored to your needs</p>
               </div>
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-                <img src={solution} alt="" />
+                <img src={Career} alt="" className="w-[25px]" />
                 <p>Direct links to leading organizations</p>
               </div>
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-                <img src={empower} alt="" />
+                <img src={Aptitude} alt="" className="w-[25px]" />
                 <p>Never manually update your cv again</p>
               </div>
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-                <img src={tech} alt="" />
+                <img src={Network} alt="" className="w-[25px]" />
                 <p>
                   Get sector expert advice from global industry professionals
                   and consultants
                 </p>
-              </div>
-              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
-                <img src={tech} alt="" />
-                <p>Manage all applications in one place</p>
               </div>
             </div>
           </div>

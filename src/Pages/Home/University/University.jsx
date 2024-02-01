@@ -43,9 +43,6 @@ const University = () => {
               </p>
             </div>
           </div>
-          <span className="underline text-base font-bold ml-auto mmd:ml-0">
-            See More
-          </span>
         </div>
 
         <div className="grid grid-cols-5 grid-rows-5 gap-4">

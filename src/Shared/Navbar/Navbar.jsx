@@ -14,7 +14,7 @@ import { Button } from "../../components/ui/button";
 import { useTranslation } from "react-i18next";
 import UniversitiesIcon from "../../assets/convocation-cap.png";
 import CareerIcon from "../../assets/JobIcons/bag.png";
-import AptitudeIcon from "../../assets/advance.png";
+import AptitudeIcon from "../../assets/aptitude-icon.png";
 import NetworkIcon from "../../assets/network-icon.svg";
 import i18next from "i18next";
 import useWindowDimensions from "../../../src/components/core/windowsDimention";

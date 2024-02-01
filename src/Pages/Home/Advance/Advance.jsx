@@ -4,6 +4,10 @@ import student6 from "../../../assets/Students/student 6.png";
 import advance from "../../../assets/advance.png";
 import image1 from "../../../assets/AptitudesImages/study-abroad.png";
 
+// import
+
+import AptitudeIcon from "../../../assets/aptitude-icon.png";
+
 import {
   Carousel,
   CarouselContent,
@@ -21,7 +25,11 @@ const Advance = () => {
       <div className="max-w-7xl mx-auto ">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
-            <img src={advance} alt="advance-icon" className="w-10 h-10 mr-4" />
+            <img
+              src={AptitudeIcon}
+              alt="advance-icon"
+              className="w-10 h-10 mr-4"
+            />
             <div>
               <h2 className="text-2xl font-bold">Aptitude</h2>
               <p>
@@ -81,7 +89,7 @@ const Advance = () => {
                     <div className="order-1 mmd:order-2 flex-1 rounded-xl overflow-hidden w-full mmd:w-[375px] h-[417px] ">
                       <img
                         src={
-                          "https://instagram.fcgp3-1.fna.fbcdn.net/v/t39.30808-6/416459088_18010966109162204_1356082550630320440_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=instagram.fcgp3-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=a_FErz4QqiEAX8QwTmj&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzI3MjY1MDY5NTQ1MDg0MDc1OA%3D%3D.2-ccb7-5&oh=00_AfBgiT58WsD0DaX515tbI9ZRpU08SlpIU6T4ulQlTOQZsg&oe=65AD4C2C&_nc_sid=ee9879"
+                          "https://smartgrad.org/assets/image/slider/slider-4.jpg"
                         }
                         alt=""
                         className="w-full h-full object-cover"

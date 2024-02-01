@@ -27,7 +27,6 @@ const Courses = () => {
       <div className="max-w-7xl mx-auto ">
         <div className="flex flex-col mmd:flex-row justify-between mb-7">
           <div className="flex space-x-2">
-            <img src={bookmark} alt="course-icon" className="w-10 h-10" />
             <div>
               <h2 className="text-2xl font-bold">Featured Courses</h2>
               <p className="text-base">
@@ -35,9 +34,6 @@ const Courses = () => {
               </p>
             </div>
           </div>
-          <span className="underline text-base font-bold ml-auto mmd:ml-0">
-            See More
-          </span>
         </div>
         <div className="px-12 mt-14">
           <Carousel>

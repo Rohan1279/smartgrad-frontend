@@ -6,6 +6,7 @@ import time from "../../../assets/JobIcons/time.png";
 import company1 from "../../../assets/CompanyLogos/company 1.png";
 import company3 from "../../../assets/CompanyLogos/company 3.png";
 import company4 from "../../../assets/CompanyLogos/company 4.png";
+import company5 from "../../../assets/CompanyLogos/company 5.png";
 import background from "../../../assets/background-shapes.png";
 
 const Careers = () => {
@@ -82,7 +83,7 @@ const Careers = () => {
 
               <div className="flex flex-col sm:flex-row space-y-8 items-center sm:items-start justify-center sm:justify-between mt-4">
                 <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-auto justify-start items-center sm:items-start space-x-4 ">
-                  <img src={company2} alt="" className="w-32" />
+                  <img src={company5} alt="" className="w-32" />
                   <div className="flex flex-col bg-red h-full">
                     <div className="tex">
                       <h3 className="font-bold text-3xl mb-2">

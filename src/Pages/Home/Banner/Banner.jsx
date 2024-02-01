@@ -1,8 +1,8 @@
 import BannerButton from "../../../components/BannerButton/BannerButton";
 import UniversityIcon from "../../../assets/university-icon.svg";
-import NetworkIcon from "../../../assets/network-icon.svg";
-import Aptitude from "../../../assets/bookmark1x.png";
 import CareerIcon from "../../../assets/career-icon.svg";
+import Aptitude from "../../../assets/aptitude-icon.png";
+import NetworkIcon from "../../../assets/network-icon.svg";
 import background from "../../../assets/background-shapes.png";
 import bannerCover from "../../../assets/banner-cover.png";
 import { useTranslation } from "react-i18next";
