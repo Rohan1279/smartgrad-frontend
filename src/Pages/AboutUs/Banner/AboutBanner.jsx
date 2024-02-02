@@ -28,7 +28,7 @@ const AboutBanner = () => {
           Connections.
         </p>
         <p>
-          Your Journey with UCAN Begins Here.
+          Your Journey with <span className="font-bold">UCAN</span> Begins Here.
           <Link to="/login" className="underline underline-offset-2 ml-1">
             Join Us Today!
           </Link>
