@@ -98,11 +98,6 @@ const Testimonials = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [currentWidth]);
-  useEffect(() => {
-    console.log(activeInx);
-
-    return () => {};
-  }, [activeInx]);
 
   return (
     <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative mb-[100px] px-4">

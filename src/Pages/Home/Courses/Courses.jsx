@@ -28,9 +28,10 @@ const Courses = () => {
         <div className="flex flex-col mmd:flex-row justify-between mb-7">
           <div className="flex space-x-2">
             <div>
-              <h2 className="text-2xl font-bold">Featured Courses</h2>
+              <h2 className="text-2xl font-bold">Featured Segments</h2>
               <p className="text-base">
-                Look for the jobs that suit you and start applying now
+                Broaden Your Scope with Defined Skill Sets for Personal and
+                Professional Growth
               </p>
             </div>
           </div>
