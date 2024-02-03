@@ -64,14 +64,6 @@ const Testimonials = () => {
         }
       }
     },
-    // afterChange: (inx) => {
-    //   console.log("aft" + inx);
-    //   console.log("aftcure" + currentInx);
-    //   if (inx !== 0 && currentInx !== 0 && inx < currentInx) {
-    //     setActiveInx(inx - 1);
-    //     setCurrentInx(inx - 1);
-    //   }
-    // },
   };
 
   useEffect(() => {
@@ -105,11 +97,6 @@ const Testimonials = () => {
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
-            {/* <img
-              src={testimonial}
-              alt="convocation-cap"
-              className="w-10 h-10"
-            /> */}
             <div>
               <h2 className="text-2xl font-bold">Testimonials</h2>
               <p className="text-base">
