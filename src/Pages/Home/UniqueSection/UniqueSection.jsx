@@ -46,15 +46,24 @@ const UniqueSection = () => {
             <div className="flex flex-col items-start features-column">
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20 w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={University} alt="" className="w-[25px]" />
-                <p>AI feed about edu and career tailored to your needs</p>
+                <p>
+                  Use AI and Oxford expertise for a smooth university
+                  application process.
+                </p>
               </div>
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={Career} alt="" className="w-[25px]" />
-                <p>Direct links to leading organizations</p>
+                <p>
+                  Direct links to leading organizations & Never manually update
+                  your cv again
+                </p>
               </div>
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={Aptitude} alt="" className="w-[25px]" />
-                <p>Never manually update your cv again</p>
+                <p>
+                  Boost your abilities with customized courses aimed at
+                  achieving success.
+                </p>
               </div>
               <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={Network} alt="" className="w-[25px]" />
