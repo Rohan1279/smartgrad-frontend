@@ -78,7 +78,7 @@ const ThemeSection = () => {
           <img
             src={Network}
             alt={"Network"}
-            className="mx-auto my-auto  h-20 w-20 sm:h-36 sm:w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto   h-36 w-36 p-7 border border-[#FF90D9] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">
