@@ -1,18 +1,22 @@
 [
-    {
-        "heading": "Standardized Test Prep",
-        "content": "Prepare for exams like IELTS, GMAT, and GRE with tailored courses and practice materials. Expert instructors and adaptive learning methods ensure an effective and personalized study experience."
-    },
-    {
-        "heading": "Soft Skills Development",
-        "content": "Hone essential soft skills such as presentation and negotiation to excel in your professional interactions. Interactive workshops and practical exercises empower you to communicate effectively and navigate diverse situations."
-    },
-    {
-        "heading": "Well-Being Counseling",
-        "content": "Prioritize your mental health with our well-being counseling services. Qualified counselors provide support and guidance to help you navigate life's challenges and enhance your overall emotional wellness."
-    },
-    {
-        "heading": "Business Skills Enhancement",
-        "content": "Elevate your business acumen with courses in project management, financial modeling, and valuation. Learn from industry professionals and gain practical insights to excel in the dynamic world of business. Explore our diverse offerings and embark on a journey of continuous improvement across academics, interpersonal skills, mental well-being, and professional competence. Your success starts here."
-    }
+  {
+    "heading": "Standardized Test Prep",
+    "content": "Prepare for exams like IELTS, GMAT, and GRE with tailored courses and practice materials. Expert instructors and adaptive learning methods ensure an effective and personalized study experience.",
+    "image": "https://www.thespruce.com/thmb/"
+  },
+  {
+    "heading": "Soft Skills Development",
+    "content": "Hone essential soft skills such as presentation and negotiation to excel in your professional interactions. Interactive workshops and practical exercises empower you to communicate effectively and navigate diverse situations.",
+    "image": "https://www.thespruce.com/thmb/"
+  },
+  {
+    "heading": "Well-Being Counseling",
+    "content": "Prioritize your mental health with our well-being counseling services. Qualified counselors provide support and guidance to help you navigate life's challenges and enhance your overall emotional wellness.",
+    "image": "https://www.thespruce.com/thmb/"
+  },
+  {
+    "heading": "Business Skills Enhancement",
+    "content": "Elevate your business acumen with courses in project management, financial modeling, and valuation. Learn from industry professionals and gain practical insights to excel in the dynamic world of business. Explore our diverse offerings and embark on a journey of continuous improvement across academics, interpersonal skills, mental well-being, and professional competence. Your success starts here.",
+    "image": "https://www.thespruce.com/thmb/"
+  }
 ]

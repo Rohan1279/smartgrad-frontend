@@ -40,8 +40,8 @@ const Banner = () => {
           <hr className="border border-t-black w-full"></hr>
         </div>
         <div className=" col-span-full grid grid-cols-1 md:grid-cols-2 relative">
-          <section className="text-4xl text-[#595959] leading-tight flex md:block items-center justify-center flex-col md:flex-row">
-            <div className="text-[30px]  md:text-[40px]">
+          <section className="text-4xl text-[#595959] leading-tight flex md:block items-center justify-center flex-col md:flex-row md:pl-4">
+            <div className="text-[30px] md:text-[40px]">
               <p>{t("banner.heading_secondary.your_education_&_career")}</p>
               <p>
                 {t("banner.heading_secondary.advisor")},{" "}

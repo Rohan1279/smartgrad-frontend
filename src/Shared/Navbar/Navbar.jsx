@@ -24,7 +24,6 @@ import { IoMdClose } from "react-icons/io";
 export default function Navbar() {
   const { t } = useTranslation();
   const [hovering, sethovering] = useState(null);
-  console.log(hovering);
   const [popOverLeft, setPopOverLeft] = useState(0);
   const [popOverHeight, setPopOverHeight] = useState(0);
   const [popOverWidth, setPopOverWidth] = useState(0);

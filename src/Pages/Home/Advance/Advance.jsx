@@ -4,8 +4,6 @@ import student6 from "../../../assets/Students/student 6.png";
 import advance from "../../../assets/advance.png";
 import image1 from "../../../assets/AptitudesImages/study-abroad.png";
 
-// import
-
 import AptitudeIcon from "../../../assets/aptitude-icon.png";
 
 import {
@@ -86,7 +84,7 @@ const Advance = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="order-1 mmd:order-2 flex-1 rounded-xl overflow-hidden w-full mmd:w-[375px] h-[417px] ">
+                    <div className="order-1 mmd:order-2 flex-1 rounded-xl overflow-hidden w-full mmd:w-[375px] h-[417px]">
                       <img
                         src={
                           "https://smartgrad.org/assets/image/slider/slider-4.jpg"

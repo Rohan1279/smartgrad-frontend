@@ -69,7 +69,6 @@ const Testimonials = () => {
   useEffect(() => {
     const handleResize = () => {
       const newWindowWidth = window.innerWidth;
-      console.log(activeInx);
       if (currentWidth >= 1215 && newWindowWidth < 1215) {
         // Window is decreasing in size, switch to left card
         setActiveInx((prev) => prev - 1);
