@@ -12,10 +12,10 @@ import clsx from "clsx";
 import SlideWrapper from "./SlideWrapper";
 import { Button } from "../../components/ui/button";
 import { useTranslation } from "react-i18next";
-import UniversitiesIcon from "../../assets/convocation-cap.png";
-import CareerIcon from "../../assets/JobIcons/bag.png";
-import AptitudeIcon from "../../assets/aptitude-icon.png";
-import NetworkIcon from "../../assets/network-icon.svg";
+import UniversitiesIcon from "../../assets/ThemeIcons/Primary/University.svg";
+import CareerIcon from "../../assets/ThemeIcons/Primary/Career.svg";
+import AptitudeIcon from "../../assets/ThemeIcons/Primary/Aptitude Icon.svg";
+import NetworkIcon from "../../assets/ThemeIcons/Primary/Network.svg";
 import i18next from "i18next";
 import useWindowDimensions from "../../../src/components/core/windowsDimention";
 import SideBar from "./sideBar";
@@ -125,10 +125,10 @@ export default function Navbar() {
                       onMouseEnter(1, e.currentTarget);
                     }}
                     href=""
-                    className="flex items-center justify-center space-x-2 px-3 py-2 text-sm font-medium"
+                    className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={UniversitiesIcon} alt="" className="w-4" />
-                    <span className="text-base">
+                    <img src={UniversitiesIcon} alt="" className="w-7" />
+                    <span className="text-primary">
                       {t("navbar.universities")}
                     </span>
                   </a>
@@ -139,8 +139,8 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={CareerIcon} alt="" className="w-4" />
-                    <span className="text-base">{t("navbar.careers")}</span>
+                    <img src={CareerIcon} alt="" className="w-7" />
+                    <span className="text-primary">{t("navbar.careers")}</span>
                   </a>
                   <a
                     onMouseEnter={(e) => {
@@ -149,8 +149,10 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={AptitudeIcon} alt="" className="w-4" />
-                    <span className="text-base">{t("navbar.aptitudes")}</span>
+                    <img src={AptitudeIcon} alt="" className="w-7" />
+                    <span className="text-primary">
+                      {t("navbar.aptitudes")}
+                    </span>
                   </a>
                   <a
                     onMouseEnter={(e) => {
@@ -159,8 +161,8 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={NetworkIcon} alt="" className="w-4" />
-                    <span className="text-base">{t("navbar.networks")}</span>
+                    <img src={NetworkIcon} alt="" className="w-7" />
+                    <span className="text-primary">{t("navbar.networks")}</span>
                   </a>
                 </div>
               </div>
