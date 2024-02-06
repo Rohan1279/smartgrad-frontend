@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-col-2 mmd:grid-cols-6 gap-y-12">
           <div className="col-span-2 pr-16">
             <h2 className="text-4xl font-bold lowercase">
-              SMART<span className="text-[#00D4D6] ">GRAD</span>
+              SMART<span className="text-primary ">GRAD</span>
             </h2>
             <p className="mt-5 uppercase text-sm">
               your virtual education and career advisor for life Smartgrad is a

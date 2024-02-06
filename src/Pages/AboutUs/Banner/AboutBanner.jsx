@@ -11,7 +11,7 @@ const AboutBanner = () => {
           Welcome To{" "}
           <span className="">
             <span className="font-bold">smart</span>
-            <span className="font-bold text-[#00D4D6]">grad</span>
+            <span className="font-bold text-primary">grad</span>
           </span>
         </p>
         <p className="text-3xl sm:text-4xl mmd:text-6xl font-bold ">

@@ -75,7 +75,7 @@ const Careers = () => {
             <div>
               <div className="flex justify-between items-start">
                 <h2 className="text-3xl">
-                  <span className="text-[#00D4D6] font-bold">Nybsys</span>{" "}
+                  <span className="text-primary font-bold">Nybsys</span>{" "}
                   <p>is looking for</p>
                 </h2>
                 <span className="">⭐⭐⭐⭐⭐</span>
@@ -104,7 +104,7 @@ const Careers = () => {
                     </div>
                   </div>
                 </div>
-                <button className="bg-[#00D4D6] w-fit h-10 px-4 rounded-xl text-white">
+                <button className="bg-primary w-fit h-10 px-4 rounded-xl text-white">
                   Apply Now
                 </button>
               </div>

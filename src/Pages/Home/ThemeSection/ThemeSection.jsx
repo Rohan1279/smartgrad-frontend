@@ -18,7 +18,7 @@ const ThemeSection = () => {
     >
       <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 justify-between py-[100px] px-4 md:px-auto theme-gallery ">
         <p className="absolute -top-14 bg-[#F9F9F9] text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
-          with <span className="text-[#00D4D6]">smart</span>grad,{" "}
+          with <span className="text-primary">smart</span>grad,{" "}
           <span className="font-bold">
             U<span className="ml-1">CAN</span>
           </span>
@@ -62,7 +62,7 @@ const ThemeSection = () => {
           <img
             src={Aptitude}
             alt={"Aptitude"}
-            className="mx-auto my-auto  w-40 sm:h-36 sm:w-36 p-7 border border-[#00D4D6] rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
+            className="mx-auto my-auto  w-40 sm:h-36 sm:w-36 p-7 border border-primary rounded-2xl shadow-lg hover:shadow-inner-custom transition-all"
           />
 
           <p className="text-center">

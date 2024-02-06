@@ -44,28 +44,28 @@ const UniqueSection = () => {
         <div className="grid grid-cols-1 lsm:grid-cols-2 gap-x-8">
           <div className="order-2 mmd:order-1 col-span-1">
             <div className="flex flex-col items-start features-column">
-              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20 w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+              <div className="flex justify-start items-center space-x-3 hover:bg-primary/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20 w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={University} alt="" className="w-[25px]" />
                 <p>
                   Use AI and Oxford expertise for a smooth university
                   application process.
                 </p>
               </div>
-              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+              <div className="flex justify-start items-center space-x-3 hover:bg-primary/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={Career} alt="" className="w-[25px]" />
                 <p>
                   Direct links to leading organizations & Never manually update
                   your cv again
                 </p>
               </div>
-              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+              <div className="flex justify-start items-center space-x-3 hover:bg-primary/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={Aptitude} alt="" className="w-[25px]" />
                 <p>
                   Boost your abilities with customized courses aimed at
                   achieving success.
                 </p>
               </div>
-              <div className="flex justify-start items-center space-x-3 hover:bg-[#00D4D6]/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
+              <div className="flex justify-start items-center space-x-3 hover:bg-primary/50 cursor-pointer  transition-all duration-500 px-5 py-3 bg-[#D9D9D9]/20  w-full lsm:w-[25rem] h-[70px] rounded-xl my-2 ">
                 <img src={Network} alt="" className="w-[25px]" />
                 <p>
                   Get sector expert advice from global industry professionals

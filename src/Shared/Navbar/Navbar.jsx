@@ -53,7 +53,7 @@ export default function Navbar() {
         onMouseLeave={() => {
           sethovering(null);
         }}
-        className="bg-white shadow-md text-[#595959] sticky w-full top-0 z-50"
+        className="bg-white shadow-sm text-[#595959] sticky w-full top-0 z-50"
       >
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
