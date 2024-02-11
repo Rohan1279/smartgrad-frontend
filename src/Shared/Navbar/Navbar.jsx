@@ -16,6 +16,7 @@ import UniversitiesIcon from "../../assets/ThemeIcons/Primary/University.svg";
 import CareerIcon from "../../assets/ThemeIcons/Primary/Career.svg";
 import AptitudeIcon from "../../assets/ThemeIcons/Primary/Aptitude Icon.svg";
 import NetworkIcon from "../../assets/ThemeIcons/Primary/Network.svg";
+import QuestionIcon from "../../assets/Navbar/QuestionIcon";
 import i18next from "i18next";
 import useWindowDimensions from "../../../src/components/core/windowsDimention";
 import SideBar from "./sideBar";
@@ -211,8 +212,9 @@ export default function Navbar() {
               </div>
             </div>
             {/* profile & settings */}
-            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              {i18next.language === "en" ? (
+            <div className="absolute inset-y-0 right-0 flex items-center  pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <QuestionIcon className={"w-[27px] my-auto"} />
+              {/* {i18next.language === "en" ? (
                 <img
                   onClick={() => {
                     i18next.changeLanguage("bn");
@@ -230,12 +232,7 @@ export default function Navbar() {
                   alt="search-icon"
                   className="w-7 cursor-pointer hover:scale-110 transition-all active:scale-100"
                 />
-              )}
-              {/* <img
-                src={search}
-                alt="search-icon"
-                className="w-5 ml-3 cursor-pointer"
-              /> */}
+              )} */}
 
               <div className="relative ml-3">
                 <div>
@@ -244,7 +241,7 @@ export default function Navbar() {
                       (window.location.href =
                         "https://smartgrad-dashboard.vercel.app/login")
                     }
-                    className="bg-[#09D5D7] hover:shadow-md transition-all text-white text-[12px] rounded-xl px-4 py-2"
+                    className="bg-primary hover:shadow-md transition-all text-white text-[12px] rounded-xl w-[62px] h-[27px]"
                   >
                     Log In
                   </button>

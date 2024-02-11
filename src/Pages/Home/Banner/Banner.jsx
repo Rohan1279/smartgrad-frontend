@@ -32,7 +32,6 @@ const Banner = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="mb-2"
     >
       <div className="max-w-7xl mx-auto h-[817px] grid grid-cols-2  items- text-primary">
         <div className="  col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
