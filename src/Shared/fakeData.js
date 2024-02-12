@@ -1,0 +1,108 @@
+export const fakeData = {
+    "meta": {
+      "url": "/our-company",
+      "title": "Title",
+      "seo": {}
+    },
+    "banner": "image.png",
+    "header": "Hello",
+    "paragraph": "lorem...",
+    "cta": {
+      "type": "phone",
+      "title": "Click here",
+      "payload": {
+        "phone": "+9923131",
+        "email": "tanin@gmail.com",
+        "url": "/cta/text"
+      }
+    },
+    "sections": [
+      {
+        "type": "generic",
+        "data": [
+          {
+            "image": "/image.png",
+            "title": "Hello 1",
+            "paragraph": "lorem...",
+            "cta": {
+              "type": "phone",
+              "title": "Click here",
+              "payload": {
+                "phone": "+9923131",
+                "email": "tanin@gmail.com",
+                "url": "/cta/text"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "slider",
+        "data": [
+          {
+            "image": "/photo.png",
+            "paragraph": "lorem...",
+            "cta": {
+              "type": "phone",
+              "title": "Click here",
+              "payload": {
+                "phone": "+9923131",
+                "email": "tanin@gmail.com",
+                "url": "/cta/text"
+              }
+            }
+          },
+          {
+            "image": "/photo.png",
+            "paragraph": "lorem..."
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "data": [
+          {
+            "title": "My image 1",
+            "url": "gallery_image.png"
+          },
+          {
+            "title": "My image 1",
+            "url": "gallery_image.png"
+          }
+        ]
+      },
+      {
+        "type": "generic",
+        "data": [
+          {
+            "image": "/image.png",
+            "title": "Hello 1",
+            "paragraph": "lorem...",
+            "cta": {
+              "type": "phone",
+              "title": "Click here",
+              "payload": {
+                "phone": "+9923131",
+                "email": "tanin@gmail.com",
+                "url": "/cta/text"
+              }
+            }
+          },
+          {
+            "image": "/image.png",
+            "title": "Hello 1",
+            "paragraph": "lorem...",
+            "cta": {
+              "type": "phone",
+              "title": "Click here",
+              "payload": {
+                "phone": "+9923131",
+                "email": "tanin@gmail.com",
+                "url": "/cta/text"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }

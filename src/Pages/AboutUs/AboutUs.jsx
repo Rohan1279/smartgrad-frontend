@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
-import AboutBanner from "./Banner/AboutBanner";
-import AboutDetails from "./AboutDetails/AboutDetails";
+import { Fragment } from "react";
 import About from "../Home/About/About";
+import AboutDetails from "./AboutDetails/AboutDetails";
+import AboutBanner from "./Banner/AboutBanner";
 
 const AboutUs = () => {
   const detailsJSON = [
@@ -42,6 +42,7 @@ const AboutUs = () => {
       divClass: "order-2",
     },
   ];
+
   return (
     <Fragment>
       <AboutBanner />
