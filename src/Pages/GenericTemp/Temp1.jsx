@@ -31,6 +31,10 @@ const Temp1 = () => {
           return (
             "slider"
           );
+        } else if (section.type === "gallery") {
+          return (
+            "gallery"
+          );
         }
       })}
     </>

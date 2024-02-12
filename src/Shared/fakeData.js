@@ -174,19 +174,6 @@ export const fakeData = {
       ]
     },
     {
-      "type": "gallery",
-      "data": [
-        {
-          "title": "Gallery Image 1",
-          "url": "/gallery-image1.png"
-        },
-        {
-          "title": "Gallery Image 2",
-          "url": "/gallery-image2.png"
-        }
-      ]
-    },
-    {
       "type": "generic",
       "data": [
         {
@@ -218,6 +205,19 @@ export const fakeData = {
           }
         }
       ]
-    }
+    },
+    {
+      "type": "gallery",
+      "data": [
+        {
+          "title": "Gallery Image 1",
+          "url": "/gallery-image1.png"
+        },
+        {
+          "title": "Gallery Image 2",
+          "url": "/gallery-image2.png"
+        }
+      ]
+    },
   ]
 }
