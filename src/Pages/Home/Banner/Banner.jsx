@@ -1,26 +1,24 @@
-import BannerButton from "../../../components/BannerButton/BannerButton";
-import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
-import UniversityHoverIcon from "../../../assets/ThemeIcons/White/University.svg";
-import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
-import CareerHoverIcon from "../../../assets/ThemeIcons/White/Career.svg";
-import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
-import AptitudeHoverIcon from "../../../assets/ThemeIcons/White/Aptitude Icon.svg";
-import NetworkIcon from "../../../assets/ThemeIcons/NetworkIcon";
-import NetworkHoverIcon from "../../../assets/ThemeIcons/White/Network.svg";
 import Background from "../../../assets/Background/background-primary.png";
+import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
+import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
+import NetworkIcon from "../../../assets/ThemeIcons/NetworkIcon";
+import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
+import AptitudeHoverIcon from "../../../assets/ThemeIcons/White/Aptitude Icon.svg";
+import CareerHoverIcon from "../../../assets/ThemeIcons/White/Career.svg";
+import NetworkHoverIcon from "../../../assets/ThemeIcons/White/Network.svg";
+import UniversityHoverIcon from "../../../assets/ThemeIcons/White/University.svg";
+import BannerButton from "../../../components/BannerButton/BannerButton";
 
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
+  NavigationMenuTrigger
 } from "../../../components/ui/navigation-menu";
-import { useState } from "react";
 const Banner = () => {
   const { t } = useTranslation();
   const [isTriggerHovering, setIsTriggerHovering] = useState(false);
@@ -34,7 +32,7 @@ const Banner = () => {
       }}
     >
       <div className="max-w-7xl mx-auto h-[817px] grid grid-cols-2  items- text-primary">
-        <div className="  col-span-full grid grid-cols-3 items-center w-full  text-center justify-between ">
+        <div className="  col-span-full grid grid-cols-3 items-center w-full text-center justify-between ">
           <hr className="border border-t-primary border-b-transparent h-[1px]  w-full"></hr>
           <div className="lowercase leading-8">
             <p className="text-3xl">Welcome To</p>
@@ -65,7 +63,7 @@ const Banner = () => {
                 <NavigationMenuItem
                   onMouseOver={() => setIsTriggerHovering(true)}
                   onMouseLeave={() => setIsTriggerHovering(false)}
-                  className=" "
+                  className=""
                 >
                   <NavigationMenuTrigger className="group relative w-16 h-16 rounded-xl bg-white  hover:bg-primary hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white [&_svg]:hover:stroke-white [&_svg]:hover:fill-white px-11 py-10 text-primary transition-all mr-2 lg:mr-6">
                     <BannerButton
@@ -76,8 +74,8 @@ const Banner = () => {
                       text={t("navbar.universities")}
                     />
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent className="lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
-                    <NavigationMenuLink className="text-[16px] text-primary">
+                  <NavigationMenuContent className="w-full lg:w-[435px] bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuLink className="text-[16px] text-primary ">
                       {t("banner.banner_buttons.universities")}
                     </NavigationMenuLink>
                   </NavigationMenuContent>
@@ -96,7 +94,7 @@ const Banner = () => {
                       text={t("navbar.careers")}
                     />
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent className="  lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                  <NavigationMenuContent className="lg:w-[435px] lg:bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
                     <NavigationMenuLink className="text-[16px] text-primary">
                       {t("banner.banner_buttons.careers")}
                     </NavigationMenuLink>
@@ -144,10 +142,10 @@ const Banner = () => {
                 </NavigationMenuItem>
               </NavigationMenuList>
 
-              {/* <BannerButton icon={UniversityIcon} text={"University"} /> */}
-              {/* <BannerButton icon={CareerIcon} text={"Career"} /> */}
-              {/* <BannerButton icon={Aptitude} text={"Aptitude"} /> */}
-              {/* <BannerButton icon={NetworkIcon} text={"Network"} /> */}
+              {/* <BannerButton icon={UniversityIcon} text={"University"} />
+              <BannerButton icon={CareerIcon} text={"Career"} /> 
+              <BannerButton icon={Aptitude} text={"Aptitude"} /> 
+              <BannerButton icon={NetworkIcon} text={"Network"} /> */}
             </NavigationMenu>
           </section>
         </div>

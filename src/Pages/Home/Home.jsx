@@ -3,7 +3,6 @@ import Advance from "./Advance/Advance";
 import Banner from "./Banner/Banner";
 import Careers from "./Careers/Careers";
 import Courses from "./Courses/Courses";
-import Map from "./Map/Map";
 import Microsoft from "./Microsoft/Microsoft";
 import Sponser from "./Sponser/Sponser";
 import Testimonials from "./Testimonials/Testimonials";
