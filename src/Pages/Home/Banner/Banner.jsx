@@ -73,7 +73,7 @@ const Banner = () => {
         </div>
         <div className=" col-span-full relative">
           <section className=" text-primary leading-tight flex md:block items-center justify-center flex-col md:flex-row md:pl-4 ">
-            <div className="text-[30px] md:text-[60px] font-bold">
+            <div className="text-[30px] md:text-[60px] font-bold ">
               <p>{t("banner.heading_secondary.your_education_&_career")}</p>
               <p>
                 {t("banner.heading_secondary.advisor")},{" "}
@@ -87,7 +87,7 @@ const Banner = () => {
                 </span>
               </p>
             </div>
-            <NavigationMenu className="flex md:mt-3">
+            <NavigationMenu className="flex mt-8 md:mt-3">
               <NavigationMenuList className="ss">
                 {bannerItems.map((item, index) => (
                   <NavigationMenuItem
