@@ -111,7 +111,7 @@
 export const fakeData = {
   "meta": {
     "url": "/sample-api",
-    "title": "Sample API",
+    "title": "Fake Data API",
     "seo": {}
   },
   "banner": "https://assets-global.website-files.com/5a9ee6416e90d20001b20038/6289efcc9a52f65ff46e8400_white-gradient.png",
