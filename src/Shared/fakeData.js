@@ -131,7 +131,7 @@ export const fakeData = {
       "type": "generic",
       "data": [
         {
-          "image": "/sample-image1.png",
+          "image": "/images/aboutus.svg",
           "title": "Section 1",
           "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "cta": {
@@ -190,7 +190,7 @@ export const fakeData = {
       "type": "generic",
       "data": [
         {
-          "image": "/sample-image2.png",
+          "image": "/images/aboutus.svg",
           "title": "Section 2",
           "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "cta": {
@@ -204,7 +204,7 @@ export const fakeData = {
           }
         },
         {
-          "image": "/sample-image3.png",
+          "image": "/images/aboutus.svg",
           "title": "Section 3",
           "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "cta": {
