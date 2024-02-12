@@ -1,6 +1,9 @@
+import CtaButton from "./CtaButton";
 
 const BriefDetails = ({ data, index }) => {
   const isOddIndex = index % 2 !== 0;
+
+  console.log(data);
 
     return (
         <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-8 justify-between py-[20px] mmd:py-[50px] px-4 md:px-auto">
@@ -20,6 +23,8 @@ const BriefDetails = ({ data, index }) => {
           <p className="text-justify text-[#595959] font-normal text-base">
           {data?.paragraph}
           </p>
+
+          {data?.cta && <CtaButton data={data.cta} />}
         </div>
       </div>
     );
