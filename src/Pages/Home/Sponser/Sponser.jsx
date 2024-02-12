@@ -27,7 +27,7 @@ const Sponser = () => {
                 <img
                   src={sponser1}
                   alt=""
-                  className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300  "
+                  className="saturate-100 hover:scale-105 transition-all duration-300  "
                 />
               </div>
               <div className=" sm:border-r sm:border-[#595959] px-5 ">
@@ -35,21 +35,21 @@ const Sponser = () => {
                 <img
                   src={sponser2}
                   alt=""
-                  className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  className="saturate-100 hover:scale-105 transition-all duration-300 "
                 />
               </div>
               <div className=" sm:border-r sm:border-[#595959] px-5 ">
                 <img
                   src={sponser4}
                   alt=""
-                  className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  className="saturate-100 hover:scale-105 transition-all duration-300 "
                 />
               </div>
               <div className="sm:border-r sm:border-[#595959] px-5 ">
                 <img
                   src={sponser3}
                   alt=""
-                  className="saturate-0 hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  className="saturate-100 hover:scale-105 transition-all duration-300 "
                 />
               </div>
               <div className="sm:col-auto col-span-2 px-5">
