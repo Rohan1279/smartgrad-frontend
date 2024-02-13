@@ -1,6 +1,7 @@
-import icon1 from "../../../assets/TestimonialIcons/Career.png";
-import icon2 from "../../../assets/TestimonialIcons/fa-solid_user-graduate.png";
-import icon3 from "../../../assets/TestimonialIcons/Group 33.png";
+import University from "../../../assets/ThemeIcons/UniversityIcon";
+import Career from "../../../assets/ThemeIcons/CareerIcon";
+import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
+import Network from "../../../assets/ThemeIcons/NetworkIcon";
 import AnimatedNumber from "../../../components/AnimatedNumber";
 import useWindowDimensions from "../../../components/core/windowsDimention";
 import TestimonialList from "../../../assets/dummy/testimonial.json";
@@ -198,47 +199,49 @@ const Testimonials = () => {
           <p className="text-center text-[20px]">More Than</p>
           <div className="grid grid-cols-2 md:grid-cols-4 mt-[60px]">
             <div className="flex flex-col mx-auto">
-              <div className="w-20 h-20 mx-auto">
-                <img src={icon1} alt="" className=" " />
-              </div>
+              <University className="mx-auto my-auto fill-[#FFC24D] stroke-[#FFC24D] w-[132px]   " />
+
               <div className=" my-2">
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={33} />+
                 </h3>
-                <p className="text-center">Acquired Aptitudes</p>
+                <p className="text-center font-bold">Acquired Aptitudes</p>
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
-              <div className="w-20 h-20 mx-auto ">
-                <img src={icon2} alt="" className=" " />
-              </div>
+              <Career className="mx-auto my-auto fill-none stroke-[#F1662A] w-[132px]   " />
+
               <div className="my-2">
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={78} />+
                 </h3>
-                <p className="text-center">Individuals were Offered</p>
+                <p className="text-center font-bold">
+                  Individuals were Offered
+                </p>
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
-              <div className="w-20 h-20 mx-auto">
-                <img src={icon3} alt="" className=" " />
-              </div>
+              <Aptitude
+                className={
+                  "mx-auto my-auto fill-none stroke-[#09D5D7] w-[132px]   "
+                }
+              />
+
               <div className=" my-2">
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={42} />+
                 </h3>
-                <p className="text-center">Got Employed</p>
+                <p className="text-center font-bold">Got Employed</p>
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
-              <div className="w-20 h-20 mx-auto">
-                <img src={icon1} alt="" className=" " />
-              </div>
+              <Network className="mx-auto my-auto fill-none stroke-[#FF90D9] w-[132px]   " />
+
               <div className=" my-2">
                 <h3 className="text-center text-3xl font-bold">
                   <AnimatedNumber targetNumber={33} />+
                 </h3>
-                <p className="text-center">Connected through smartgrad</p>
+                <p className="text-center font-bold">Connected via Smartgrad</p>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const ThemeSection = () => {
       //   backgroundRepeat: "no-repeat",
       //   backgroundPosition: "center",
       // }}
-      className=" bg-secondary text-[#595959]  md:h-[511px]"
+      className=" bg-secondary text-[#595959] mmd:h-[511px]  relative"
     >
       <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 justify-between py-[100px] px-4 md:px-auto  ">
         <p className="absolute -top-14 right-0 bg-secondary text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
@@ -99,6 +99,7 @@ const ThemeSection = () => {
           }
         /> */}
       </div>
+      <div className="absolute w-full h-20 bg-transparent -bottom-10 backdrop-blur-md"></div>
     </section>
   );
 };

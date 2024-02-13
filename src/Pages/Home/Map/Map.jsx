@@ -11,7 +11,7 @@ const Map = () => {
           setIsBD(false);
           setIsUK(true);
         }}
-        className="absolute right-16 mr-auto bg-[#595959]"
+        className="absolute right-16 mr-auto bg-primary text-white"
       >
         UK
       </Button>
@@ -20,7 +20,7 @@ const Map = () => {
           setIsUK(false);
           setIsBD(true);
         }}
-        className="absolute right-2 mr-auto bg-[#595959]"
+        className="absolute right-2 mr-auto bg-primary text-white"
       >
         BD
       </Button>
