@@ -1,13 +1,13 @@
-import CareerCard from "../../../components/CareerCard/CareerCard";
-import company2 from "../../../assets/CompanyLogos/company 2.png";
-import bag from "../../../assets/JobIcons/bag.png";
-import location from "../../../assets/JobIcons/location.png";
-import time from "../../../assets/JobIcons/time.png";
 import company1 from "../../../assets/CompanyLogos/company 1.png";
+import company2 from "../../../assets/CompanyLogos/company 2.png";
 import company3 from "../../../assets/CompanyLogos/company 3.png";
 import company4 from "../../../assets/CompanyLogos/company 4.png";
 import company5 from "../../../assets/CompanyLogos/company 5.png";
+import bag from "../../../assets/JobIcons/bag.png";
+import location from "../../../assets/JobIcons/location.png";
+import time from "../../../assets/JobIcons/time.png";
 import background from "../../../assets/background-shapes.png";
+import CareerCard from "../../../components/CareerCard/CareerCard";
 
 const Careers = () => {
   return (
@@ -70,7 +70,7 @@ const Careers = () => {
           </div>
 
           {/* JOB DETAILS */}
-          <div className="mmd:col-span-3 flex">
+          <div className="mmd:col-span-3 hidden sm:flex ">
             <div className="hidden mmd:block border border-[#595959] h-full mr-10"></div>
             <div>
               <div className="flex justify-between items-start">
