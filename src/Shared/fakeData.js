@@ -151,7 +151,8 @@ export const fakeData = {
       "data": [
         {
           "image": "/slide1.png",
-          "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "title": "Slider Item 1",
+          "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "cta": {
             "type": "url",
             "title": "View Details",
@@ -162,14 +163,9 @@ export const fakeData = {
         },
         {
           "image": "/slide2.png",
-          "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "cta": {
-            "type": "url",
-            "title": "View Details",
-            "payload": {
-              "url": "/slider-item2"
-            }
-          }
+          "title": "Slider Item 2",
+          "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          
         }
       ]
     },

@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import { fakeData } from "../../Shared/fakeData";
 import BriefDetails from "../../components/GenericTemp/BriefDetails";
 import Temp1Banner from "../../components/GenericTemp/Temp1Banner";
+import Temp1Slider from "../../components/GenericTemp/Temp1Slider";
 
 const Temp1 = () => {
   const { meta, sections, ...heroData } = fakeData;
@@ -29,7 +30,7 @@ const Temp1 = () => {
           );
         } else if (section.type === "slider") {
           return (
-            "slider"
+            <Temp1Slider data={section?.data} />
           );
         } else if (section.type === "gallery") {
           return (
