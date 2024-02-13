@@ -204,16 +204,27 @@ export const fakeData = {
     },
     {
       "type": "gallery",
+      "title": "Gallery Section",
+      "subTitle": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
       "data": [
         {
           "title": "Gallery Image 1",
-          "url": "/gallery-image1.png"
+          "paragraph": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+          "url": "https://picsum.photos/200/300"
         },
         {
           "title": "Gallery Image 2",
-          "url": "/gallery-image2.png"
+          "url": "https://picsum.photos/200/300",
+          "paragraph": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        },
+        {
+          "title": "Gallery Image 2",
+          "url": "https://picsum.photos/200/300",
+          "paragraph": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat. Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
         }
       ]
     },
   ]
 }
+
+
