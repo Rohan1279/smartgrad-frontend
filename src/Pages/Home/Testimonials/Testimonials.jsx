@@ -1,15 +1,15 @@
-import University from "../../../assets/ThemeIcons/UniversityIcon";
-import Career from "../../../assets/ThemeIcons/CareerIcon";
+import { useEffect, useRef, useState } from "react";
 import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
+import Career from "../../../assets/ThemeIcons/CareerIcon";
 import Network from "../../../assets/ThemeIcons/NetworkIcon";
+import University from "../../../assets/ThemeIcons/UniversityIcon";
+import TestimonialList from "../../../assets/dummy/testimonial.json";
 import AnimatedNumber from "../../../components/AnimatedNumber";
 import useWindowDimensions from "../../../components/core/windowsDimention";
-import TestimonialList from "../../../assets/dummy/testimonial.json";
-import { useEffect, useRef, useState } from "react";
 // Import Swiper styles
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
 const Testimonials = () => {
   const { width } = useWindowDimensions();
@@ -95,7 +95,7 @@ const Testimonials = () => {
     <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative mb-[100px] px-4">
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
-        <div className="flex justify-between mb-7">
+        <div className="flex justify-between mb-4">
           <div className="flex space-x-2">
             <div>
               <h2 className="text-2xl font-bold">Testimonials</h2>
@@ -106,10 +106,10 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-between items-center mb-36 px-4">
+        <div className="flex flex-col justify-between items-center mb-20 px-4">
           <Slider
             ref={slider}
-            className="custom-carousel-container"
+            className="custom-carousel-container h-auto"
             {...settings}
           >
             {TestimonialList.map((item, index) => (
@@ -171,7 +171,7 @@ const Testimonials = () => {
               </div>
             ))}
           </Slider>
-          <div className="flex mt-8 gap-4">
+          {/* <div className="flex mt-8 gap-4">
             <button
               className="slick-prev-btn"
               onClick={() => {
@@ -189,9 +189,9 @@ const Testimonials = () => {
               {" "}
               &gt;
             </button>
-          </div>
+          </div> */}
         </div>
-        <div className="text-right mt-20">
+        <div className="text-right mt-36">
           <h2 className="text-2xl font-bold text-center">
             Empowering Your Educational and Professional Journey, From
             Application to Career Advancement
