@@ -72,8 +72,19 @@ const UniqueSection = () => {
               </div>
             </div>
           </div>
-          <div className="order-1 mmd:order-2 flex items-center justify-center relative -top-16 -right-16">
-            <iframe width="560" height="315" className="rounded-xl shadow-2xl" src="https://www.youtube.com/embed/_TPzFym3rVU?si=kumwgu10teIduJml" title="Smartgrad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+          <div className="order-1 mmd:order-2 flex items-center justify-center relative md:-top-16 md:-right-16">
+          <div className="aspect-w-16 aspect-h-9 w-full my-10 sm:my-0">
+              <iframe
+              width={"100%"}
+              height={315}
+                src="https://www.youtube.com/embed/_TPzFym3rVU?si=kumwgu10teIduJml"
+                title="Smartgrad"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="rounded-xl shadow-2xl"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
