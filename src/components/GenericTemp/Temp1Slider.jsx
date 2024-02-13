@@ -43,9 +43,7 @@ const Temp1Slider = ({ data }) => {
                     </div>
                     <div className="order-1 mmd:order-2 flex-1 rounded-xl overflow-hidden w-full mmd:w-[375px] h-[417px]">
                       <img
-                        src={
-                          "https://smartgrad.org/assets/image/slider/slider-4.jpg"
-                        }
+                        src={item?.image}
                         alt=""
                         className="w-full h-full object-cover"
                       />

@@ -150,7 +150,7 @@ export const fakeData = {
       "type": "slider",
       "data": [
         {
-          "image": "/slide1.png",
+          "image": "https://smartgrad.org/assets/image/slider/slider-4.jpg",
           "title": "Slider Item 1",
           "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "cta": {
@@ -162,7 +162,7 @@ export const fakeData = {
           }
         },
         {
-          "image": "/slide2.png",
+          "image": "https://smartgrad.org/assets/image/slider/slider-4.jpg",
           "title": "Slider Item 2",
           "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           
