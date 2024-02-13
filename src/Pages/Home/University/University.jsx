@@ -1,8 +1,4 @@
 import Cap from "../../../assets//convocation-cap.png";
-import university1 from "../../../assets/UniverstyImages/image 1.png";
-import university2 from "../../../assets/UniverstyImages/image 2.png";
-import university3 from "../../../assets/UniverstyImages/image 3.png";
-import university4 from "../../../assets/UniverstyImages/image 4.png";
 import UniversityGridLogo from "../../../assets/UniversityLogos/massachusetts.png";
 import UniversityLogo1 from "../../../assets/UniversityLogos/university 1.png";
 import UniversityLogo2 from "../../../assets/UniversityLogos/university 2.png";
@@ -10,6 +6,10 @@ import UniversityLogo3 from "../../../assets/UniversityLogos/university 3.png";
 import UniversityLogo4 from "../../../assets/UniversityLogos/university 4.png";
 import UniversityLogo5 from "../../../assets/UniversityLogos/university 5.png";
 import UniversityLogo6 from "../../../assets/UniversityLogos/university 6.png";
+import university1 from "../../../assets/UniverstyImages/image 1.png";
+import university2 from "../../../assets/UniverstyImages/image 2.png";
+import university3 from "../../../assets/UniverstyImages/image 3.png";
+import university4 from "../../../assets/UniverstyImages/image 4.png";
 import background from "../../../assets/background-shapes.png";
 
 import {
