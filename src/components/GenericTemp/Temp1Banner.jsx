@@ -9,7 +9,7 @@ const Temp1Banner = ({banner, header, paragraph, cta}) => {
   };
 
   return (
-      <div className="flex flex-col w-full h-[80vh] bg-[#DDE9FF] items-center justify-center" style={bannerStyle}>
+      <div className="flex flex-col w-full h-[94vh] bg-[#DDE9FF] items-center justify-center" style={bannerStyle}>
         <p className="text-3xl sm:text-4xl mmd:text-6xl font-bold ">
           {header}
         </p>
