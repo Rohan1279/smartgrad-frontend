@@ -24,7 +24,7 @@ const UniqueSection = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="text-primary py-32 mb-[100px] px-4"
+      className="text-primary py-32 md:mb-[100px] px-4"
     >
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
