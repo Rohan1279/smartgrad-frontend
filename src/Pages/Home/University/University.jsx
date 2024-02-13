@@ -21,6 +21,34 @@ import {
 } from "../../../components/ui/carousel";
 
 const University = () => {
+
+  const carouselItems = [
+    {
+      image: UniversityLogo1,
+      name: "University Name 1",
+    },
+    {
+      image: UniversityLogo2,
+      name: "University Name 2",
+    },
+    {
+      image: UniversityLogo3,
+      name: "University Name 3",
+    },
+    {
+      image: UniversityLogo4,
+      name: "University Name 4",
+    },
+    {
+      image: UniversityLogo5,
+      name: "University Name 5",
+    },
+    {
+      image: UniversityLogo6,
+      name: "University Name 6",
+    }
+  ]
+
   return (
     <section
       style={{
@@ -33,7 +61,7 @@ const University = () => {
     >
       <div className="absolute w-full h-20 bg-transparent -top-10 backdrop-blur-md"></div>
       <div style={{ backdropFilter: "blur(8px)" }}>
-        <div className="max-w-7xl mx-auto py-10">
+        <div className="max-w-7xl mx-auto py-10 pt-20">
           <div className="bg-white bg-opacity-55 p-10 rounded-xl">
             <div className="flex flex-col mmd:flex-row justify-between mb-7">
               <div className="flex space-x-2">
@@ -95,60 +123,22 @@ const University = () => {
             <div className="px-10 lsm:px-40 mt-11">
               <Carousel>
                 <CarouselContent className="py-5">
-                  <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
+                  {
+                    carouselItems.map((item, index) => (
+                      <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5 group relative" key={index}>
                     <div className="p-1 flex justify-center">
                       <img
-                        src={UniversityLogo1}
+                        src={item.image}
                         alt=""
                         className="w-20 h-20 hover:scale-105 transition-all"
                       />
                     </div>
-                  </CarouselItem>
-                  <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
-                    <div className="p-1 flex justify-center">
-                      <img
-                        src={UniversityLogo2}
-                        alt=""
-                        className="w-20 h-20 hover:scale-105 transition-all"
-                      />
+                    <div className="absolute -bottom-8 left-0 right-0 text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
+                      {item.name}
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
-                    <div className="p-1 flex justify-center">
-                      <img
-                        src={UniversityLogo3}
-                        alt=""
-                        className="w-20 h-20 hover:scale-105 transition-all"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
-                    <div className="p-1 flex justify-center">
-                      <img
-                        src={UniversityLogo5}
-                        alt=""
-                        className="w-20 h-20 hover:scale-105 transition-all"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
-                    <div className="p-1 flex justify-center">
-                      <img
-                        src={UniversityLogo4}
-                        alt=""
-                        className="w-20 h-20 hover:scale-105 transition-all"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5">
-                    <div className="p-1 flex justify-center">
-                      <img
-                        src={UniversityLogo6}
-                        alt=""
-                        className="w-20 h-20 hover:scale-105 transition-all"
-                      />
-                    </div>
-                  </CarouselItem>
+                    ))
+                  }
                 </CarouselContent>
                 <CarouselPrevious className="" />
                 <CarouselNext className="" />
@@ -169,12 +159,12 @@ const University = () => {
           </div>
         </div>
         <div
-        className="p-10 backdrop-blur-md mb-[-4px]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to top, rgba(249, 249, 249, 1), rgba(255, 255, 255, 0))",
-        }}
-      ></div>
+          className="p-10 backdrop-blur-md mb-[-4px]"
+          style={{
+            backgroundImage:
+              "linear-gradient(to top, rgba(249, 249, 249, 1), rgba(255, 255, 255, 0))",
+          }}
+        ></div>
       </div>
     </section>
   );
