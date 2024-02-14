@@ -8,6 +8,7 @@
 // import Career from "../../../assets/ThemeImages/job-icon-fill.png";
 // import Network from "../../../assets/ThemeImages/network-icon-fill.png";
 // import University from "../../../assets/ThemeImages/university-icon-fill.png";
+import background from "../../../assets/Hero-Banner-Bg.png";
 import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
 import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 import NetworkIcon from "../../../assets/ThemeIcons/NetworkIcon";
@@ -20,11 +21,11 @@ const UniqueSection = () => {
   return (
     <section
       style={{
-        // backgroundImage: `url(${background})`,
+        backgroundImage: `url(${background})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="text-primary py-32 md:mb-[100px] px-4"
+      className="text-primary py-32  px-4"
     >
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
