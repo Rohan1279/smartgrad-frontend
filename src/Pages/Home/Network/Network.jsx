@@ -24,7 +24,7 @@ const Network = () => {
       link: "https://www.linkedin.com/in/sakib-ahmed-10836315/",
     },
     {
-      name: "Raihan Ahmed",
+      name: "Raihan Alauddin",
       designation: "Career Counselor",
       image: RaihanImage,
       link: "https://www.linkedin.com/in/raihanalauddin/",
@@ -84,7 +84,7 @@ const Network = () => {
                   </ul>
 
                   <button className="bg-[#1C244B] w-fit h-11 px-8 rounded-xl text-white mt-6">
-                    Coming Soon
+                    Book a Session
                   </button>
                 </div>
               </div>
