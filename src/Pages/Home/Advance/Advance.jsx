@@ -1,11 +1,8 @@
-import student4 from "../../../assets/Students/student 4.png";
-import student5 from "../../../assets/Students/student 5.png";
-import student6 from "../../../assets/Students/student 6.png";
-import advance from "../../../assets/advance.png";
-import image1 from "../../../assets/AptitudesImages/study-abroad.png";
+import background from "../../../assets/Background/background-primary.png";
 
 import AptitudeIcon from "../../../assets/aptitude-icon.png";
 
+import AptitudeList from "../../../assets/dummy/aptitude.json";
 import {
   Carousel,
   CarouselContent,
@@ -13,14 +10,17 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../../../components/ui/carousel-aptitude";
-import { Card, CardContent } from "../../../components/ui/card";
-import Typewriter from "../../../components/Typewriter/Typewriter";
-import AptitudeList from "../../../assets/dummy/aptitude.json";
 
 const Advance = () => {
   return (
-    <section className=" text-[#595959] mb-[100px] px-4">
-      <div className="max-w-7xl mx-auto ">
+    <section style={{
+      backgroundImage: `url(${background})`,
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+    }} className="text-[#595959] relative">
+      <div className="py-10" style={{ backdropFilter: "blur(8px)" }}>
+      <div className="max-w-7xl mx-auto relative p-8 bg-white bg-opacity-55 rounded-xl">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
             <img
@@ -39,7 +39,7 @@ const Advance = () => {
         </div>
 
         <Carousel>
-          <div className="px-10 mmd:px-20">
+          <div>
             {/* <div className="bg-[#F5F5F5] col-span-2 px-14 pt-11 rounded-xl z-40 relative">
               <p className="pr-24 font-bold">Well-Being Counseling</p>
               <p>
@@ -100,6 +100,8 @@ const Advance = () => {
           </div>
         </Carousel>
       </div>
+      </div>
+      <div className="absolute h-28 bottom-0 w-full bg-gradient-to-b from-transparent to-white -mb-2"></div>
     </section>
   );
 };

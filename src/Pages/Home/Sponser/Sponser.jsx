@@ -1,4 +1,3 @@
-import supporter from "../../../assets/supporter.png";
 import sponser1 from "../../../assets/Sponsers/sponser 1.png";
 import sponser2 from "../../../assets/Sponsers/sponser 2.png";
 import sponser3 from "../../../assets/Sponsers/sponser 3.png";
@@ -7,7 +6,7 @@ import sponser5 from "../../../assets/Sponsers/sponser 5.png";
 
 const Sponser = () => {
   return (
-    <section className="text-[#595959] py-[70px] bg-[#F5F5F5] mb-[100px] px-4">
+    <section className="text-[#595959] py-[70px] bg-[#F5F5F5] px-4">
       <div className="max-w-7xl mx-auto relative">
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
