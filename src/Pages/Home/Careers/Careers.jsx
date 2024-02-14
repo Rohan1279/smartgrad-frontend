@@ -8,7 +8,7 @@ import bag from "../../../assets/JobIcons/bag.png";
 import location from "../../../assets/JobIcons/location.png";
 import time from "../../../assets/JobIcons/time.png";
 import CareerCard from "../../../components/CareerCard/CareerCard";
-
+import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 const Careers = () => {
   return (
     <section
@@ -18,15 +18,16 @@ const Careers = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="text-[#595959] mb-[100px] relative"
+      className="text-primary mb-[100px] relative"
     >
       <div style={{ backdropFilter: "blur(8px)" }} className="py-10 z-20">
         <div className="max-w-7xl mx-auto relative bg-white bg-opacity-55 p-10 rounded-xl">
           <div className="flex justify-between mb-7">
-            <div className="flex space-x-2">
-              <img src={bag} alt="convocation-cap" className="w-10 h-10" />
+            <div className="flex space-x-2 stroke-primary">
+              <CareerIcon className="w-14 h-14" />
+              {/* <img src={bag} alt="convocation-cap" className="w-10 h-10" /> */}
               <div>
-                <h2 className="text-2xl font-bold">Featured Careers</h2>
+                <h2 className="text-2xl font-bold">Careers</h2>
                 <p className="text-base">
                   Look for the jobs that suit you and start applying now
                 </p>

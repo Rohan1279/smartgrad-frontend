@@ -21,7 +21,6 @@ import {
 } from "../../../components/ui/carousel";
 
 const University = () => {
-
   const carouselItems = [
     {
       image: UniversityLogo1,
@@ -46,8 +45,8 @@ const University = () => {
     {
       image: UniversityLogo6,
       name: "University Name 6",
-    }
-  ]
+    },
+  ];
 
   return (
     <section
@@ -57,7 +56,7 @@ const University = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="text-[#595959] relative"
+      className="text-primary relative "
     >
       <div className="absolute w-full h-20 bg-transparent -top-10 backdrop-blur-md"></div>
       <div style={{ backdropFilter: "blur(8px)" }}>
@@ -120,31 +119,32 @@ const University = () => {
             <h2 className="text-2xl font-bold mt-11">
               Our Successful Enrollments
             </h2>
-            <div className="px-10 lsm:px-40 mt-11">
-              <Carousel>
-                <CarouselContent className="py-5">
-                  {
-                    carouselItems.map((item, index) => (
-                      <CarouselItem className="basis-1/3 md:basis-1/3 lg:basis-1/5 group relative" key={index}>
-                    <div className="p-1 flex justify-center">
-                      <img
-                        src={item.image}
-                        alt=""
-                        className="w-20 h-20 hover:scale-105 transition-all"
-                      />
-                    </div>
-                    <div className="absolute -bottom-8 left-0 right-0 text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
-                      {item.name}
-                    </div>
-                  </CarouselItem>
-                    ))
-                  }
+            <div className="px-10 lsm:px-40 mt-[34px] ">
+              <Carousel className="">
+                <CarouselContent className="pb-10  ">
+                  {carouselItems.map((item, index) => (
+                    <CarouselItem
+                      className="basis-1/3 md:basis-1/3 lg:basis-1/5 group relative"
+                      key={index}
+                    >
+                      <div className="p-1 flex justify-center">
+                        <img
+                          src={item.image}
+                          alt=""
+                          className="w-[100px] h-2w-[100px] hover:scale-105 transition-all"
+                        />
+                      </div>
+                      <div className="absolute -bottom-8 left-0 right-0 text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
+                        {item.name}
+                      </div>
+                    </CarouselItem>
+                  ))}
                 </CarouselContent>
                 <CarouselPrevious className="" />
                 <CarouselNext className="" />
               </Carousel>
             </div>
-            <div className="mt-10">
+            <div className="mt-6">
               <p>
                 All these universities above currently have Bachelors, Masters
                 and Phd programs, offer online and on-site degrees, both.

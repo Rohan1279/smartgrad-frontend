@@ -1,4 +1,3 @@
-
 // import UniversitiesIcon from "../../../assets/convocation-cap.png";
 // import CareerIcon from "../../../assets/JobIcons/bag.png";
 // import AptitudeIcon from "../../../assets/aptitude-icon.png";
@@ -17,7 +16,6 @@ import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
 import FeatureCard from "../../../components/ui/FeatureCard";
 
 import "./UniqueSection.css";
-
 
 const data = {
   title: "Why is smartgrad for you",
@@ -51,7 +49,6 @@ const data = {
   ],
   videoSrc: "https://www.youtube.com/embed/_TPzFym3rVU?si=kumwgu10teIduJml",
 };
-
 
 const UniqueSection = () => {
   return (

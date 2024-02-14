@@ -6,22 +6,19 @@ import sponser5 from "../../../assets/Sponsers/sponser 5.png";
 
 const Sponser = () => {
   return (
-    <section className="text-[#595959] py-[70px] bg-[#F5F5F5] px-4">
+    <section className="text-primary py-[70px] bg-white px-4 mb-10">
       <div className="max-w-7xl mx-auto relative">
-        <div className="flex justify-between mb-7">
+        <div className="flex justify-between mb-">
           <div className="flex space-x-2">
             <div>
               <h2 className="text-3xl font-bold">Our Supporters</h2>
-              <p className="text-base">
-                Look for the jobs that suit you and start applying now
-              </p>
             </div>
           </div>
         </div>
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 justify-center mmd:justify-between mt-16">
-              <div className=" sm:border-r sm:border-[#595959] px-5 ">
+              <div className=" sm:border-r sm:border-primary px-5 ">
                 {" "}
                 <img
                   src={sponser1}
@@ -29,7 +26,7 @@ const Sponser = () => {
                   className="saturate-100 hover:scale-105 transition-all duration-300  "
                 />
               </div>
-              <div className=" sm:border-r sm:border-[#595959] px-5 ">
+              <div className=" sm:border-r sm:border-primary px-5 ">
                 {" "}
                 <img
                   src={sponser2}
@@ -37,14 +34,14 @@ const Sponser = () => {
                   className="saturate-100 hover:scale-105 transition-all duration-300 "
                 />
               </div>
-              <div className=" sm:border-r sm:border-[#595959] px-5 ">
+              <div className=" sm:border-r sm:border-primary px-5 ">
                 <img
                   src={sponser4}
                   alt=""
                   className="saturate-100 hover:scale-105 transition-all duration-300 "
                 />
               </div>
-              <div className="sm:border-r sm:border-[#595959] px-5 ">
+              <div className="sm:border-r sm:border-primary px-5 ">
                 <img
                   src={sponser3}
                   alt=""

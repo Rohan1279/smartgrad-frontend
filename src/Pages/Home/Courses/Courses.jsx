@@ -27,7 +27,7 @@ const Courses = () => {
         <div className="flex flex-col mmd:flex-row justify-between mb-7">
           <div className="flex space-x-2">
             <div>
-              <h2 className="text-2xl font-bold">Featured Segments</h2>
+              <h2 className="text-2xl font-bold">Featured Specializations</h2>
               <p className="text-base">
                 Broaden Your Scope with Defined Skill Sets for Personal and
                 Professional Growth
@@ -76,7 +76,9 @@ const Courses = () => {
                     className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
-                <p className="mt-2 font-semibold text-center">Personal Development</p>
+                <p className="mt-2 font-semibold text-center">
+                  Personal Development
+                </p>
               </CarouselItem>
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
@@ -86,7 +88,9 @@ const Courses = () => {
                     className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
-                <p className="mt-2 font-semibold text-center">Finance and Accounting</p>
+                <p className="mt-2 font-semibold text-center">
+                  Finance and Accounting
+                </p>
               </CarouselItem>
             </CarouselContent>
             <CarouselPrevious className="" />
