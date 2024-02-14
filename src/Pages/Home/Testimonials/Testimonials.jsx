@@ -92,7 +92,7 @@ const Testimonials = () => {
   }, [currentWidth]);
 
   return (
-    <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative mb-[100px] px-4">
+    <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative  px-4">
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-4">
