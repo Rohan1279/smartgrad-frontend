@@ -20,7 +20,7 @@ const Careers = () => {
       }}
       className="text-[#595959] mb-[100px] relative"
     >
-      <div style={{ backdropFilter: "blur(8px)" }} className="py-10">
+      <div style={{ backdropFilter: "blur(8px)" }} className="py-10 z-20">
         <div className="max-w-7xl mx-auto relative bg-white bg-opacity-55 p-10 rounded-xl">
           <div className="flex justify-between mb-7">
             <div className="flex space-x-2">
@@ -34,7 +34,6 @@ const Careers = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 mmd:grid-cols-5 gap-y-8">
-            {/* COMPANY LIST */}
             <div className="mmd:col-span-2 flex flex-col space-y-3">
               <CareerCard
                 logo={company1}
@@ -70,7 +69,6 @@ const Careers = () => {
               />
             </div>
 
-            {/* JOB DETAILS */}
             <div className="mmd:col-span-3 hidden sm:flex ">
               <div className="hidden mmd:block border border-[#595959] h-full mr-10"></div>
               <div>
@@ -123,14 +121,14 @@ const Careers = () => {
               </div>
             </div>
           </div>
-          <div className="absolute w-full bottom-0 h-28 flex justify-center mt-2 ">
-            <button className="bg-[#595959] mt-28 mmd:mt-auto w-fit h-11 px-8 rounded-xl text-white z-20">
+          <div className="absolute w-11/12 bottom-0 h-28 flex justify-center mt-2 ">
+            <button className="bg-[#595959] mt-2 mmd:mt-auto w-fit h-11 px-8 rounded-xl text-white z-20 mx-auto">
               View All
             </button>
           </div>
         </div>
       </div>
-      <div className="absolute h-28 bottom-0 w-full bg-gradient-to-b from-transparent to-white -mb-2"></div>
+      <div className="absolute h-14 bottom-0 w-full bg-gradient-to-b from-transparent to-white -mb-2"></div>
     </section>
   );
 };
