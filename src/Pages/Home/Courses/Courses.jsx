@@ -1,4 +1,9 @@
-import bookmark from "../../../assets/bookmark.png";
+import course1 from "../../../assets/Courses/course 1.png";
+import course2 from "../../../assets/Courses/course 2.png";
+import course3 from "../../../assets/Courses/course 3.png";
+import course4 from "../../../assets/Courses/course 4.png";
+import course5 from "../../../assets/Courses/course 5.png";
+import background from "../../../assets/background-shapes.png";
 import {
   Carousel,
   CarouselContent,
@@ -6,12 +11,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../../../components/ui/carousel";
-import course1 from "../../../assets/Courses/course 1.png";
-import course2 from "../../../assets/Courses/course 2.png";
-import course3 from "../../../assets/Courses/course 3.png";
-import course4 from "../../../assets/Courses/course 4.png";
-import course5 from "../../../assets/Courses/course 5.png";
-import background from "../../../assets/background-shapes.png";
 
 const Courses = () => {
   return (
@@ -39,50 +38,55 @@ const Courses = () => {
         <div className="px-12 mt-14">
           <Carousel>
             <CarouselContent className="py-5">
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={course1}
                     alt=""
-                    className="w-56 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
+                <p className="mt-2 font-semibold text-center">Development</p>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={course2}
                     alt=""
-                    className="w-56 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
+                <p className="mt-2 font-semibold text-center">Design</p>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={course3}
                     alt=""
-                    className="w-56 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
+                <p className="mt-2 font-semibold text-center">Marketing</p>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={course4}
                     alt=""
-                    className="w-56 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
+                <p className="mt-2 font-semibold text-center">Personal Development</p>
               </CarouselItem>
-              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={course5}
                     alt=""
-                    className="w-56 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all"
                   />
                 </div>
+                <p className="mt-2 font-semibold text-center">Finance and Accounting</p>
               </CarouselItem>
             </CarouselContent>
             <CarouselPrevious className="" />
