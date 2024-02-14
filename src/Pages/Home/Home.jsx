@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import Careers from "./Careers/Careers";
 import Courses from "./Courses/Courses";
 import Microsoft from "./Microsoft/Microsoft";
+import Network from "./Network/Network";
 import Sponser from "./Sponser/Sponser";
 import Testimonials from "./Testimonials/Testimonials";
 import ThemeSection from "./ThemeSection/ThemeSection";
@@ -23,6 +24,7 @@ const Home = () => {
       <Sponser />
       <Advance />
       <Courses />
+      <Network />
       <About />
       {/* <Map /> */}
     </>
