@@ -92,7 +92,7 @@ const Testimonials = () => {
   }, [currentWidth]);
 
   return (
-    <section className=" text-[#595959] py-[86px] bg-[#F9F9F9] relative  px-4">
+    <section className=" text-primary py-[86px] bg-[#F9F9F9] relative  px-4">
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-4">
@@ -117,8 +117,8 @@ const Testimonials = () => {
                 <div
                   className={`${
                     index === activeInx
-                      ? "bg-[#D9D9D9] text-[#595959] pt-[40px] w-[450px] h-[214px] shadow-lg"
-                      : "bg-[#595959] text-white py-8 w-[400px] h-[185px] shadow-md leading-3"
+                      ? "bg-primary text-white pt-[40px] w-[450px] h-[214px] shadow-lg"
+                      : "bg-secondary text-primary py-8 w-[400px] h-[185px] shadow-md leading-3"
                   } rounded-xl px-4 sm:px-10 text-center relative testimonial-card ease-in-out duration-300`}
                 >
                   <p
@@ -160,7 +160,7 @@ const Testimonials = () => {
                     </div>
                     <div
                       className={`leading-3 ${
-                        index === activeInx ? "mb-5" : "mb-2 "
+                        index === activeInx ? "mb-5" : "mb-2 text-primary"
                       }`}
                     >
                       <p className="text-sm">{item?.name}</p>

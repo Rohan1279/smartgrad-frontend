@@ -11,6 +11,7 @@ import university1 from "../../../assets/UniverstyImages/image 1.png";
 import university2 from "../../../assets/UniverstyImages/image 2.png";
 import university3 from "../../../assets/UniverstyImages/image 3.png";
 import university4 from "../../../assets/UniverstyImages/image 4.png";
+import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
 
 import {
   Carousel,
@@ -64,7 +65,7 @@ const University = () => {
           <div className="bg-white bg-opacity-55 p-10 rounded-xl">
             <div className="flex flex-col mmd:flex-row justify-between mb-7">
               <div className="flex space-x-2">
-                <img src={Cap} alt="convocation-cap" className="w-10 h-10" />
+                <UniversityIcon className="w-10 h-10 fill-primary stroke-none" />
                 <div>
                   <h2 className="text-2xl font-bold">Universities</h2>
                   <p className="text-base">
