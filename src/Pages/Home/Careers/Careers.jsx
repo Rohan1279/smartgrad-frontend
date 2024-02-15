@@ -7,8 +7,8 @@ import company5 from "../../../assets/CompanyLogos/company 5.png";
 import bag from "../../../assets/JobIcons/bag.png";
 import location from "../../../assets/JobIcons/location.png";
 import time from "../../../assets/JobIcons/time.png";
-import CareerCard from "../../../components/CareerCard/CareerCard";
 import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
+import CareerCard from "../../../components/CareerCard/CareerCard";
 const Careers = () => {
   return (
     <section
@@ -122,7 +122,7 @@ const Careers = () => {
               </div>
             </div>
           </div>
-          <div className="absolute w-11/12 bottom-0 h-28 flex justify-center mt-2 ">
+          <div className="absolute w-11/12 bottom-0 h-28 hidden mmd:flex justify-center mt-2 ">
             <button className="bg-[#595959] mt-2 mmd:mt-auto w-fit h-11 px-8 rounded-xl text-white z-20 mx-auto">
               View All
             </button>
