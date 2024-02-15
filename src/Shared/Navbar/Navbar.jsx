@@ -1,4 +1,4 @@
-import NavIcon from "../../assets/smart-grad.svg";
+import NavIcon from "../../assets/smartgrad-logo.png";
 import search from "../../assets/search.png";
 import GlobeEnIcon from "../../assets/globe-en.png";
 import GlobeBnIcon from "../../assets/globe-bn.png";

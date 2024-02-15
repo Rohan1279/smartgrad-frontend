@@ -52,7 +52,7 @@ const Sponser = () => {
                 <img
                   src={sponser5}
                   alt=""
-                  className="saturate-0 mx-auto sm:mx-none w-1/2 sm:w-44 mmd:w-auto hover:saturate-100 hover:scale-105 transition-all duration-300 "
+                  className="saturate-100 hover:scale-105 transition-all duration-300 "
                 />
               </div>
             </div>
