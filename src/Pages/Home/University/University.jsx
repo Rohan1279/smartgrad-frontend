@@ -168,9 +168,12 @@ const University = () => {
                           className="w-[100px] h-2w-[100px] hover:scale-105 transition-all"
                         />
                       </div>
-                      <div className="absolute -bottom-8 mx-auto text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
+                      {/* <div className="absolute -bottom-8 mx-auto text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
                         {item.name}
-                      </div>
+                      </div> */}
+                      <p className="text-center  text-sm mt-3 opacity-0 group-hover:opacity-100 duration-100">
+                        {item.name}
+                      </p>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
@@ -178,7 +181,7 @@ const University = () => {
                 <CarouselNext className="" />
               </Carousel>
             </div>
-            <div className="mt-6">
+            <div className="mt-">
               <p>
                 All these universities above currently have Bachelors, Masters
                 and Phd programs, offer online and on-site degrees, both.

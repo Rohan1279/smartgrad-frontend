@@ -22,7 +22,9 @@ const Testimonials = () => {
   const settings = {
     // dots: true,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 1500,
     slidesToShow: width > 1215 ? 3 : width > 868 ? 2 : 1,
     slidesToScroll: 1,
     beforeChange: (current, inx) => {
