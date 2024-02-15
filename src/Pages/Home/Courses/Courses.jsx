@@ -10,7 +10,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../../../components/ui/carousel";
+} from "../../../components/ui/carousal-specialization";
 
 const Courses = () => {
   return (
@@ -21,7 +21,7 @@ const Courses = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className=" text-[#595959] mb-[100px] mt-[150px] px-4"
+      className=" text-primary mb-[100px] mt-[150px] px-4"
     >
       <div className="max-w-7xl mx-auto ">
         <div className="flex flex-col mmd:flex-row justify-between mb-7">
@@ -43,7 +43,7 @@ const Courses = () => {
                   <img
                     src={course1}
                     alt=""
-                    className="w-44 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
                   />
                 </div>
                 <p className="mt-2 font-semibold text-center">Development</p>
@@ -53,7 +53,7 @@ const Courses = () => {
                   <img
                     src={course2}
                     alt=""
-                    className="w-44 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
                   />
                 </div>
                 <p className="mt-2 font-semibold text-center">Design</p>
@@ -63,7 +63,7 @@ const Courses = () => {
                   <img
                     src={course3}
                     alt=""
-                    className="w-44 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
                   />
                 </div>
                 <p className="mt-2 font-semibold text-center">Marketing</p>
@@ -73,7 +73,7 @@ const Courses = () => {
                   <img
                     src={course4}
                     alt=""
-                    className="w-44 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
                   />
                 </div>
                 <p className="mt-2 font-semibold text-center">
@@ -85,7 +85,61 @@ const Courses = () => {
                   <img
                     src={course5}
                     alt=""
-                    className="w-44 h-5w-56 hover:scale-105 transition-all"
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
+                  />
+                </div>
+                <p className="mt-2 font-semibold text-center">
+                  Finance and Accounting
+                </p>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
+                  <img
+                    src={course1}
+                    alt=""
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
+                  />
+                </div>
+                <p className="mt-2 font-semibold text-center">Development</p>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
+                  <img
+                    src={course2}
+                    alt=""
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
+                  />
+                </div>
+                <p className="mt-2 font-semibold text-center">Design</p>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
+                  <img
+                    src={course3}
+                    alt=""
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
+                  />
+                </div>
+                <p className="mt-2 font-semibold text-center">Marketing</p>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
+                  <img
+                    src={course4}
+                    alt=""
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
+                  />
+                </div>
+                <p className="mt-2 font-semibold text-center">
+                  Personal Development
+                </p>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <div className="p-1 flex justify-center">
+                  <img
+                    src={course5}
+                    alt=""
+                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
                   />
                 </div>
                 <p className="mt-2 font-semibold text-center">
