@@ -1,12 +1,18 @@
 import Cap from "../../../assets//convocation-cap.png";
 import background from "../../../assets/Background/background-primary.png";
 import UniversityGridLogo from "../../../assets/UniversityLogos/massachusetts.png";
-import UniversityLogo1 from "../../../assets/UniversityLogos/university 1.png";
-import UniversityLogo2 from "../../../assets/UniversityLogos/university 2.png";
-import UniversityLogo3 from "../../../assets/UniversityLogos/university 3.png";
-import UniversityLogo4 from "../../../assets/UniversityLogos/university 4.png";
-import UniversityLogo5 from "../../../assets/UniversityLogos/university 5.png";
-import UniversityLogo6 from "../../../assets/UniversityLogos/university 6.png";
+
+import cambridge from "../../../assets/UniversityLogos/cambridge.jpg";
+import gu from "../../../assets/UniversityLogos/gu.jpg";
+import Harvard from "../../../assets/UniversityLogos/Harvard.jpg";
+import insead from "../../../assets/UniversityLogos/insead.png";
+import massachusetts from "../../../assets/UniversityLogos/massachusetts.png";
+import nyu from "../../../assets/UniversityLogos/nyu.jpg";
+import oxford from "../../../assets/UniversityLogos/oxford.jpg";
+import Queens from "../../../assets/UniversityLogos/Queens.jpg";
+import rmit from "../../../assets/UniversityLogos/rmit.jpg";
+import toronto from "../../../assets/UniversityLogos/toronto.jpg";
+
 import university1 from "../../../assets/UniverstyImages/image 1.png";
 import university2 from "../../../assets/UniverstyImages/image 2.png";
 import university3 from "../../../assets/UniverstyImages/image 3.png";
@@ -22,30 +28,57 @@ import {
 } from "../../../components/ui/carousel";
 
 const University = () => {
+  // Oxford University: www.ox.ac.uk
+  // Cambridge University: www.cam.ac.uk
+  // New York University (NYU): www.nyu.edu
+  // INSEAD: www.insead.edu
+  // Georgetown University: www.georgetown.edu
+  // University of Toronto: www.utoronto.ca
+  // Queen's University: www.queensu.ca
+  // University of Windsor: www.uwindsor.ca
+  // Harvard University: www.harvard.edu
+  // RMIT University: www.rmit.edu.au
+
   const carouselItems = [
     {
-      image: UniversityLogo1,
-      name: "University Name 1",
+      name: "Oxford University",
+      image: oxford,
     },
     {
-      image: UniversityLogo2,
-      name: "University Name 2",
+      name: "Cambridge University",
+      image: cambridge,
     },
     {
-      image: UniversityLogo3,
-      name: "University Name 3",
+      name: "New York University",
+      image: nyu,
     },
     {
-      image: UniversityLogo4,
-      name: "University Name 4",
+      name: "INSEAD",
+      image: insead,
     },
     {
-      image: UniversityLogo5,
-      name: "University Name 5",
+      name: "Georgetown University",
+      image: gu,
     },
     {
-      image: UniversityLogo6,
-      name: "University Name 6",
+      name: "University of Toronto",
+      image: toronto,
+    },
+    {
+      name: "Queen's University",
+      image: Queens,
+    },
+    {
+      name: "University of Windsor",
+      image: massachusetts,
+    },
+    {
+      name: "Harvard University",
+      image: Harvard,
+    },
+    {
+      name: "RMIT University",
+      image: rmit,
     },
   ];
 
@@ -135,7 +168,7 @@ const University = () => {
                           className="w-[100px] h-2w-[100px] hover:scale-105 transition-all"
                         />
                       </div>
-                      <div className="absolute -bottom-8 left-0 right-0 text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
+                      <div className="absolute -bottom-8 mx-auto text-sm text-center p-2 opacity-0 group-hover:opacity-100 duration-100">
                         {item.name}
                       </div>
                     </CarouselItem>

@@ -20,7 +20,7 @@ const Testimonials = () => {
   const slider = useRef();
 
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: width > 1215 ? 3 : width > 868 ? 2 : 1,
@@ -106,10 +106,10 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-between items-center mb-20 px-4">
+        <div className=" flex flex-col justify-between items-center px-4">
           <Slider
             ref={slider}
-            className="custom-carousel-container h-auto"
+            className="custom-carousel-container h-auto "
             {...settings}
           >
             {TestimonialList.map((item, index) => (
@@ -191,7 +191,7 @@ const Testimonials = () => {
             </button>
           </div> */}
         </div>
-        <div className="text-right mt-36">
+        <div className="text-right ">
           <h2 className="text-2xl font-bold text-center">
             Empowering Your Educational and Professional Journey, From
             Application to Career Advancement

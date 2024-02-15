@@ -14,14 +14,14 @@ const ThemeSection = () => {
       //   backgroundRepeat: "no-repeat",
       //   backgroundPosition: "center",
       // }}
-      className=" bg-secondary text-[#595959] mmd:h-[511px]  relative"
+      className=" bg-white text-primary mmd:h-[511px]  relative"
     >
       <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 justify-between py-[100px] px-4 md:px-auto  ">
-        <p className="absolute -top-14 right-0 bg-secondary text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-[#595959]">
+        <p className="absolute -top-14 right-0 bg-white text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-primary">
           with <span className="text-primary">smart</span>grad,{" "}
           <span className="font-bold">UCAN</span>
         </p>
-        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-primary transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Universities
           </h3>
@@ -32,7 +32,7 @@ const ThemeSection = () => {
             applications in one place
           </p>
         </div>
-        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-primary transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Careers
           </h3>
@@ -43,7 +43,7 @@ const ThemeSection = () => {
             Find the right jobs, manage all applications in one place and never
           </p>
         </div>
-        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-primary transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Aptitude
           </h3>
@@ -59,7 +59,7 @@ const ThemeSection = () => {
             visibility
           </p>
         </div>
-        <div className="w-full md:w-52 flex flex-col mx-auto  space-y-4 pb-8 md:pb-auto text-[#595959] transition-all duration-500 group-hover:scale-105 hover:saturate-150">
+        <div className="w-full md:w-52 flex flex-col mx-auto  space-y-4 pb-8 md:pb-auto text-primary transition-all duration-500 group-hover:scale-105 hover:saturate-150">
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Network
           </h3>

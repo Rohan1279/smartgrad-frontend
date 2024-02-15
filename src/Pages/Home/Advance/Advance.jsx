@@ -71,7 +71,7 @@ const Advance = () => {
                 {AptitudeList.map((item, index) => (
                   <CarouselItem key={index}>
                     <div className="flex flex-col mmd:flex-row justify-center items-center w-11/12 mx-auto">
-                      <div className="order-2 mmd:order-1 bg-[#F5F5F5] shadow-md px-4 md:px-14 flex-1 pt-11 rounded-xl z-40 relative h-fit">
+                      <div className="cursor-default order-2 mmd:order-1 bg-[#F5F5F5] shadow-md px-4 md:px-14 flex-1 pt-11 rounded-xl z-40 relative h-fit">
                         <p className="block text-xl font-bold">
                           {item?.heading}
                         </p>
@@ -92,9 +92,7 @@ const Advance = () => {
                       </div>
                       <div className="order-1 mmd:order-2 flex-1 rounded-xl overflow-hidden w-full mmd:w-[375px] h-[417px] shadow-md">
                         <img
-                          src={
-                            "https://smartgrad.org/assets/image/slider/slider-4.jpg"
-                          }
+                          src={item.image}
                           alt=""
                           className="w-full h-full object-cover "
                         />
