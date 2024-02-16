@@ -14,7 +14,7 @@ const Temp1Banner = ({banner, header, paragraph, cta}) => {
           {header}
         </p>
         <p className="text-sm mmd:text-base mt-8 text-center px-4">
-          {paragraph}
+          {paragraph.substring(0, 150) + "..."}
         </p>
 
         {cta && <CtaButton data={cta} />
