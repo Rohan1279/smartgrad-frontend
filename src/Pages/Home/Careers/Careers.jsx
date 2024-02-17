@@ -6,6 +6,7 @@ import company4 from "../../../assets/CompanyLogos/company 4.png";
 import company5 from "../../../assets/CompanyLogos/company 5.png";
 import bag from "../../../assets/JobIcons/bag.png";
 import location from "../../../assets/JobIcons/location.png";
+import time from "../../../assets/JobIcons/time.png";
 import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 import CareerCard from "../../../components/CareerCard/CareerCard";
 const Careers = () => {
@@ -80,11 +81,11 @@ const Careers = () => {
                   <span className="">⭐⭐⭐⭐⭐</span>
                 </div>
 
-                <div className="flex flex-col sm:flex-row space-y-8 items-center sm:items-start justify-center sm:justify-between mt-4">
-                  <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-auto justify-start items-center sm:items-start space-x-4 ">
+                <div className="flex flex-col sm:flex-row space-y-8 items-start sm:items-start justify-center sm:justify-between mt-4">
+                  <div className="flex flex-col sm:flex-row sm:space-y-auto justify-start items-start sm:items-start space-x-4">
                     <img src={company5} alt="" className="w-32" />
-                    <div className="flex flex-col bg-red h-full">
-                      <div className="tex">
+                    <div className="">
+                      <div className="">
                         <h3 className="font-bold text-3xl mb-2">
                           UI/UX Designer
                         </h3>
@@ -96,10 +97,10 @@ const Careers = () => {
                           <img src={bag} alt="" className="w-[8%] " />
                           <span>On-Site Job</span>
                         </div>
-                        {/* <div className="flex items-center space-x-3 ">
+                        <div className="flex items-center space-x-3 ">
                           <img src={time} alt="" className="w-[8%] " />
                           <span>5 Days Remaining</span>
-                        </div> */}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -107,7 +108,7 @@ const Careers = () => {
                     Apply Now
                   </button>
                 </div>
-                <div className="mt-5 ">
+                <div className="mt-5">
                   <h3 className="text-2xl font-bold">About The Job</h3>
                   <p>
                     Just gonna keep things like these , will reorganize segments
@@ -121,8 +122,8 @@ const Careers = () => {
               </div>
             </div>
           </div>
-          <div className="absolute w-11/12 bottom-0 h-28 hidden mmd:flex justify-center mt-2 ">
-            <button className="bg-[#595959] mt-2 mmd:mt-auto w-fit h-11 px-8 rounded-xl text-white z-20 mx-auto">
+          <div className="hidden mmd:flex justify-center mt-2 ">
+            <button className="bg-[#595959] mt-2 mmd:mt-auto w-fit h-11 px-12 rounded-xl text-white mx-auto">
               View All
             </button>
           </div>

@@ -1,4 +1,3 @@
-import Cap from "../../../assets//convocation-cap.png";
 import background from "../../../assets/Background/background-primary.png";
 import UniversityGridLogo from "../../../assets/UniversityLogos/massachusetts.png";
 
@@ -13,11 +12,11 @@ import Queens from "../../../assets/UniversityLogos/Queens.jpg";
 import rmit from "../../../assets/UniversityLogos/rmit.jpg";
 import toronto from "../../../assets/UniversityLogos/toronto.jpg";
 
+import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
 import university1 from "../../../assets/UniverstyImages/image 1.png";
 import university2 from "../../../assets/UniverstyImages/image 2.png";
 import university3 from "../../../assets/UniverstyImages/image 3.png";
 import university4 from "../../../assets/UniverstyImages/image 4.png";
-import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
 
 import {
   Carousel,
@@ -155,7 +154,7 @@ const University = () => {
             </h2>
             <div className="px-10 lsm:px-40 mt-[34px] ">
               <Carousel className="">
-                <CarouselContent className="pb-10  ">
+                <CarouselContent className="pb-10">
                   {carouselItems.map((item, index) => (
                     <CarouselItem
                       className="basis-1/3 md:basis-1/3 lg:basis-1/5 group relative"
