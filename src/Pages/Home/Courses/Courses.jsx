@@ -7,9 +7,7 @@ import background from "../../../assets/background-shapes.png";
 import {
   Carousel,
   CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  CarouselItem
 } from "../../../components/ui/carousal-specialization";
 
 const Courses = () => {
@@ -147,8 +145,8 @@ const Courses = () => {
                 </p>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="" />
-            <CarouselNext className="" />
+            {/* <CarouselPrevious className="" />
+            <CarouselNext className="" /> */}
           </Carousel>
         </div>
       </div>

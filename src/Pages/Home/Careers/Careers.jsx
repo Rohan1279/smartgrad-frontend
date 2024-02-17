@@ -6,7 +6,6 @@ import company4 from "../../../assets/CompanyLogos/company 4.png";
 import company5 from "../../../assets/CompanyLogos/company 5.png";
 import bag from "../../../assets/JobIcons/bag.png";
 import location from "../../../assets/JobIcons/location.png";
-import time from "../../../assets/JobIcons/time.png";
 import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 import CareerCard from "../../../components/CareerCard/CareerCard";
 const Careers = () => {
@@ -97,10 +96,10 @@ const Careers = () => {
                           <img src={bag} alt="" className="w-[8%] " />
                           <span>On-Site Job</span>
                         </div>
-                        <div className="flex items-center space-x-3 ">
+                        {/* <div className="flex items-center space-x-3 ">
                           <img src={time} alt="" className="w-[8%] " />
                           <span>5 Days Remaining</span>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
