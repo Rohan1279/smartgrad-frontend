@@ -233,7 +233,7 @@ export default function Navbar() {
                   <button
                     onClick={() =>
                       (window.location.href =
-                        "/login")
+                        "https://smartgrad-dashboard.vercel.app/login")
                     }
                     className="bg-primary hover:shadow-md transition-all text-white text-[12px] rounded-xl w-[62px] h-[27px]"
                   >
