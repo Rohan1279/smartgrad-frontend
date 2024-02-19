@@ -1,26 +1,20 @@
-import NavIcon from "../../assets/smartgrad-logo.png";
-import search from "../../assets/search.png";
-import GlobeEnIcon from "../../assets/globe-en.png";
-import GlobeBnIcon from "../../assets/globe-bn.png";
-import { BsCaretDownFill } from "react-icons/bs";
-import { Fragment, useEffect, useRef, useState } from "react";
-import UniversitiesMenu from "./Menus/UniversitiesMenu";
-import CareersMenu from "./Menus/CareersMenu";
-import AptitudesMenu from "./Menus/AptitudesMenu";
-import NetworksMenu from "./Menus/NetworksMenu";
 import clsx from "clsx";
-import SlideWrapper from "./SlideWrapper";
-import { Button } from "../../components/ui/button";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import UniversitiesIcon from "../../assets/ThemeIcons/Primary/University.svg";
-import CareerIcon from "../../assets/ThemeIcons/Primary/Career.svg";
-import AptitudeIcon from "../../assets/ThemeIcons/Primary/Aptitude Icon.svg";
-import NetworkIcon from "../../assets/ThemeIcons/Primary/Network.svg";
-import QuestionIcon from "../../assets/Navbar/QuestionIcon";
-import i18next from "i18next";
-import useWindowDimensions from "../../../src/components/core/windowsDimention";
-import SideBar from "./sideBar";
 import { IoMdClose } from "react-icons/io";
+import useWindowDimensions from "../../../src/components/core/windowsDimention";
+import QuestionIcon from "../../assets/Navbar/QuestionIcon";
+import AptitudeIcon from "../../assets/ThemeIcons/Primary/Aptitude Icon.svg";
+import CareerIcon from "../../assets/ThemeIcons/Primary/Career.svg";
+import NetworkIcon from "../../assets/ThemeIcons/Primary/Network.svg";
+import UniversitiesIcon from "../../assets/ThemeIcons/Primary/University.svg";
+import NavIcon from "../../assets/smartgrad-logo.png";
+import AptitudesMenu from "./Menus/AptitudesMenu";
+import CareersMenu from "./Menus/CareersMenu";
+import NetworksMenu from "./Menus/NetworksMenu";
+import UniversitiesMenu from "./Menus/UniversitiesMenu";
+import SlideWrapper from "./SlideWrapper";
+import SideBar from "./sideBar";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -239,7 +233,7 @@ export default function Navbar() {
                   <button
                     onClick={() =>
                       (window.location.href =
-                        "https://smartgrad-dashboard.vercel.app/login")
+                        "/login")
                     }
                     className="bg-primary hover:shadow-md transition-all text-white text-[12px] rounded-xl w-[62px] h-[27px]"
                   >
