@@ -1,8 +1,8 @@
 import ThemeCard from "../../../components/ThemeCard/ThemeCard";
-import University from "../../../assets/ThemeIcons/UniversityIcon";
-import Career from "../../../assets/ThemeIcons/CareerIcon";
-import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
-import Network from "../../../assets/ThemeIcons/NetworkIcon";
+import University from "../../../assets/ThemeIcons/University.jpg";
+import Career from "../../../assets/ThemeIcons/Career.jpg";
+import Aptitude from "../../../assets/ThemeIcons/Aptitude.jpg";
+import Network from "../../../assets/ThemeIcons/Network.jpg";
 import background from "../../../assets/Doodle.png";
 import "./ThemeSection.css";
 const ThemeSection = () => {
@@ -25,7 +25,12 @@ const ThemeSection = () => {
           <h3 className="text-center text-xl first-letter:font-extrabold">
             Universities
           </h3>
-          <University className="mx-auto my-auto fill-[#FFC24D] stroke-[#FFC24D] w-[130px] bg-white border border-[#FFC24D] rounded-2xl  hover:shadow-inner-custom transition-all" />
+          {/* <University className="mx-auto my-auto fill-[#FFC24D] stroke-[#FFC24D] w-[130px] bg-white border border-[#FFC24D] rounded-2xl  hover:shadow-inner-custom transition-all" /> */}
+          <img
+            src={University}
+            alt=""
+            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+          />
 
           <p className="text-center">
             Find the right institutions, get the right advice, manage all
@@ -37,8 +42,12 @@ const ThemeSection = () => {
             Careers
           </h3>
 
-          <Career className="mx-auto my-auto fill-none stroke-[#F1662A] w-[130px] bg-white border border-[#F1662A] rounded-2xl  hover:shadow-inner-custom transition-all" />
-
+          {/* <Career className="mx-auto my-auto fill-none stroke-[#F1662A] w-[130px] bg-white border border-[#F1662A] rounded-2xl  hover:shadow-inner-custom transition-all" /> */}
+          <img
+            src={Career}
+            alt=""
+            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+          />
           <p className="text-center">
             Find the right jobs, manage all applications in one place and never
           </p>
@@ -48,10 +57,15 @@ const ThemeSection = () => {
             Aptitude
           </h3>
 
-          <Aptitude
+          {/* <Aptitude
             className={
               "mx-auto my-auto fill-none stroke-[#09D5D7] w-[130px] bg-white border border-[#09D5D7] rounded-2xl  hover:shadow-inner-custom transition-all"
             }
+          /> */}
+          <img
+            src={Aptitude}
+            alt=""
+            className="mx-auto my-auto  w-[130px]  rounded-2xl "
           />
 
           <p className="text-center">
@@ -64,7 +78,12 @@ const ThemeSection = () => {
             Network
           </h3>
 
-          <Network className="mx-auto my-auto fill-none stroke-[#FF90D9] w-[130px] bg-white border border-[#FF90D9] rounded-2xl  hover:shadow-inner-custom transition-all" />
+          {/* <Network className="mx-auto my-auto fill-none stroke-[#FF90D9] w-[130px] bg-white border border-[#FF90D9] rounded-2xl  hover:shadow-inner-custom transition-all" /> */}
+          <img
+            src={Network}
+            alt=""
+            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+          />
 
           <p className="text-center">
             Find the right expert or mentor, grow your network
