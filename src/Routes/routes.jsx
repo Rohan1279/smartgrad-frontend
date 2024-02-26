@@ -1,8 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import AboutUs from "../Pages/AboutUs/AboutUs";
-import Temp1 from "../Pages/GenericTemp/Temp1";
+import GenericTemplate from "../Pages/GenericTemp/Temp1";
 import Home from "../Pages/Home/Home";
+
+const newRoute = [
+  {
+    path: "/joy",
+  }
+]
 
 const router = createBrowserRouter([
   {
@@ -15,12 +21,20 @@ const router = createBrowserRouter([
       },
       {
         path: "/temp1",
-        element: <Temp1 />,
+        element: <GenericTemplate />,
       },
       {
         path: "/*",
         element: <AboutUs />,
       },
+      ...newRoute.map((route, index) => {
+        return (
+          {
+            path: route.path,
+            element: <GenericTemplate />,
+          }
+        );
+      })
     ],
   },
 ]);

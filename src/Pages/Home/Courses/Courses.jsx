@@ -36,14 +36,14 @@ const Courses = () => {
           </div>
         </div>
         <div className="px-12 mt-14">
-          <Carousel>
+          <Carousel className="">
             <CarouselContent className="py-5">
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5">
                 <div className="p-1 flex justify-center">
                   <img
                     src={course1}
                     alt=""
-                    className="w-44 h-5w-56 hover:scale-105 transition-all shadow-md"
+                    className="w-44 hover:scale-105 transition-all shadow-md"
                   />
                 </div>
                 <p className="mt-2 font-semibold text-center">Development</p>

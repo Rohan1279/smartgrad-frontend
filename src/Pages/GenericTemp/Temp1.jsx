@@ -5,7 +5,7 @@ import Temp1Banner from "../../components/GenericTemp/Temp1Banner";
 import Temp1Gallery from "../../components/GenericTemp/Temp1Gallery";
 import Temp1Slider from "../../components/GenericTemp/Temp1Slider";
 
-const Temp1 = () => {
+const GenericTemplate = () => {
   const { meta, sections, ...heroData } = fakeData;
 
   return (
@@ -43,4 +43,4 @@ const Temp1 = () => {
   );
 };
 
-export default Temp1;
+export default GenericTemplate;

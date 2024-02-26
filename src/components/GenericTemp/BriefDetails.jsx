@@ -20,7 +20,7 @@ const BriefDetails = ({ data, index }) => {
             {data?.title}
           </h1>
           <p className="text-justify text-[#595959] font-normal text-base">
-          {data?.paragraph}
+          {data?.paragraph.substring(0, 200) + "..."}
           </p>
 
           {data?.cta && <CtaButton data={data.cta} />}

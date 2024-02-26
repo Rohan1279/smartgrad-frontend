@@ -1,14 +1,13 @@
 import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "../ui/carousel-aptitude";
 import CtaButton from "./CtaButton";
 
 const Temp1Slider = ({ data }) => {
-  console.log(data);
 
   return (
     <section className=" text-[#595959] mb-[100px] px-4">
