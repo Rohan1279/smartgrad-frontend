@@ -29,7 +29,7 @@ const ThemeSection = () => {
           <img
             src={University}
             alt=""
-            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+            className="mx-auto my-auto  w-[130px]  rounded-full"
           />
 
           <p className="text-center">
@@ -46,7 +46,7 @@ const ThemeSection = () => {
           <img
             src={Career}
             alt=""
-            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+            className="mx-auto my-auto  w-[130px]  rounded-full "
           />
           <p className="text-center">
             Find the right jobs, manage all applications in one place and never
@@ -65,7 +65,7 @@ const ThemeSection = () => {
           <img
             src={Aptitude}
             alt=""
-            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+            className="mx-auto my-auto  w-[130px]  rounded-full "
           />
 
           <p className="text-center">
@@ -82,7 +82,7 @@ const ThemeSection = () => {
           <img
             src={Network}
             alt=""
-            className="mx-auto my-auto  w-[130px]  rounded-2xl "
+            className="mx-auto my-auto  w-[130px]  rounded-full "
           />
 
           <p className="text-center">
