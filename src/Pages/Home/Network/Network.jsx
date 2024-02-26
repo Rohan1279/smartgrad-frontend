@@ -4,6 +4,7 @@ import KlaraImage from "../../../assets/TeamImages/Klara.png";
 import MansurImage from "../../../assets/TeamImages/Mansur.png";
 import RaihanImage from "../../../assets/TeamImages/Raihan.png";
 import SakibImage from "../../../assets/TeamImages/Sakib.png";
+
 import NetworkIcon from "../../../assets/ThemeIcons/NetworkIcon";
 import { Card, CardContent } from "../../../components/ui/card";
 import {
@@ -60,7 +61,9 @@ const Network = () => {
                   <div className="flex items-center gap-x-2">
                     <NetworkIcon className={"w-10 stroke-primary fill-none"} />
                     <div className="">
-                      <h2 className="text-3xl font-bold text-[#1C244B]">Network</h2>
+                      <h2 className="text-3xl font-bold text-[#1C244B]">
+                        Network
+                      </h2>
                       <p className="hidden md:flex">
                         Forge meaningful connections with elite professionals
                         and renowned academics
@@ -147,9 +150,9 @@ const Network = () => {
               excellence.
             </p>
             <div className="text-center">
-            <button className="bg-[#1C244B] w-fit h-11 px-8 rounded-xl text-white mt-4">
-              Book a Session
-            </button>
+              <button className="bg-[#1C244B] w-fit h-11 px-8 rounded-xl text-white mt-4">
+                Book a Session
+              </button>
             </div>
           </div>
         </div>
