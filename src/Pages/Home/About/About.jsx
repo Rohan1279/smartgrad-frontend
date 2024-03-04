@@ -10,7 +10,7 @@ const About = ({ title }) => {
   // https://www.linkedin.com/in/sakib-ahmed-10836315/
 
   return (
-    <section className="text-[#595959] py-10 mb-[100px] px-4">
+    <section id="about" className="text-[#595959] py-10 mb-[100px] px-4">
       <div className="max-w-7xl mx-auto relative">
         <div className="grid grid-cols-3 items-center w-full  text-center justify-between">
           <hr className="border border-t-black  w-full"></hr>

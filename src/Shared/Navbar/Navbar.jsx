@@ -4,10 +4,21 @@ import { useTranslation } from "react-i18next";
 import { IoMdClose } from "react-icons/io";
 import useWindowDimensions from "../../../src/components/core/windowsDimention";
 import QuestionIcon from "../../assets/Navbar/QuestionIcon";
-import AptitudeIcon from "../../assets/ThemeIcons/Primary/Aptitude Icon.svg";
-import CareerIcon from "../../assets/ThemeIcons/Primary/Career.svg";
-import NetworkIcon from "../../assets/ThemeIcons/Primary/Network.svg";
+import AptitudeIcon from "../../assets/ThemeIcons/Aptitude.jpg";
+import CareerIcon from "../../assets/ThemeIcons/Career.jpg";
+import NetworkIcon from "../../assets/ThemeIcons/Network.jpg";
 import UniversitiesIcon from "../../assets/ThemeIcons/Primary/University.svg";
+import University from "../../../src/assets/ThemeIcons/University.jpg";
+
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "../../../src/components/ui/dropdown-menu";
+
 import NavIcon from "../../assets/smartgrad-logo.png";
 import AptitudesMenu from "./Menus/AptitudesMenu";
 import CareersMenu from "./Menus/CareersMenu";
@@ -15,6 +26,7 @@ import NetworksMenu from "./Menus/NetworksMenu";
 import UniversitiesMenu from "./Menus/UniversitiesMenu";
 import SlideWrapper from "./SlideWrapper";
 import SideBar from "./sideBar";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -50,7 +62,7 @@ export default function Navbar() {
         }}
         className="bg-white shadow-sm text-[#595959] sticky w-full top-0 z-50"
       >
-        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl ">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
@@ -122,7 +134,7 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={UniversitiesIcon} alt="" className="w-7" />
+                    <img src={University} alt="" className="w-7 rounded-full" />
                     <span className="text-primary">
                       {t("navbar.universities")}
                     </span>
@@ -134,7 +146,7 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={CareerIcon} alt="" className="w-7" />
+                    <img src={CareerIcon} alt="" className="w-7 rounded-full" />
                     <span className="text-primary">{t("navbar.careers")}</span>
                   </a>
                   <a
@@ -156,7 +168,11 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={NetworkIcon} alt="" className="w-7" />
+                    <img
+                      src={NetworkIcon}
+                      alt=""
+                      className="w-7 rounded-full"
+                    />
                     <span className="text-primary">{t("navbar.networks")}</span>
                   </a>
                 </div>
@@ -206,8 +222,25 @@ export default function Navbar() {
               </div>
             </div>
             {/* profile & settings */}
-            <div className="absolute inset-y-0 right-0 flex items-center  pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <QuestionIcon className={"w-[27px] my-auto"} />
+            <div className="absolute inset-y-0 right-0 flex items-center justify-center gap-x-[15px]  pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <DropdownMenu>
+                <DropdownMenuTrigger>
+                  {" "}
+                  <button className="border border-primary text-[17px] size-[28px] rounded-[5px] flex justify-center items-center hover:bg-primary hover:stroke-white hover:fill-primary transition-all">
+                    <QuestionIcon className={""} />
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem>
+                    <a href="#about">About Us</a>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                    <a href="#testimonials">Testimonials</a>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>Support</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+
               {/* {i18next.language === "en" ? (
                 <img
                   onClick={() => {
@@ -227,15 +260,18 @@ export default function Navbar() {
                   className="w-7 cursor-pointer hover:scale-110 transition-all active:scale-100"
                 />
               )} */}
+              <button className="mx-auto border border-primary text-[10px] size-[28px] rounded-[5px] flex justify-center items-center text-primary hover:bg-primary hover:text-white transition-all">
+                EN
+              </button>
 
-              <div className="relative ml-3">
+              <div className="relative ">
                 <div>
                   <button
                     onClick={() =>
                       (window.location.href =
                         "https://smartgrad-dashboard.vercel.app/login")
                     }
-                    className="bg-primary hover:shadow-md transition-all text-white text-[12px] rounded-xl w-[62px] h-[27px]"
+                    className="border border-primary hover:bg-primary hover:shadow-md transition-all text-primary text-[12px] rounded-[5px] w-[62px] h-[28px] hover:text-white"
                   >
                     Log In
                   </button>

@@ -6,10 +6,10 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger
+  NavigationMenuTrigger,
 } from "../../../components/ui/navigation-menu";
 
-import Background from "../../../assets/Background/background-primary.png";
+import Background from "../../../assets/Background/background.png";
 import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
 import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 import NetworkIcon from "../../../assets/ThemeIcons/NetworkIcon";
@@ -73,22 +73,23 @@ const Banner = () => {
         </div>
         <div className=" col-span-full relative">
           <section className=" text-primary leading-tight flex md:block items-center justify-center flex-col md:flex-row md:pl-4 ">
-            <div className="text-[30px] md:text-[60px] font-bold ">
+            <div className="text-[30px] md:text-[60px] ">
               <p>{t("banner.heading_secondary.your_education_&_career")}</p>
               <p>
                 {t("banner.heading_secondary.advisor")},{" "}
                 <span
-                  style={{
-                    WebkitTextStroke: ".001em #4B4E6D",
-                    WebkitTextFillColor: "#FFC24D",
-                  }}
+                  // style={{
+                  //   WebkitTextStroke: ".001em #4B4E6D",
+                  //   WebkitTextFillColor: "#FFC24D",
+                  // }}
+                  className="text-primary  font-bold"
                 >
                   {t("banner.heading_secondary.for_life")}
                 </span>
               </p>
             </div>
-            <NavigationMenu className="flex mt-8 md:mt-3">
-              <NavigationMenuList className="ss">
+            <NavigationMenu className="flex mt-8 md:mt-3 ">
+              <NavigationMenuList className="ss gap-x-2">
                 {bannerItems.map((item, index) => (
                   <NavigationMenuItem
                     key={index}
@@ -96,16 +97,26 @@ const Banner = () => {
                     onMouseLeave={() => setIsTriggerHovering(false)}
                     className=""
                   >
-                    <NavigationMenuTrigger className={`group relative w-16 h-16 rounded-xl bg-white  hover:bg-primary hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white [&_svg]:hover:stroke-white px-11 py-10 text-primary transition-all mr-2 lg:mr-6 ${item.content === "universities" ? "[&_svg]:hover:fill-white" :""}`}>
+                    <NavigationMenuTrigger
+                      className={`group relative size-[86px] rounded-xl bg-white  hover:bg-primary hover:shadow-xl hover:scale-105 [&_h2]:hover:text-md [&_h2]:hover:text-white [&_svg]:hover:stroke-white p-10 lg:p-12 text-primary transition-all lg:mr-4 ${
+                        item.content === "universities"
+                          ? "[&_svg]:hover:fill-white"
+                          : ""
+                      }`}
+                    >
                       <BannerButton
                         isTriggerHovering={isTriggerHovering}
                         hoverIcon={item.hoverIcon}
                         IconComponent={item.icon}
-                        className={`mb-1 mx-auto w-7 ${item.content === "universities" ? "stroke-primary fill-primary" : "stroke-primary fill-none"}`}
+                        className={`mb-1 mx-auto w-7 ${
+                          item.content === "universities"
+                            ? "stroke-primary fill-primary"
+                            : "stroke-primary fill-none"
+                        }`}
                         text={t(item.textKey)}
                       />
                     </NavigationMenuTrigger>
-                    <NavigationMenuContent className="w-full lg:w-[435px] bg-[#F5F5F5F0] lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuContent className="w-full lg:w-[435px] bg-white lg:border-none leading-5 px-7 py-5">
                       <NavigationMenuLink className="text-[16px] text-primary">
                         {t(`banner.banner_buttons.${item.content}`)}
                       </NavigationMenuLink>
@@ -122,4 +133,3 @@ const Banner = () => {
 };
 
 export default Banner;
-

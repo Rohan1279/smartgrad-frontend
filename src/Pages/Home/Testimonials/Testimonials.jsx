@@ -1,8 +1,13 @@
 import { useEffect, useRef, useState } from "react";
-import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
-import Career from "../../../assets/ThemeIcons/CareerIcon";
-import Network from "../../../assets/ThemeIcons/NetworkIcon";
-import University from "../../../assets/ThemeIcons/UniversityIcon";
+// import Aptitude from "../../../assets/ThemeIcons/AptitudeIcon";
+// import Career from "../../../assets/ThemeIcons/CareerIcon";
+// import Network from "../../../assets/ThemeIcons/NetworkIcon";
+// import University from "../../../assets/ThemeIcons/UniversityIcon";
+import University from "../../../assets/ThemeIcons/University.jpg";
+import Career from "../../../assets/ThemeIcons/Career.jpg";
+import Aptitude from "../../../assets/ThemeIcons/Aptitude.jpg";
+import Network from "../../../assets/ThemeIcons/Network.jpg";
+
 import TestimonialList from "../../../assets/dummy/testimonial.json";
 import AnimatedNumber from "../../../components/AnimatedNumber";
 import useWindowDimensions from "../../../components/core/windowsDimention";
@@ -94,7 +99,10 @@ const Testimonials = () => {
   }, [currentWidth]);
 
   return (
-    <section className=" text-primary py-[86px] bg-[#F9F9F9] relative  px-4">
+    <section
+      id="testimonials"
+      className=" text-primary py-[86px] bg-[#F9F9F9] relative  px-4"
+    >
       <div className="max-w-7xl mx-auto ">
         {/* SECTION HEADING */}
         <div className="flex justify-between mb-4">
@@ -201,7 +209,12 @@ const Testimonials = () => {
           <p className="text-center text-[20px]">More Than</p>
           <div className="grid grid-cols-2 md:grid-cols-4 mt-[60px]">
             <div className="flex flex-col mx-auto">
-              <University className="mx-auto my-auto fill-[#FFC24D] stroke-[#FFC24D] w-[132px]   " />
+              {/* <University className="mx-auto my-auto fill-[#FFC24D] stroke-[#FFC24D] w-[132px]   " /> */}
+              <img
+                src={University}
+                alt=""
+                className="mx-auto my-auto  w-[130px]  rounded-full"
+              />
 
               <div className=" my-2">
                 <h3 className="text-center text-3xl font-bold">
@@ -211,7 +224,12 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
-              <Career className="mx-auto my-auto fill-none stroke-[#F1662A] w-[132px]   " />
+              {/* <Career className="mx-auto my-auto fill-none stroke-[#F1662A] w-[132px]   " /> */}
+              <img
+                src={Career}
+                alt=""
+                className="mx-auto my-auto  w-[130px]  rounded-full"
+              />
 
               <div className="my-2">
                 <h3 className="text-center text-3xl font-bold">
@@ -223,10 +241,15 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
-              <Aptitude
+              {/* <Aptitude
                 className={
                   "mx-auto my-auto fill-none stroke-[#09D5D7] w-[132px]   "
                 }
+              /> */}
+              <img
+                src={Aptitude}
+                alt=""
+                className="mx-auto my-auto  w-[130px]  rounded-full"
               />
 
               <div className=" my-2">
@@ -237,7 +260,12 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="flex flex-col  mx-auto">
-              <Network className="mx-auto my-auto fill-none stroke-[#FF90D9] w-[132px]   " />
+              {/* <Network className="mx-auto my-auto fill-none stroke-[#FF90D9] w-[132px]   " /> */}
+              <img
+                src={Network}
+                alt=""
+                className="mx-auto my-auto  w-[130px]  rounded-full"
+              />
 
               <div className=" my-2">
                 <h3 className="text-center text-3xl font-bold">
