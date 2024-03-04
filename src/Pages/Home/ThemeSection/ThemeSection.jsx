@@ -18,7 +18,7 @@ const ThemeSection = () => {
     >
       <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 justify-between py-[100px] px-4 md:px-auto  ">
         <p className="absolute -top-14 right-0 bg-white text-3xl px-10 pt-4 pb-2 rounded-t-2xl text-primary">
-          with <span className="text-primary">smart</span>grad,{" "}
+          with <span className="text-[#00D4D6]">smart</span>grad,{" "}
           <span className="font-bold">UCAN</span>
         </p>
         <div className="w-full md:w-52 flex flex-col mx-auto space-y-4 pb-8 md:pb-auto text-primary transition-all duration-500 group-hover:scale-105 hover:saturate-150">

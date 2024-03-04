@@ -123,7 +123,7 @@ const Careers = () => {
             </div>
           </div>
           <div className="hidden mmd:flex justify-center mt-2 ">
-            <button className="bg-[#595959] mt-2 mmd:mt-auto w-fit h-11 px-12 rounded-xl text-white mx-auto">
+            <button className="bg-primary mt-2 mmd:mt-auto w-fit h-11 px-12 rounded-xl text-white mx-auto">
               View All
             </button>
           </div>

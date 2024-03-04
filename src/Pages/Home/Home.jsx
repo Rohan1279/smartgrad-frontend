@@ -12,6 +12,13 @@ import UniqueSection from "./UniqueSection/UniqueSection";
 import University from "./University/University";
 
 const Home = () => {
+  // pass api datas
+  // ** unique section
+  // ** university
+  // ** testimonials (fixed numbers)
+  // ** careers(is_featured)
+  // ** aptitudes
+
   return (
     <>
       <Banner />
