@@ -116,7 +116,7 @@ const Banner = () => {
                         text={t(item.textKey)}
                       />
                     </NavigationMenuTrigger>
-                    <NavigationMenuContent className="w-full lg:w-[435px] bg-white lg:border-none leading-5 px-7 py-5">
+                    <NavigationMenuContent className="w-full lg:w-[460px] bg-white lg:border-none leading-5 px-7 py-5">
                       <NavigationMenuLink className="text-[16px] text-primary">
                         {t(`banner.banner_buttons.${item.content}`)}
                       </NavigationMenuLink>
