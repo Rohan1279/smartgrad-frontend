@@ -1,15 +1,58 @@
 import background from "../../../assets/Background/background-primary.png";
-import company1 from "../../../assets/CompanyLogos/company 1.png";
-import company2 from "../../../assets/CompanyLogos/company 2.png";
-import company3 from "../../../assets/CompanyLogos/company 3.png";
-import company4 from "../../../assets/CompanyLogos/company 4.png";
-import company5 from "../../../assets/CompanyLogos/company 5.png";
+
 import bag from "../../../assets/JobIcons/bag.png";
 import location from "../../../assets/JobIcons/location.png";
 import time from "../../../assets/JobIcons/time.png";
 import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 import CareerCard from "../../../components/CareerCard/CareerCard";
-const Careers = () => {
+const Careers = ({ careers }) => {
+  // const careers = [
+  //   {
+  //     logo: company1,
+  //     company: "Microsoft",
+  //     role: "Software Engineer",
+  //     location: "Chittagong, Bangladesh",
+  //     jobType: "(Remote Job)",
+  //     rating: "",
+  //     deadline: "6 January, 2024",
+  //     description:
+  //       "Just gonna keep things like these , will reorganize segments later. Scrambling faster and over and over again may get me something . The motto is to keep reorganizing and getting the best layout. Better to keep only logo/photos of hiring companies, putting images or symbols of every occupation could be painful and...",
+  //   },
+  //   {
+  //     logo: company2,
+  //     company: "Alter Sense",
+  //     role: "UI/UX Designer",
+  //     location: "Dhaka, Bangladesh",
+  //     jobType: "(On-Site Job)",
+  //     rating: "",
+  //     deadline: "12 January, 2024",
+  //     description:
+  //       "Just gonna keep things like these , will reorganize segments later. Scrambling faster and over and over again may get me something . The motto is to keep reorganizing and getting the best layout. Better to keep only logo/photos of hiring companies, putting images or symbols of every occupation could be painful and...",
+  //   },
+  //   {
+  //     logo: company3,
+  //     company: "SATV",
+  //     role: "Mechanical Engineer",
+  //     location: "Chittagong, Bangladesh",
+  //     jobType: "(Remote Job)",
+  //     rating: "",
+  //     deadline: "21 January, 2024",
+  //     description:
+  //       "Just gonna keep things like these , will reorganize segments later. Scrambling faster and over and over again may get me something . The motto is to keep reorganizing and getting the best layout. Better to keep only logo/photos of hiring companies, putting images or symbols of every occupation could be painful and...",
+  //   },
+  //   {
+  //     logo: company4,
+  //     role: "NYBSYS",
+  //     location: "Dhaka, Bangladesh",
+  //     jobType: "(On-Site Job)",
+  //     rating: "",
+  //     deadline: "10 January, 2024",
+  //     isFeatured: true,
+  //     description:
+  //       "Just gonna keep things like these , will reorganize segments later. Scrambling faster and over and over again may get me something . The motto is to keep reorganizing and getting the best layout. Better to keep only logo/photos of hiring companies, putting images or symbols of every occupation could be painful and...",
+  //   },
+  // ];
+  const featuredData = careers.find((career) => career?.isFeatured);
   return (
     <section
       style={{
@@ -36,38 +79,9 @@ const Careers = () => {
           </div>
           <div className="grid grid-cols-1 mmd:grid-cols-5 gap-y-8">
             <div className="mmd:col-span-2 flex flex-col space-y-3">
-              <CareerCard
-                logo={company1}
-                role={"Software Engineer"}
-                location={"Chittagong, Bangladesh"}
-                jobType={"(Remote Job)"}
-                rating={""}
-                deadline={"6 January, 2024"}
-              />
-              <CareerCard
-                logo={company2}
-                role={"UI/UX Designer"}
-                location={"Dhaka, Bangladesh"}
-                jobType={"(On-Site Job)"}
-                rating={""}
-                deadline={"12 January, 2024"}
-              />
-              <CareerCard
-                logo={company3}
-                role={"Mechanical Engineer"}
-                location={"Chittagong, Bangladesh"}
-                jobType={"(Remote Job)"}
-                rating={""}
-                deadline={"21 January, 2024"}
-              />
-              <CareerCard
-                logo={company4}
-                role={"Journalist"}
-                location={"Dhaka, Bangladesh"}
-                jobType={""}
-                rating={"(On-Site Job)"}
-                deadline={"10 January, 2024"}
-              />
+              {careers.map((career, index) => (
+                <CareerCard key={index} career={career} />
+              ))}
             </div>
 
             <div className="mmd:col-span-3 hidden sm:flex ">
@@ -75,7 +89,9 @@ const Careers = () => {
               <div>
                 <div className="flex justify-between items-start">
                   <h2 className="text-3xl">
-                    <span className="text-primary font-bold">Nybsys</span>{" "}
+                    <span className="text-primary font-bold">
+                      {featuredData?.company}
+                    </span>{" "}
                     <p>is looking for</p>
                   </h2>
                   <span className="">⭐⭐⭐⭐⭐</span>
@@ -83,23 +99,23 @@ const Careers = () => {
 
                 <div className="flex flex-col sm:flex-row space-y-8 items-start sm:items-start justify-center sm:justify-between mt-4">
                   <div className="flex flex-col sm:flex-row sm:space-y-auto justify-start items-start sm:items-start space-x-4">
-                    <img src={company5} alt="" className="w-32" />
+                    <img src={featuredData?.logo} alt="" className="w-32" />
                     <div className="">
                       <div className="">
                         <h3 className="font-bold text-3xl mb-2">
-                          UI/UX Designer
+                          {featuredData?.role}
                         </h3>
                         <div className="flex items-center space-x-3 ">
                           <img src={location} alt="" className="w-[8%] " />
-                          <span>Chittagong, Bangladesh</span>
+                          <span>{featuredData?.location}</span>
                         </div>
                         <div className="flex items-center space-x-3 ">
                           <img src={bag} alt="" className="w-[8%] " />
-                          <span>On-Site Job</span>
+                          <span>{featuredData?.jobType}</span>
                         </div>
                         <div className="flex items-center space-x-3 ">
                           <img src={time} alt="" className="w-[8%] " />
-                          <span>5 Days Remaining</span>
+                          <span>{featuredData?.deadline}</span>
                         </div>
                       </div>
                     </div>

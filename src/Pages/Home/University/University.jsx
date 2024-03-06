@@ -26,7 +26,7 @@ import {
   CarouselPrevious,
 } from "../../../components/ui/carousel";
 
-const University = () => {
+const University = ({ university }) => {
   // Oxford University: www.ox.ac.uk
   // Cambridge University: www.cam.ac.uk
   // New York University (NYU): www.nyu.edu
@@ -42,42 +42,52 @@ const University = () => {
     {
       name: "Oxford University",
       image: oxford,
+      link: "www.ox.ac.uk",
     },
     {
       name: "Cambridge University",
       image: cambridge,
+      link: "www.cam.ac.uk",
     },
     {
       name: "New York University",
       image: nyu,
+      link: "www.nyu.edu",
     },
     {
       name: "INSEAD",
       image: insead,
+      link: "www.insead.edu",
     },
     {
       name: "Georgetown University",
       image: gu,
+      link: "www.georgetown.edu",
     },
     {
       name: "University of Toronto",
       image: toronto,
+      link: "https://www.utoronto.ca/",
     },
     {
       name: "Queen's University",
       image: Queens,
+      link: "www.queensu.ca",
     },
     {
       name: "University of Windsor",
       image: massachusetts,
+      link: "www.uwindsor.ca",
     },
     {
       name: "Harvard University",
       image: Harvard,
+      link: "www.harvard.edu",
     },
     {
       name: "RMIT University",
       image: rmit,
+      link: "www.rmit.edu.au",
     },
   ];
 
@@ -155,7 +165,7 @@ const University = () => {
             <div className="px-10 lsm:px-40 mt-[34px] ">
               <Carousel className="">
                 <CarouselContent className="pb-10">
-                  {carouselItems.map((item, index) => (
+                  {university?.carouselItems?.map((item, index) => (
                     <CarouselItem
                       className="basis-1/3 md:basis-1/3 lg:basis-1/5 group relative"
                       key={index}

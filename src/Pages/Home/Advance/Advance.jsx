@@ -11,7 +11,7 @@ import {
   CarouselPrevious,
 } from "../../../components/ui/carousel-aptitude";
 
-const Advance = () => {
+const Advance = ({ aptitudes }) => {
   return (
     <section
       style={{
@@ -68,7 +68,7 @@ const Advance = () => {
               methods ensure an effective and personalized study experience.
             </Typewriter> */}
               <CarouselContent className="py-5 z-50">
-                {AptitudeList.map((item, index) => (
+                {aptitudes?.map((item, index) => (
                   <CarouselItem key={index}>
                     <div className="flex flex-col mmd:flex-row justify-center items-center w-11/12 mx-auto">
                       <div className="cursor-default order-2 mmd:order-1 bg-[#F5F5F5] shadow-md px-4 md:px-14 flex-1 pt-11 rounded-xl z-40 relative h-fit">

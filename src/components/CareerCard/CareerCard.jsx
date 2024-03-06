@@ -1,5 +1,6 @@
 import img from "../../assets/CompanyLogos/company 1.png";
-const CareerCard = ({ logo, role, location, jobType, rating, deadline }) => {
+const CareerCard = ({ career }) => {
+  const { logo, role, location, jobType, deadline } = career;
   return (
     <div className="flex justify-start items-start space-x-4">
       <img src={logo} alt="" className="w-28" />

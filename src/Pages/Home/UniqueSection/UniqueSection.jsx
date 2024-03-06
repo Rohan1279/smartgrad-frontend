@@ -14,7 +14,6 @@ import CareerIcon from "../../../assets/ThemeIcons/CareerIcon";
 import NetworkIcon from "../../../assets/ThemeIcons/NetworkIcon";
 import UniversityIcon from "../../../assets/ThemeIcons/UniversityIcon";
 import FeatureCard from "../../../components/ui/FeatureCard";
-
 import "./UniqueSection.css";
 
 const data = {
@@ -64,7 +63,10 @@ const UniqueSection = () => {
         <div className="flex justify-between mb-7">
           <div className="flex space-x-2">
             <div>
-              <h2 className="text-4xl font-bold">Why is <span className="text-[#09D5D7]">smart</span><span className="text-[#595959]">grad</span> for you</h2>
+              <h2 className="text-4xl font-bold">
+                Why is <span className="text-[#09D5D7]">smart</span>
+                <span className="text-[#595959]">grad</span> for you
+              </h2>
               <p className="text-base max-w-xl mt-4">{data?.subtitle}</p>
             </div>
           </div>
