@@ -156,7 +156,11 @@ export default function Navbar() {
                     href=""
                     className="flex items-center justify-center space-x-2 "
                   >
-                    <img src={AptitudeIcon} alt="" className="w-7" />
+                    <img
+                      src={AptitudeIcon}
+                      alt=""
+                      className="w-7 rounded-full"
+                    />
                     <span className="text-primary">
                       {t("navbar.aptitudes")}
                     </span>

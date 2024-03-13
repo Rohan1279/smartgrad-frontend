@@ -119,13 +119,13 @@ const University = ({ university }) => {
             </div>
 
             <div className="grid grid-cols-5 grid-rows-5 gap-4">
-              <div className="col-span-5 sm:col-span-3 row-span-full rounded-xl overflow-hidden relative">
+              <div className="col-span-5 sm:col-span-3 row-span-full rounded-xl overflow-hidden relative group">
                 <img
                   src={university1}
                   alt=""
-                  className="object-cover h-full w-full"
+                  className="object-cover h-full w-full "
                 />
-                <span className="absolute bottom-0 mmd:bottom-10 left-2 mmd:left-10 z-30 text-white text-sm mmd:text-2xl font-bold">
+                <span className="absolute  left-2 mmd:left-0 mmd:pl-10 z-30 text-white text-sm mmd:text-2xl font-bold -translate-y-12 mmd:translate-y-full mmd:group-hover:-translate-y-24 transition-all duration-500 bg-gradient-to-b from-black  to-transparent w-full ">
                   20% Scholarship on <p>Masters of Science in Data Science</p>
                 </span>
                 <img
@@ -134,26 +134,32 @@ const University = ({ university }) => {
                   className="absolute top-2 mmd:top-8 left-2 mmd:left-10 w-10 mmd:w-16"
                 />
               </div>
-              <div className="hidden sm:flex col-span-2 row-span-3  rounded-xl overflow-hidden">
+              <div className="hidden sm:flex col-span-2 row-span-3  rounded-xl overflow-hidden relative group">
                 <img
                   src={university2}
                   alt=""
                   className="object-cover h-full w-full"
                 />
+                <span className="absolute left-2 mmd:left-0 mmd:pl-10 z-30 text-white text-sm mmd:text-xl font-bold -translate-y-11 mmd:translate-y-64 mmd:group-hover:translate-y-52 transition-all duration-500 bg-gradient-to-b from-black  to-transparent w-full">
+                  University of Toronto
+                </span>
               </div>
               <div className="hidden sm:flex col-span-2 row-span-2  grid grid-cols-2 gap-x-4">
-                <div className="col-span-1 rounded-xl overflow-hidden">
+                <div className="col-span-1 rounded-xl overflow-hidden relative group">
                   <img
                     src={university3}
                     alt=""
-                    className="object-cover h-full w-full"
+                    className="object-cover h-full w-full "
                   />
+                  <span className="absolute left-2 mmd:left-0 mmd:pl-10 z-30 text-white text-sm mmd:text-xl font-bold -translate-y-1 mmd:translate-y-64 mmd:group-hover:translate-y-52 transition-all duration-500 bg-gradient-to-b from-black to-transparent w-full">
+                    University of Windsor
+                  </span>
                 </div>
                 <div className="col-span-1 rounded-xl overflow-hidden ">
                   <img
                     src={university4}
                     alt=""
-                    className=" object-cover h-full w-full"
+                    className="object-cover h-full w-full"
                   />
                 </div>
               </div>
